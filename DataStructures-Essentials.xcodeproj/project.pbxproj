@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FCFB39D2C0ED2050096E02B /* binarySearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FCFB39C2C0ED2050096E02B /* binarySearch.cpp */; };
+		5FCFB3A12C0EDBA60096E02B /* printAllPairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FCFB3A02C0EDBA60096E02B /* printAllPairs.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,6 +24,8 @@
 
 /* Begin PBXFileReference section */
 		5FCFB39C2C0ED2050096E02B /* binarySearch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = binarySearch.cpp; sourceTree = "<group>"; };
+		5FCFB39E2C0ED6580096E02B /* reverseArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reverseArray.cpp; sourceTree = "<group>"; };
+		5FCFB3A02C0EDBA60096E02B /* printAllPairs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = printAllPairs.cpp; sourceTree = "<group>"; };
 		5FEBAC7C2C0D821200F361A8 /* DataStructures-Essentials */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DataStructures-Essentials"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FEBAC7F2C0D821200F361A8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5FEBACB72C0D86B500F361A8 /* arrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = arrays.cpp; sourceTree = "<group>"; };
@@ -74,6 +76,8 @@
 				5FEBACB92C0D8B3900F361A8 /* arrays-to-functions.cpp */,
 				5FEBACBB2C0D900200F361A8 /* README.md */,
 				5FCFB39C2C0ED2050096E02B /* binarySearch.cpp */,
+				5FCFB39E2C0ED6580096E02B /* reverseArray.cpp */,
+				5FCFB3A02C0EDBA60096E02B /* printAllPairs.cpp */,
 			);
 			path = Arrays;
 			sourceTree = "<group>";
@@ -135,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FCFB39D2C0ED2050096E02B /* binarySearch.cpp in Sources */,
+				5FCFB3A12C0EDBA60096E02B /* printAllPairs.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

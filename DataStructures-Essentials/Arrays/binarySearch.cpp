@@ -31,7 +31,7 @@ int binarySearch(int* arr, int size, int key){
     int start = 0;
     int end = size;
     int mid = (start+end)/2;
-    while(start<end){
+    while(start<=end){
         if(*(arr+mid)==key)return mid;
         else{
             if( *(arr+mid) < key )start = mid+1;
