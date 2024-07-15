@@ -96,4 +96,33 @@ Note that this approach relies on compiler-specific macros and may not work on a
 Another option is to use a third-party library like `boost::core::demangle` or `cxxabi.h` to demangle the type name returned by  `typeid(...).name()`. However, this adds a dependency and may not be desirable in all cases.
 
 ---
+Q3: I read somewhere that you cannot allocate an array larger than 10^6 in C++? Why is that so? I also read that doing so causes a segmentation fault, what's a segmentation fault, and why would allocating a large array cause such an error?
+
+A: The statement that you cannot create an array larger than 10^6 (1 million) elements in C++ is not entirely accurate. The limitation is not specific to the size of the array itself, but rather the amount of memory available for the program to allocate the array.
+
+In C++, arrays are typically allocated on the stack when they are declared as local variables within a function. The stack is a region of memory with a limited size, usually a few megabytes, depending on the system and compiler settings. If you try to allocate an array that is too large for the available stack space, it can cause a stack overflow, which may result in a segmentation fault.
+
+A segmentation fault is a specific type of error that occurs when a program tries to access a memory location that it is not allowed to access. This can happen when a program tries to read or write outside the bounds of an allocated memory region, or when it tries to access memory that has not been properly allocated.
+
+To avoid this issue, you can dynamically allocate arrays using the `new` operator, which allocates memory on the heap instead of the stack. The heap is a larger region of memory that can accommodate larger arrays, limited only by the total available memory on the system
+
+Here's an example of dynamically allocating an array of 10^6 (1 million) elements:
+```C++
+#include <iostream>
+
+int main(){
+    const int size = 1000000 //10^6
+    int* arr = new int[size]; //Dynamically allocate array on the heap
+    
+    // Use the array ...
+    
+    delete[] arr; //deallocating the memory occupied by the array
+    return 0;
+}
+```
+However, keep in mind that allocating large amounts of memory can still lead to other issues, such as running out of available memory or causing performance problems due to excessive memory usage. It's generally a good practice to allocate only the memory you need and to deallocate it when it's no longer needed.
+
+In summary, the limitation on array size in C++ is not a hard limit, but rather a consequence of the memory constraints of the system and the way arrays are allocated. By dynamically allocating arrays on the heap, you can create arrays larger than what would fit on the stack, but you should still be mindful of memory usage and deallocate the memory when it's no longer needed.
+
+---
 

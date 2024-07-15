@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FCFB3A12C0EDBA60096E02B /* printAllPairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FCFB3A02C0EDBA60096E02B /* printAllPairs.cpp */; };
+		5F6B6BB72C456E9E0094DDE4 /* SpreadSheets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC521642C43F01000356594 /* SpreadSheets.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,6 +23,35 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5F32F4872C366402007D7010 /* SubArrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SubArrays.cpp; sourceTree = "<group>"; };
+		5F32F48A2C3681CA007D7010 /* SubArraySum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SubArraySum.cpp; sourceTree = "<group>"; };
+		5F32F48D2C390C1A007D7010 /* CharacterArrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CharacterArrays.cpp; sourceTree = "<group>"; };
+		5F32F48F2C391A8D007D7010 /* CharacterArray-getline.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "CharacterArray-getline.cpp"; sourceTree = "<group>"; };
+		5F32F4932C398C2E007D7010 /* StaticRangeSumQueries.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StaticRangeSumQueries.cpp; sourceTree = "<group>"; };
+		5F6B6BB42C456D4E0094DDE4 /* spreadSheet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = spreadSheet.cpp; sourceTree = "<group>"; };
+		5FC521082C3A846800356594 /* Most-Common-Character-SubString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Most-Common-Character-SubString.cpp"; sourceTree = "<group>"; };
+		5FC5210A2C3BF6E600356594 /* reverse-a-string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "reverse-a-string.cpp"; sourceTree = "<group>"; };
+		5FC5210C2C3C004000356594 /* library-functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "library-functions.cpp"; sourceTree = "<group>"; };
+		5FC521282C3C629600356594 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5FC5212A2C3E2FC700356594 /* enums.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = enums.c; sourceTree = "<group>"; };
+		5FC5212C2C3EA61400356594 /* printAllPrefix-n-Suffix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "printAllPrefix-n-Suffix.cpp"; sourceTree = "<group>"; };
+		5FC521482C3EC3C800356594 /* minutes-to-years-days.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "minutes-to-years-days.c"; sourceTree = "<group>"; };
+		5FC5214A2C3F93C500356594 /* Static-range-sum-queries-2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Static-range-sum-queries-2.cpp"; sourceTree = "<group>"; };
+		5FC5214D2C412F5C00356594 /* write-systemCall.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "write-systemCall.c"; sourceTree = "<group>"; };
+		5FC5214F2C413A1B00356594 /* bitwise-operators.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "bitwise-operators.c"; sourceTree = "<group>"; };
+		5FC521532C4161C400356594 /* TwoDim-Array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "TwoDim-Array.cpp"; sourceTree = "<group>"; };
+		5FC521572C42515D00356594 /* prefix-suffix-sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "prefix-suffix-sum.cpp"; sourceTree = "<group>"; };
+		5FC521592C425E3100356594 /* scrap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = scrap.cpp; sourceTree = "<group>"; };
+		5FC5215B2C42B29F00356594 /* arrays-n-pointers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "arrays-n-pointers.c"; sourceTree = "<group>"; };
+		5FC5215D2C42E45200356594 /* TheatreSquare.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TheatreSquare.cpp; sourceTree = "<group>"; };
+		5FC5215F2C43913F00356594 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5FC521622C43DCA100356594 /* ArrayManipulation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayManipulation.cpp; sourceTree = "<group>"; };
+		5FC521642C43F01000356594 /* SpreadSheets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SpreadSheets.cpp; sourceTree = "<group>"; };
+		5FC521682C44882800356594 /* scrap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = scrap.cpp; sourceTree = "<group>"; };
+		5FC5216B2C449BBB00356594 /* function-testing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "function-testing.cpp"; sourceTree = "<group>"; };
+		5FC521712C44C5A400356594 /* 2D-Array-PrefixSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2D-Array-PrefixSum.cpp"; sourceTree = "<group>"; };
+		5FC521742C44D55600356594 /* deleteme.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = deleteme.cpp; sourceTree = "<group>"; };
+		5FC521762C44D99800356594 /* Structures.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Structures.c; sourceTree = "<group>"; };
 		5FCFB39C2C0ED2050096E02B /* binarySearch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = binarySearch.cpp; sourceTree = "<group>"; };
 		5FCFB39E2C0ED6580096E02B /* reverseArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reverseArray.cpp; sourceTree = "<group>"; };
 		5FCFB3A02C0EDBA60096E02B /* printAllPairs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = printAllPairs.cpp; sourceTree = "<group>"; };
@@ -44,6 +73,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F32F48C2C390C03007D7010 /* Basics */ = {
+			isa = PBXGroup;
+			children = (
+				5F32F48D2C390C1A007D7010 /* CharacterArrays.cpp */,
+				5F32F48F2C391A8D007D7010 /* CharacterArray-getline.cpp */,
+				5FC5210A2C3BF6E600356594 /* reverse-a-string.cpp */,
+				5FC5210C2C3C004000356594 /* library-functions.cpp */,
+				5FC5212C2C3EA61400356594 /* printAllPrefix-n-Suffix.cpp */,
+				5FC521532C4161C400356594 /* TwoDim-Array.cpp */,
+				5FC521572C42515D00356594 /* prefix-suffix-sum.cpp */,
+				5FC521592C425E3100356594 /* scrap.cpp */,
+			);
+			path = Basics;
+			sourceTree = "<group>";
+		};
+		5F32F4922C398BAE007D7010 /* CSES */ = {
+			isa = PBXGroup;
+			children = (
+				5F32F4932C398C2E007D7010 /* StaticRangeSumQueries.cpp */,
+				5FC5214A2C3F93C500356594 /* Static-range-sum-queries-2.cpp */,
+				5FC521082C3A846800356594 /* Most-Common-Character-SubString.cpp */,
+				5FC521282C3C629600356594 /* README.md */,
+			);
+			path = CSES;
+			sourceTree = "<group>";
+		};
+		5FC521292C3E2FAA00356594 /* C-Basics */ = {
+			isa = PBXGroup;
+			children = (
+				5FC5215B2C42B29F00356594 /* arrays-n-pointers.c */,
+				5FC5212A2C3E2FC700356594 /* enums.c */,
+				5FC521482C3EC3C800356594 /* minutes-to-years-days.c */,
+				5FC5214D2C412F5C00356594 /* write-systemCall.c */,
+				5FC5214F2C413A1B00356594 /* bitwise-operators.c */,
+				5FC5215F2C43913F00356594 /* README.md */,
+				5FC521762C44D99800356594 /* Structures.c */,
+				5F6B6BB42C456D4E0094DDE4 /* spreadSheet.cpp */,
+			);
+			path = "C-Basics";
+			sourceTree = "<group>";
+		};
+		5FC521602C43DC6300356594 /* HackerRank */ = {
+			isa = PBXGroup;
+			children = (
+				5FC521622C43DCA100356594 /* ArrayManipulation.cpp */,
+			);
+			path = HackerRank;
+			sourceTree = "<group>";
+		};
+		5FC521612C43DC6D00356594 /* CodeForces */ = {
+			isa = PBXGroup;
+			children = (
+				5FC5215D2C42E45200356594 /* TheatreSquare.cpp */,
+				5FC521642C43F01000356594 /* SpreadSheets.cpp */,
+				5FC521682C44882800356594 /* scrap.cpp */,
+				5FC5216B2C449BBB00356594 /* function-testing.cpp */,
+				5FC521742C44D55600356594 /* deleteme.cpp */,
+			);
+			path = CodeForces;
+			sourceTree = "<group>";
+		};
 		5FEBAC732C0D821200F361A8 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +153,11 @@
 		5FEBAC7E2C0D821200F361A8 /* DataStructures-Essentials */ = {
 			isa = PBXGroup;
 			children = (
+				5FC521612C43DC6D00356594 /* CodeForces */,
+				5FC521602C43DC6300356594 /* HackerRank */,
+				5FC521292C3E2FAA00356594 /* C-Basics */,
+				5F32F4922C398BAE007D7010 /* CSES */,
+				5F32F48C2C390C03007D7010 /* Basics */,
 				5FEBACB62C0D86A600F361A8 /* Arrays */,
 				5FEBAC7F2C0D821200F361A8 /* main.cpp */,
 			);
@@ -78,6 +173,9 @@
 				5FCFB39C2C0ED2050096E02B /* binarySearch.cpp */,
 				5FCFB39E2C0ED6580096E02B /* reverseArray.cpp */,
 				5FCFB3A02C0EDBA60096E02B /* printAllPairs.cpp */,
+				5F32F4872C366402007D7010 /* SubArrays.cpp */,
+				5F32F48A2C3681CA007D7010 /* SubArraySum.cpp */,
+				5FC521712C44C5A400356594 /* 2D-Array-PrefixSum.cpp */,
 			);
 			path = Arrays;
 			sourceTree = "<group>";
@@ -109,7 +207,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1520;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					5FEBAC7B2C0D821200F361A8 = {
 						CreatedOnToolsVersion = 15.2;
@@ -139,7 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FCFB3A12C0EDBA60096E02B /* printAllPairs.cpp in Sources */,
+				5F6B6BB72C456E9E0094DDE4 /* SpreadSheets.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,7 +251,7 @@
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++23";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -180,6 +278,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -214,7 +313,7 @@
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++23";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -241,6 +340,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -265,6 +365,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 3KNUAKA9XC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,6 +376,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 3KNUAKA9XC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";

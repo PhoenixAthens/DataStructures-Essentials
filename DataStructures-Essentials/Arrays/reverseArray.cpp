@@ -1,5 +1,6 @@
 #include <iostream>
 using std::cout;
+using std::swap;
 void reverseArray(int* arr, int size){
     int end = size-1;
     for(int i = 0;i<size/2;i++){
@@ -18,6 +19,16 @@ void reverseArray_2(int* arr, int size){
         *(arr+end) = startElem;
         start++;
         end--;
+    }
+}
+void reverseArray_3(int * arr, int size){
+    int start = 0;
+    int end = size-1;
+    while(start<end){
+        swap(*(arr+start),*(arr+end));
+        start++;
+        end--;
+             
     }
 }
 int main(int argc, char** argv){
