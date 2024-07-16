@@ -1,3 +1,6 @@
+#  Notes and Explanation
+Q: Why do we need `cols--` when `mod==0` in the following algorithm
+```C++
 #include <iostream>
 #include <string>
 #include <cmath>
@@ -51,3 +54,28 @@ int main(int argc, char** argv){
         
     }
 }
+```
+
+A::
+### Why cols-- is Needed
+When mod == 0, the algorithm inserts 'Z' but needs to adjust the cols value to account for the zero remainder:
+
+Without cols--, the division would incorrectly proceed to the next higher value (e.g., 52 -> 2 when it should handle 'AZ' as 52).
+By decrementing cols, the algorithm correctly handles the carry-over for a complete cycle.
+
+### Example Breakdown
+Consider converting column number 52 to its Excel-like notation:
+
+- Initial cols = 52
+- mod = 52 % 26 = 0 (indicating 'Z')
+- Insert 'Z', then cols-- results in cols = 51
+- cols /= 26 now becomes 1
+- Next iteration: mod = 1 % 26 = 1 (indicating 'A')
+- Insert 'A', resulting in "AZ"
+
+Without cols--, the process would misinterpret the complete cycle.
+
+### Conclusion
+The cols-- adjustment ensures that the column conversion correctly handles the end-of-cycle case where 'Z' should be represented, maintaining the proper progression of column letter sequences. This step aligns with how spreadsheet software typically handles column labels.
+
+---
