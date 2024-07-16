@@ -3,34 +3,46 @@
 using std::cout;
 using std::vector;
 using std::endl;
+using std::swap;
 class Solution {
 public:
     vector<int> sortedSquares(vector<int>& nums) {
-        if(nums[0]<0){
+        vector<int> result(nums.size());
+        size_t start = 0;
+        size_t end = nums.size()-1;
+        size_t k = end;
+        while(start<=end){
+            int sink = nums[end]*nums[end];
+            int source = nums[start]*nums[start];
+            if(sink<=source){
+                result[k--]=source;
+                start++;
+            }else{
+                result[k--]=sink;
+                end--;
+            }
+            
+        }
+        return result;
+    }
+    vector<int> sortedSquares_2(vector<int>& nums) {
+            for(int& i:nums)i*=i;
+            vector<int> result(nums.size());
             int start = 0;
             int end = nums.size()-1;
-            for(int& i: nums){
-                i*=i;
-            }
-            vector<int> sorted (nums.size());
-            while(start<end){
-                if(nums[start]<=nums[end]){
-                    sorted[end]=nums[end];
-                    end--;
-                }else{
-                    sorted[end]=nums[start];
+            int k = end;
+            while(start<=end){
+                if(nums[end]<=nums[start]){
+                    result[k--]=nums[start];
                     start++;
+                }else{
+                    result[k--]=nums[end];
                     end--;
                 }
-                    
+                
             }
-        }else{
-            for(int& i: nums){
-                i*=i;
-            }
+            return result;
         }
-        return nums;
-    }
 };
 
 int main(int argc, char** argv){
