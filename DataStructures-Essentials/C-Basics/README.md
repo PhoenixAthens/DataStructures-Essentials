@@ -160,15 +160,20 @@ Q7: What will be the data type of the result of the following operation?
 A: double
 
 ---
+Q8: Why does the `malloc` function return a `void*`?
 
+A: The `malloc` function in C returns a `void*` pointer for a few key reasons:
+1. **Type Safety**: Since `malloc` is used to allocate raw memory, it does not know the intended data type that will be stored in the allocated memory. Returning `void*` allows a pointer to be cast to any other pointer type before use.
+2. **Generality**: By returning `void*`, the `malloc` function can be used to allocate memory for any data type, making it a general-purpose memory allocation function.
+3. **Historical Reasons**: The C language was designed to be a low-level, efficient language. Returning `void*` from `malloc` avoids the overhead of determining the return type based on the size argument at runtime.
 
+The `void*` return type requires explicit casting to the desired pointer type before use. For example:
+```c
+    int* ptr = (int*)malloc(sizeof(int)*10);
+```
+This explicit casting acts as a reminder to the programmer that they are responsible for managing the allocated memory and ensuring type safety.
 
+While it may seem "hacky" to cast the `void*` return value, this design decision in C provides flexibility, efficiency, and puts the responsibility of type safety on the programmer. Many modern languages abstract away manual memory management to improve safety and developer productivity.
 
-
-
-
-
-
-
-
+---
 

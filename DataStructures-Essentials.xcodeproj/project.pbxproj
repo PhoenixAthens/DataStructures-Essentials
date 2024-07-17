@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F7E4E8F2C4676FD00A634F9 /* Squares-of-sorted-array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F6B6BB92C459AA40094DDE4 /* Squares-of-sorted-array.cpp */; };
+		5F7E4E912C478B3200A634F9 /* pointers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F7E4E902C478B3200A634F9 /* pointers.cpp */; };
+		5F7E4E932C479EE900A634F9 /* Search-a-2D-Matric.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F7E4E922C479EE900A634F9 /* Search-a-2D-Matric.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,8 @@
 		5F6B6BB92C459AA40094DDE4 /* Squares-of-sorted-array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Squares-of-sorted-array.cpp"; sourceTree = "<group>"; };
 		5F6B6BBC2C4619140094DDE4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5F7E4E8D2C4663D100A634F9 /* Subarray-Sums-Divisible-by-K.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Subarray-Sums-Divisible-by-K.cpp"; sourceTree = "<group>"; };
+		5F7E4E902C478B3200A634F9 /* pointers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pointers.cpp; sourceTree = "<group>"; };
+		5F7E4E922C479EE900A634F9 /* Search-a-2D-Matric.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Search-a-2D-Matric.cpp"; sourceTree = "<group>"; };
 		5FC521082C3A846800356594 /* Most-Common-Character-SubString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Most-Common-Character-SubString.cpp"; sourceTree = "<group>"; };
 		5FC5210A2C3BF6E600356594 /* reverse-a-string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "reverse-a-string.cpp"; sourceTree = "<group>"; };
 		5FC5210C2C3C004000356594 /* library-functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "library-functions.cpp"; sourceTree = "<group>"; };
@@ -86,6 +89,7 @@
 				5FC521532C4161C400356594 /* TwoDim-Array.cpp */,
 				5FC521572C42515D00356594 /* prefix-suffix-sum.cpp */,
 				5FC521592C425E3100356594 /* scrap.cpp */,
+				5F7E4E902C478B3200A634F9 /* pointers.cpp */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -106,6 +110,7 @@
 			children = (
 				5F6B6BB92C459AA40094DDE4 /* Squares-of-sorted-array.cpp */,
 				5F7E4E8D2C4663D100A634F9 /* Subarray-Sums-Divisible-by-K.cpp */,
+				5F7E4E922C479EE900A634F9 /* Search-a-2D-Matric.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -249,7 +254,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F7E4E8F2C4676FD00A634F9 /* Squares-of-sorted-array.cpp in Sources */,
+				5F7E4E912C478B3200A634F9 /* pointers.cpp in Sources */,
+				5F7E4E932C479EE900A634F9 /* Search-a-2D-Matric.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
