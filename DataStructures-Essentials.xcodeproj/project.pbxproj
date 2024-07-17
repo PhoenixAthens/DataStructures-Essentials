@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5F7E4E912C478B3200A634F9 /* pointers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F7E4E902C478B3200A634F9 /* pointers.cpp */; };
 		5F7E4E932C479EE900A634F9 /* Search-a-2D-Matric.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F7E4E922C479EE900A634F9 /* Search-a-2D-Matric.cpp */; };
+		5F7E4E952C47C3C700A634F9 /* Absoule-Sum-Of-Diagonals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F7E4E942C47C3C700A634F9 /* Absoule-Sum-Of-Diagonals.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		5F7E4E8D2C4663D100A634F9 /* Subarray-Sums-Divisible-by-K.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Subarray-Sums-Divisible-by-K.cpp"; sourceTree = "<group>"; };
 		5F7E4E902C478B3200A634F9 /* pointers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pointers.cpp; sourceTree = "<group>"; };
 		5F7E4E922C479EE900A634F9 /* Search-a-2D-Matric.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Search-a-2D-Matric.cpp"; sourceTree = "<group>"; };
+		5F7E4E942C47C3C700A634F9 /* Absoule-Sum-Of-Diagonals.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Absoule-Sum-Of-Diagonals.cpp"; sourceTree = "<group>"; };
 		5FC521082C3A846800356594 /* Most-Common-Character-SubString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Most-Common-Character-SubString.cpp"; sourceTree = "<group>"; };
 		5FC5210A2C3BF6E600356594 /* reverse-a-string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "reverse-a-string.cpp"; sourceTree = "<group>"; };
 		5FC5210C2C3C004000356594 /* library-functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "library-functions.cpp"; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				5FC521622C43DCA100356594 /* ArrayManipulation.cpp */,
+				5F7E4E942C47C3C700A634F9 /* Absoule-Sum-Of-Diagonals.cpp */,
 			);
 			path = HackerRank;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F7E4E952C47C3C700A634F9 /* Absoule-Sum-Of-Diagonals.cpp in Sources */,
 				5F7E4E912C478B3200A634F9 /* pointers.cpp in Sources */,
 				5F7E4E932C479EE900A634F9 /* Search-a-2D-Matric.cpp in Sources */,
 			);
