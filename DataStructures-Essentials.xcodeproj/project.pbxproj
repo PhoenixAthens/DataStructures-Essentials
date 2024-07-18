@@ -10,6 +10,7 @@
 		5F7E4E912C478B3200A634F9 /* pointers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F7E4E902C478B3200A634F9 /* pointers.cpp */; };
 		5F7E4E932C479EE900A634F9 /* Search-a-2D-Matric.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F7E4E922C479EE900A634F9 /* Search-a-2D-Matric.cpp */; };
 		5F7E4E952C47C3C700A634F9 /* Absoule-Sum-Of-Diagonals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F7E4E942C47C3C700A634F9 /* Absoule-Sum-Of-Diagonals.cpp */; };
+		5F7E4E962C48170900A634F9 /* 2D-Array-PrefixSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC521712C44C5A400356594 /* 2D-Array-PrefixSum.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -257,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F7E4E962C48170900A634F9 /* 2D-Array-PrefixSum.cpp in Sources */,
 				5F7E4E952C47C3C700A634F9 /* Absoule-Sum-Of-Diagonals.cpp in Sources */,
 				5F7E4E912C478B3200A634F9 /* pointers.cpp in Sources */,
 				5F7E4E932C479EE900A634F9 /* Search-a-2D-Matric.cpp in Sources */,
