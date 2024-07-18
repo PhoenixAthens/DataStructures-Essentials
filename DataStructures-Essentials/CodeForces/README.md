@@ -79,3 +79,20 @@ Without cols--, the process would misinterpret the complete cycle.
 The cols-- adjustment ensures that the column conversion correctly handles the end-of-cycle case where 'Z' should be represented, maintaining the proper progression of column letter sequences. This step aligns with how spreadsheet software typically handles column labels.
 
 ---
+Q:: What is the purpose of `#include <utility>` header?
+
+A: The `#include <utility>` header in C++ provides utility components that are widely used in various parts of the C++ Standard Library and user code. It contains several utility classes and function templates that provide general-purpose functionality. Here are some of the key components defined in the `<utility>` header:
+1. `std::pair`: This class template is used to represent a pair of values of potentially different types. It is widely used in associative containers like `std::map` and `std::unordered_map`, as well as in various algorithms and data structures.
+2. `std::make_pair`: This is a convenience function template that creates a `std::pair` object from two values.
+3. `std::swap`: This function template swaps the values of two objects.
+4. `std::move`: This function template is used for efficient move semantics in C++11 and later. It creates an rvalue reference to an object, allowing it to be moved instead of copied.
+5. `std::forward`: This function template is used in conjunction with `std::move` to perform perfect forwarding of arguments in function templates.
+6. `std::declval`: This function template is used to obtain a reference to a temporary object of a specified type. It is primarily used in code involving expression templates and metaprogramming.
+7. `Type traits`: The `<utility>` header also includes various type traits, such as `std::is_name`, `std::is_const`, `std::remove_reference` and `std::remove_const`, which provides compile-time information about types.
+8. `std::integer_sequence`: This class template represents a sequence of integers at compile-time, which is useful for template metaprogramming.
+9. `std::index_sequence`: This is an alias for `std::integer_sequence<size_t, ...>` which is commonly used in variadic template expansions.
+
+The `<utility>` header is widely used throughout the C++ Standard Library and user code, providing general purpose utilities that simplify common programming tasks and enable more efficient and expressive code. It is considered an essential header for many C++ programs.
+
+---
+
