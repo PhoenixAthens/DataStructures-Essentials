@@ -30,7 +30,7 @@ public:
     }
     
     int sumRegion(int row1, int col1, int row2, int col2) {
-        return sumMatrix[row2+1][col2+1] - sumMatrix[row1][col2+1] - sumMatrix[row2+1][col1] + sumMatrix[row1][col1]
+        return sumMatrix[row2+1][col2+1] - sumMatrix[row1][col2+1] - sumMatrix[row2+1][col1] + sumMatrix[row1][col1];
     }
 };
 
