@@ -19,7 +19,7 @@ int diagonalDifference(vector<vector<int>> arr) {
     int d1 = 0, d2 = 0;
     for(int i = 0; i<cols;i++ ){
         d1+=arr[i][i];
-        d2+=arr[i][cols-i-1]
+        d2+=arr[i][cols-i-1];
     }
     return abs(d2-d1);
 }

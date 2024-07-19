@@ -7,12 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F7E4E912C478B3200A634F9 /* pointers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F7E4E902C478B3200A634F9 /* pointers.cpp */; };
-		5F7E4E932C479EE900A634F9 /* Search-a-2D-Matric.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F7E4E922C479EE900A634F9 /* Search-a-2D-Matric.cpp */; };
-		5F7E4E952C47C3C700A634F9 /* Absoule-Sum-Of-Diagonals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F7E4E942C47C3C700A634F9 /* Absoule-Sum-Of-Diagonals.cpp */; };
-		5F7E4E962C48170900A634F9 /* 2D-Array-PrefixSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC521712C44C5A400356594 /* 2D-Array-PrefixSum.cpp */; };
-		5F7E4E982C48E7A800A634F9 /* plusMinus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F7E4E972C48E7A800A634F9 /* plusMinus.cpp */; };
-		5F7E4E9A2C48F25300A634F9 /* Ancient-Berland-Circus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F7E4E992C48F25300A634F9 /* Ancient-Berland-Circus.cpp */; };
+		5F7E4E9D2C4A268200A634F9 /* sum-recursive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F7E4E9B2C4A259E00A634F9 /* sum-recursive.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +37,7 @@
 		5F7E4E942C47C3C700A634F9 /* Absoule-Sum-Of-Diagonals.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Absoule-Sum-Of-Diagonals.cpp"; sourceTree = "<group>"; };
 		5F7E4E972C48E7A800A634F9 /* plusMinus.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = plusMinus.cpp; sourceTree = "<group>"; };
 		5F7E4E992C48F25300A634F9 /* Ancient-Berland-Circus.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Ancient-Berland-Circus.cpp"; sourceTree = "<group>"; };
+		5F7E4E9B2C4A259E00A634F9 /* sum-recursive.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "sum-recursive.cpp"; sourceTree = "<group>"; };
 		5FC521082C3A846800356594 /* Most-Common-Character-SubString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Most-Common-Character-SubString.cpp"; sourceTree = "<group>"; };
 		5FC5210A2C3BF6E600356594 /* reverse-a-string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "reverse-a-string.cpp"; sourceTree = "<group>"; };
 		5FC5210C2C3C004000356594 /* library-functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "library-functions.cpp"; sourceTree = "<group>"; };
@@ -97,6 +93,7 @@
 				5FC521572C42515D00356594 /* prefix-suffix-sum.cpp */,
 				5FC521592C425E3100356594 /* scrap.cpp */,
 				5F7E4E902C478B3200A634F9 /* pointers.cpp */,
+				5F7E4E9B2C4A259E00A634F9 /* sum-recursive.cpp */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -264,12 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F7E4E9A2C48F25300A634F9 /* Ancient-Berland-Circus.cpp in Sources */,
-				5F7E4E962C48170900A634F9 /* 2D-Array-PrefixSum.cpp in Sources */,
-				5F7E4E952C47C3C700A634F9 /* Absoule-Sum-Of-Diagonals.cpp in Sources */,
-				5F7E4E982C48E7A800A634F9 /* plusMinus.cpp in Sources */,
-				5F7E4E912C478B3200A634F9 /* pointers.cpp in Sources */,
-				5F7E4E932C479EE900A634F9 /* Search-a-2D-Matric.cpp in Sources */,
+				5F7E4E9D2C4A268200A634F9 /* sum-recursive.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
