@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F7E4E9D2C4A268200A634F9 /* sum-recursive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F7E4E9B2C4A259E00A634F9 /* sum-recursive.cpp */; };
+		5F17818B2C4C19B60057C7D8 /* Staircase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F17818A2C4C19B60057C7D8 /* Staircase.cpp */; };
+		5F17818D2C4C1A990057C7D8 /* Min_Max_Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F17818C2C4C1A990057C7D8 /* Min_Max_Sum.cpp */; };
+		5F17818F2C4C1CAB0057C7D8 /* Birthday-Cake-Candles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F17818E2C4C1CAB0057C7D8 /* Birthday-Cake-Candles.cpp */; };
+		5F1781912C4C1F6E0057C7D8 /* Time-Conversion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F1781902C4C1F6E0057C7D8 /* Time-Conversion.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,6 +26,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5F17818A2C4C19B60057C7D8 /* Staircase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Staircase.cpp; sourceTree = "<group>"; };
+		5F17818C2C4C1A990057C7D8 /* Min_Max_Sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Min_Max_Sum.cpp; sourceTree = "<group>"; };
+		5F17818E2C4C1CAB0057C7D8 /* Birthday-Cake-Candles.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Birthday-Cake-Candles.cpp"; sourceTree = "<group>"; };
+		5F1781902C4C1F6E0057C7D8 /* Time-Conversion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Time-Conversion.cpp"; sourceTree = "<group>"; };
 		5F32F4872C366402007D7010 /* SubArrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SubArrays.cpp; sourceTree = "<group>"; };
 		5F32F48A2C3681CA007D7010 /* SubArraySum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SubArraySum.cpp; sourceTree = "<group>"; };
 		5F32F48D2C390C1A007D7010 /* CharacterArrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CharacterArrays.cpp; sourceTree = "<group>"; };
@@ -140,6 +147,10 @@
 				5FC521622C43DCA100356594 /* ArrayManipulation.cpp */,
 				5F7E4E942C47C3C700A634F9 /* Absoule-Sum-Of-Diagonals.cpp */,
 				5F7E4E972C48E7A800A634F9 /* plusMinus.cpp */,
+				5F17818A2C4C19B60057C7D8 /* Staircase.cpp */,
+				5F17818C2C4C1A990057C7D8 /* Min_Max_Sum.cpp */,
+				5F17818E2C4C1CAB0057C7D8 /* Birthday-Cake-Candles.cpp */,
+				5F1781902C4C1F6E0057C7D8 /* Time-Conversion.cpp */,
 			);
 			path = HackerRank;
 			sourceTree = "<group>";
@@ -261,7 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F7E4E9D2C4A268200A634F9 /* sum-recursive.cpp in Sources */,
+				5F17818B2C4C19B60057C7D8 /* Staircase.cpp in Sources */,
+				5F17818F2C4C1CAB0057C7D8 /* Birthday-Cake-Candles.cpp in Sources */,
+				5F1781912C4C1F6E0057C7D8 /* Time-Conversion.cpp in Sources */,
+				5F17818D2C4C1A990057C7D8 /* Min_Max_Sum.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
