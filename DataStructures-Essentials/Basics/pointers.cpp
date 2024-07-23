@@ -52,5 +52,12 @@ int main(int argc, char** argv){
     //64-bit CPU = 8 byte pointers
     //32-bit CPU = 4 byte pointers
     
+    int a = 23;
+    int& toA = a;
+    cout<<"Address of a: "<<&a<<"\n";
+    cout<<"Address of toA: "<<&toA<<"\n";
+    //Address of a: 0x16fdff17c
+    // Address of toA: 0x16fdff17c
+    
     return 0;
 }
