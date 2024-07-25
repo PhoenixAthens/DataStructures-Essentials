@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F1781982C4E702C0057C7D8 /* Kadane-Algorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F1781972C4E702C0057C7D8 /* Kadane-Algorithm.cpp */; };
-		5F17819B2C4EA65C0057C7D8 /* Search-Query-Auto-Complete.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F17819A2C4EA65C0057C7D8 /* Search-Query-Auto-Complete.cpp */; };
-		5F17819D2C4EB4FD0057C7D8 /* Add-Two-Numbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F17819C2C4EB4FD0057C7D8 /* Add-Two-Numbers.cpp */; };
+		5F1781B72C50F9680057C7D8 /* template-classes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F1781B62C50F9680057C7D8 /* template-classes.cpp */; };
+		5F1781B92C50FF6B0057C7D8 /* between-two-sets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F1781B82C50FF6B0057C7D8 /* between-two-sets.cpp */; };
+		5F1781BB2C5117BA0057C7D8 /* Repetitions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F1781BA2C5117BA0057C7D8 /* Repetitions.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +35,13 @@
 		5F17819A2C4EA65C0057C7D8 /* Search-Query-Auto-Complete.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Search-Query-Auto-Complete.cpp"; sourceTree = "<group>"; };
 		5F17819C2C4EB4FD0057C7D8 /* Add-Two-Numbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Add-Two-Numbers.cpp"; sourceTree = "<group>"; };
 		5F17819E2C4F6A5A0057C7D8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5F1781A02C4FB3940057C7D8 /* Weird-Algorithm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Weird-Algorithm.cpp"; sourceTree = "<group>"; };
+		5F1781A22C4FB6A20057C7D8 /* Missing-Number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Missing-Number.cpp"; sourceTree = "<group>"; };
+		5F1781B22C50EC2D0057C7D8 /* functions-on-structs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "functions-on-structs.cpp"; sourceTree = "<group>"; };
+		5F1781B42C50EF180057C7D8 /* structs-to-classes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "structs-to-classes.cpp"; sourceTree = "<group>"; };
+		5F1781B62C50F9680057C7D8 /* template-classes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "template-classes.cpp"; sourceTree = "<group>"; };
+		5F1781B82C50FF6B0057C7D8 /* between-two-sets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "between-two-sets.cpp"; sourceTree = "<group>"; };
+		5F1781BA2C5117BA0057C7D8 /* Repetitions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Repetitions.cpp; sourceTree = "<group>"; };
 		5F32F4872C366402007D7010 /* SubArrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SubArrays.cpp; sourceTree = "<group>"; };
 		5F32F48A2C3681CA007D7010 /* SubArraySum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SubArraySum.cpp; sourceTree = "<group>"; };
 		5F32F48D2C390C1A007D7010 /* CharacterArrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CharacterArrays.cpp; sourceTree = "<group>"; };
@@ -116,6 +123,9 @@
 				5F7E4E9B2C4A259E00A634F9 /* sum-recursive.cpp */,
 				5F1781932C4E44670057C7D8 /* dynamic-structs.cpp */,
 				5F1781952C4E5D540057C7D8 /* function-pass-by-reference.cpp */,
+				5F1781B22C50EC2D0057C7D8 /* functions-on-structs.cpp */,
+				5F1781B42C50EF180057C7D8 /* structs-to-classes.cpp */,
+				5F1781B62C50F9680057C7D8 /* template-classes.cpp */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -127,6 +137,9 @@
 				5FC5214A2C3F93C500356594 /* Static-range-sum-queries-2.cpp */,
 				5FC521082C3A846800356594 /* Most-Common-Character-SubString.cpp */,
 				5FC521282C3C629600356594 /* README.md */,
+				5F1781A02C4FB3940057C7D8 /* Weird-Algorithm.cpp */,
+				5F1781A22C4FB6A20057C7D8 /* Missing-Number.cpp */,
+				5F1781BA2C5117BA0057C7D8 /* Repetitions.cpp */,
 			);
 			path = CSES;
 			sourceTree = "<group>";
@@ -168,6 +181,7 @@
 				5F17818C2C4C1A990057C7D8 /* Min_Max_Sum.cpp */,
 				5F17818E2C4C1CAB0057C7D8 /* Birthday-Cake-Candles.cpp */,
 				5F1781902C4C1F6E0057C7D8 /* Time-Conversion.cpp */,
+				5F1781B82C50FF6B0057C7D8 /* between-two-sets.cpp */,
 			);
 			path = HackerRank;
 			sourceTree = "<group>";
@@ -291,9 +305,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F17819D2C4EB4FD0057C7D8 /* Add-Two-Numbers.cpp in Sources */,
-				5F17819B2C4EA65C0057C7D8 /* Search-Query-Auto-Complete.cpp in Sources */,
-				5F1781982C4E702C0057C7D8 /* Kadane-Algorithm.cpp in Sources */,
+				5F1781BB2C5117BA0057C7D8 /* Repetitions.cpp in Sources */,
+				5F1781B92C50FF6B0057C7D8 /* between-two-sets.cpp in Sources */,
+				5F1781B72C50F9680057C7D8 /* template-classes.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
