@@ -25,10 +25,26 @@ int getTotalX(vector<int> a, vector<int> b) {
     for(int& i: a){
         minFromA=min(minFromA,i);
     }
-    
+    int count = 0;
     for(int i = minFromA;i <= minFromB; i++){
-        
+        bool flag = true;
+        for(int& fromA: a){
+            if(i%fromA!=0){
+                flag=false;
+                break;
+            }
+        }
+        if(flag){
+            for(int& fromB: b){
+                if(fromB%i!=0){
+                    flag=false;
+                    break;
+                }
+            }
+        }
+        if(flag)count++;
     }
+    return count;
     
 }
 

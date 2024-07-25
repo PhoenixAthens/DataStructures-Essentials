@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F1781B72C50F9680057C7D8 /* template-classes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F1781B62C50F9680057C7D8 /* template-classes.cpp */; };
-		5F1781B92C50FF6B0057C7D8 /* between-two-sets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F1781B82C50FF6B0057C7D8 /* between-two-sets.cpp */; };
-		5F1781BB2C5117BA0057C7D8 /* Repetitions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F1781BA2C5117BA0057C7D8 /* Repetitions.cpp */; };
+		5FA7854E2C520D7A00671023 /* testing-functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FA7854D2C520D7A00671023 /* testing-functions.cpp */; };
+		5FA785502C526F0B00671023 /* Kadane-secured.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FA7854F2C526F0B00671023 /* Kadane-secured.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,6 +56,8 @@
 		5F7E4E972C48E7A800A634F9 /* plusMinus.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = plusMinus.cpp; sourceTree = "<group>"; };
 		5F7E4E992C48F25300A634F9 /* Ancient-Berland-Circus.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Ancient-Berland-Circus.cpp"; sourceTree = "<group>"; };
 		5F7E4E9B2C4A259E00A634F9 /* sum-recursive.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "sum-recursive.cpp"; sourceTree = "<group>"; };
+		5FA7854D2C520D7A00671023 /* testing-functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "testing-functions.cpp"; sourceTree = "<group>"; };
+		5FA7854F2C526F0B00671023 /* Kadane-secured.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Kadane-secured.cpp"; sourceTree = "<group>"; };
 		5FC521082C3A846800356594 /* Most-Common-Character-SubString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Most-Common-Character-SubString.cpp"; sourceTree = "<group>"; };
 		5FC5210A2C3BF6E600356594 /* reverse-a-string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "reverse-a-string.cpp"; sourceTree = "<group>"; };
 		5FC5210C2C3C004000356594 /* library-functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "library-functions.cpp"; sourceTree = "<group>"; };
@@ -182,6 +183,7 @@
 				5F17818E2C4C1CAB0057C7D8 /* Birthday-Cake-Candles.cpp */,
 				5F1781902C4C1F6E0057C7D8 /* Time-Conversion.cpp */,
 				5F1781B82C50FF6B0057C7D8 /* between-two-sets.cpp */,
+				5FA7854D2C520D7A00671023 /* testing-functions.cpp */,
 			);
 			path = HackerRank;
 			sourceTree = "<group>";
@@ -244,6 +246,7 @@
 				5F32F48A2C3681CA007D7010 /* SubArraySum.cpp */,
 				5FC521712C44C5A400356594 /* 2D-Array-PrefixSum.cpp */,
 				5F1781972C4E702C0057C7D8 /* Kadane-Algorithm.cpp */,
+				5FA7854F2C526F0B00671023 /* Kadane-secured.cpp */,
 			);
 			path = Arrays;
 			sourceTree = "<group>";
@@ -305,9 +308,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F1781BB2C5117BA0057C7D8 /* Repetitions.cpp in Sources */,
-				5F1781B92C50FF6B0057C7D8 /* between-two-sets.cpp in Sources */,
-				5F1781B72C50F9680057C7D8 /* template-classes.cpp in Sources */,
+				5FA7854E2C520D7A00671023 /* testing-functions.cpp in Sources */,
+				5FA785502C526F0B00671023 /* Kadane-secured.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
