@@ -6,11 +6,6 @@
 	objectVersion = 56;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		5FA7854E2C520D7A00671023 /* testing-functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FA7854D2C520D7A00671023 /* testing-functions.cpp */; };
-		5FA785502C526F0B00671023 /* Kadane-secured.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FA7854F2C526F0B00671023 /* Kadane-secured.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		5FEBAC7A2C0D821200F361A8 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -58,6 +53,13 @@
 		5F7E4E9B2C4A259E00A634F9 /* sum-recursive.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "sum-recursive.cpp"; sourceTree = "<group>"; };
 		5FA7854D2C520D7A00671023 /* testing-functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "testing-functions.cpp"; sourceTree = "<group>"; };
 		5FA7854F2C526F0B00671023 /* Kadane-secured.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Kadane-secured.cpp"; sourceTree = "<group>"; };
+		5FA785512C5272B500671023 /* Kth-Symbol-in-Grammar.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Kth-Symbol-in-Grammar.cpp"; sourceTree = "<group>"; };
+		5FA785662C53944A00671023 /* Macros.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Macros.c; sourceTree = "<group>"; };
+		5FA785682C53975400671023 /* Breaking-the-records.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Breaking-the-records.cpp"; sourceTree = "<group>"; };
+		5FA7856A2C53B1D600671023 /* Subarray-Division.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Subarray-Division.cpp"; sourceTree = "<group>"; };
+		5FA7856C2C53CF8E00671023 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5FA7856D2C54A31800671023 /* Data-Type.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Data-Type.cpp"; sourceTree = "<group>"; };
+		5FA7856F2C54A77E00671023 /* Switch-Case-Statements.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Switch-Case-Statements.cpp"; sourceTree = "<group>"; };
 		5FC521082C3A846800356594 /* Most-Common-Character-SubString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Most-Common-Character-SubString.cpp"; sourceTree = "<group>"; };
 		5FC5210A2C3BF6E600356594 /* reverse-a-string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "reverse-a-string.cpp"; sourceTree = "<group>"; };
 		5FC5210C2C3C004000356594 /* library-functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "library-functions.cpp"; sourceTree = "<group>"; };
@@ -105,6 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				5F17819A2C4EA65C0057C7D8 /* Search-Query-Auto-Complete.cpp */,
+				5FA7856D2C54A31800671023 /* Data-Type.cpp */,
+				5FA7856F2C54A77E00671023 /* Switch-Case-Statements.cpp */,
 			);
 			path = GFG;
 			sourceTree = "<group>";
@@ -127,6 +131,7 @@
 				5F1781B22C50EC2D0057C7D8 /* functions-on-structs.cpp */,
 				5F1781B42C50EF180057C7D8 /* structs-to-classes.cpp */,
 				5F1781B62C50F9680057C7D8 /* template-classes.cpp */,
+				5FA7856C2C53CF8E00671023 /* README.md */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 				5F7E4E922C479EE900A634F9 /* Search-a-2D-Matric.cpp */,
 				5F17819C2C4EB4FD0057C7D8 /* Add-Two-Numbers.cpp */,
 				5F17819E2C4F6A5A0057C7D8 /* README.md */,
+				5FA785512C5272B500671023 /* Kth-Symbol-in-Grammar.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -168,6 +174,7 @@
 				5FC5215F2C43913F00356594 /* README.md */,
 				5FC521762C44D99800356594 /* Structures.c */,
 				5F6B6BB42C456D4E0094DDE4 /* spreadSheet.cpp */,
+				5FA785662C53944A00671023 /* Macros.c */,
 			);
 			path = "C-Basics";
 			sourceTree = "<group>";
@@ -184,6 +191,8 @@
 				5F1781902C4C1F6E0057C7D8 /* Time-Conversion.cpp */,
 				5F1781B82C50FF6B0057C7D8 /* between-two-sets.cpp */,
 				5FA7854D2C520D7A00671023 /* testing-functions.cpp */,
+				5FA785682C53975400671023 /* Breaking-the-records.cpp */,
+				5FA7856A2C53B1D600671023 /* Subarray-Division.cpp */,
 			);
 			path = HackerRank;
 			sourceTree = "<group>";
@@ -308,8 +317,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FA7854E2C520D7A00671023 /* testing-functions.cpp in Sources */,
-				5FA785502C526F0B00671023 /* Kadane-secured.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -176,4 +176,119 @@ This explicit casting acts as a reminder to the programmer that they are respons
 While it may seem "hacky" to cast the `void*` return value, this design decision in C provides flexibility, efficiency, and puts the responsibility of type safety on the programmer. Many modern languages abstract away manual memory management to improve safety and developer productivity.
 
 ---
+```c
+#include <stdio.h>
+#define ABC 3
+#define ADD(a,b) a+b
+int main(int argc, char** argv){
+    int x = 2;
+    int y = ABC;
+    int z = ADD(x,y);
+    printf("Z-> %d\n",z); //Z-> 5
+    return 0;
+}
+```
+In the preceeding code box, `ADD` is not a function. It is just a _function-like_ macro that accepts arguments. After preprecessing the code will be like this:
+```c
+#include <stdio.h>
 
+int main(int argc, char** argv){
+    int x = 2;
+    int y = 3;
+    int z = x + y;
+    printf("Z-> %d\n",z); //Z-> 5
+    return 0;
+}
+```
+As you can see in the preceding code box, the expansion that has taken place is as follows. The argument `x` used as parameter `a` is replaced with all instances of `a` in the macro's value. This is the same for the parameter `b`, and its corresponding argument `y`. Then, the final substitution occurs, and we get `x + y` instead of `ADD(a, b)` in the preprocessed code.
+
+
+---
+Modern C compilers are aware of C preprocessor directives. Despite the common belief that they don't know anything about the preprocessing phase, they actually do. The modern C compilers know about the source before entering the preprocessing phase. Look at the following code:
+```C
+#include <stdio.h>
+#define CODE \
+printf("%d\n", i);
+int main(int argc, char** argv) {
+ CODE
+ return 0;
+}
+```
+If you compile the above code using `clang` in macOS, the following would be the output:
+
+```shell
+$ clang example.c
+code.c:7:3: error: use of undeclared identifier 'i'
+CODE
+^
+code.c:4:16: note: expanded from macro 'CODE'
+printf("%d\n", i);
+               ^
+1 error generated.
+$
+```
+
+As you see, the compiler has generated an error message that points exactly to the line in which the macro is defined.
+
+As a side note, in most modern compilers, you can view the preprocessing result just before the compilation. For example, when using `gcc` or `clang`, you can use the `-E` option to dump the code after preprocessing. The following shell box demonstrates how to use the `-E` option. Note that the output is not fully shown:
+```shell
+$ clang -E example.c
+# 1 "sample.c"# 1 "<built-in>" 1
+# 1 "<built-in>" 3
+# 361 "<built-in>" 3
+...
+# 412 "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/stdio.h" 2 3 4
+# 2 "sample.c" 2
+...
+int main(int argc, char** argv) {
+ printf("%d\n", i);
+ return 0;
+}
+$ 
+```
+
+Now we come to an important definition. A translation unit (or a compilation unit) is the preprocessed C code that is ready to be passed to the compiler. 
+
+In a translation unit, all directives are substituted with inclusions or macro expansions and a flat long piece of C code has been produced. 
+
+Now that you know more about macros, let's work on some more difficult examples. They will show you the power and danger of macros. In my opinion, extreme development deals with dangerous and delicate stuff in a skilled way, and this is exactly what C is about.
+
+The next example is an interesting one. Just pay attention to how the macros are used in sequence to generate a loop:
+```c
+#include <stdio.h>
+#define PRINT(a) printf("%d\n", a);
+#define LOOP(v, s, e) for (int v = s; v <= e; v++) {
+#define ENDLOOP }
+int main(int argc, char** argv) {
+  LOOP(counter, 1, 10)
+    PRINT(counter)
+  ENDLOOP
+  return 0;
+}
+```
+
+As you see in the preceding example, the code inside the `main` function is not a valid C code in any way! But after preprocessing, we get a correct C source code that compiles without any problem. 
+
+In the `main` function, we just used a different and not C-looking set of instructions to write our algorithm. Then after preprocessing, as shown in the code below, we got a fully functional and correct C program. This is an important application of macros; we define a new domain specific language (DSL) and write code using it.
+
+DSLs are very useful in different parts of a project; for example, they are used heavily in testing frameworks such as Google Test Framework (gtest) where a DSL is used to write assertions, expectations, and test scenarios.
+
+We should note that we don't have any C directives in the final preprocessed code. This means that the `#include` directive has been replaced by the contents of the file it was referring to. That is why you see the contents of the `stdio.h` header file (which we replaced with ellipses) before the `main` function.
+
+Let's now look at the next example, which introduces two new operators regarding macro parameters; the # and ## operators:
+```c
+
+```
+
+Following is the preprocessed result:
+```c
+...
+... content of stdio.h …
+...
+int main(int argc, char** argv) {
+  for (int counter = 1; counter <= 10; counter++) {
+    printf("%d\n", counter);
+  }
+  return 0;
+}
+```
