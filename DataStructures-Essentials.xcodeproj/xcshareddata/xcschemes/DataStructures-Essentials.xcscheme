@@ -51,6 +51,12 @@
             ReferencedContainer = "container:DataStructures-Essentials.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "-I /Users/anmolkhanna/CPP_Libraries/boost_1_82_0"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
