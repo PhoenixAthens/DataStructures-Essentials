@@ -56,9 +56,9 @@ int main(int argc, char** argv){
      boing (input for ln39)
      xy    (input for ln40)
      Before Copy
-     Str1: boingbcdef, Str2: xyd
+     Str1: boingbcdef, Str2: xycd
      After Copy
-     Str1: xygbcdef, Str2: xyd
+     Str1: xygbcdef, Str2: xycd
      */
     
     char str3[100];
