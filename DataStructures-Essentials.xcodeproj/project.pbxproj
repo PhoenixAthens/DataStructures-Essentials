@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F3FDC042C6D3FCA00D86410 /* pattern-printing-4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F64A18C2C6A309100C7770B /* pattern-printing-4.cpp */; };
+		5F3FDC072C6EF6C800D86410 /* Unordered-set.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F3FDC062C6EF6C800D86410 /* Unordered-set.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +50,7 @@
 		5F3CD2432C5E3ACC003A8187 /* pattern-printing-3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "pattern-printing-3.cpp"; sourceTree = "<group>"; };
 		5F3FDBFF2C6CC4C800D86410 /* Closest-Number-To-Zero.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Closest-Number-To-Zero.cpp"; sourceTree = "<group>"; };
 		5F3FDC012C6CC5F900D86410 /* Merge-String-Alternatively.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Merge-String-Alternatively.cpp"; sourceTree = "<group>"; };
+		5F3FDC062C6EF6C800D86410 /* Unordered-set.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Unordered-set.cpp"; sourceTree = "<group>"; };
 		5F4198382C668D0E00857351 /* checking-if-square.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "checking-if-square.cpp"; sourceTree = "<group>"; };
 		5F64A1882C69CEFF00C7770B /* find-closest-number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "find-closest-number.cpp"; sourceTree = "<group>"; };
 		5F64A18A2C69D9EE00C7770B /* Dynamic-Arrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Dynamic-Arrays.cpp"; sourceTree = "<group>"; };
@@ -182,6 +183,14 @@
 			path = CSES;
 			sourceTree = "<group>";
 		};
+		5F3FDC052C6EF6AF00D86410 /* TUF */ = {
+			isa = PBXGroup;
+			children = (
+				5F3FDC062C6EF6C800D86410 /* Unordered-set.cpp */,
+			);
+			path = TUF;
+			sourceTree = "<group>";
+		};
 		5F64A19B2C6C6DD300C7770B /* NeetCode */ = {
 			isa = PBXGroup;
 			children = (
@@ -280,6 +289,7 @@
 		5FEBAC7E2C0D821200F361A8 /* DataStructures-Essentials */ = {
 			isa = PBXGroup;
 			children = (
+				5F3FDC052C6EF6AF00D86410 /* TUF */,
 				5F64A19F2C6CC3DD00C7770B /* GregHogg-AlgoMap */,
 				5F64A19B2C6C6DD300C7770B /* NeetCode */,
 				5F1781992C4EA6440057C7D8 /* GFG */,
@@ -376,7 +386,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F3FDC042C6D3FCA00D86410 /* pattern-printing-4.cpp in Sources */,
+				5F3FDC072C6EF6C800D86410 /* Unordered-set.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

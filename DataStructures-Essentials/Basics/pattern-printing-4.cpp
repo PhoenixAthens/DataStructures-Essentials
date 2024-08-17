@@ -2,6 +2,7 @@
 using std::cout;
 using std::cin;
 using std::string;
+using std::min;
 void nForest_1_1(int n) {
     string a = "";
     for(int i = 0;i<n;i++){
@@ -227,8 +228,109 @@ void alphaTriangle_2(int n) {
         cout<<"\n";
     }
 }
+void symmetricVoid(int n){
+    int totalColumns = n*2;
+    int i=1;
+    for(;i<=n;i++){
+        int spaces=(0+(i-1)*2);
+        int stars = (totalColumns-spaces)/2;
+        for(int j=0;j<stars;j++){
+            cout<<"* ";
+        }
+        for(int j=0;j<spaces;j++){
+            cout<<"  ";
+        }
+        for(int j=0;j<stars;j++){
+            cout<<"* ";
+        }
+        cout<<"\n";
+    }
+    i--;
+    for(;i>0;i--){
+        int spaces=(0+(i-1)*2);
+        int stars = (totalColumns-spaces)/2;
+        for(int j=0;j<stars;j++){
+            cout<<"* ";
+        }
+        for(int j=0;j<spaces;j++){
+            cout<<"  ";
+        }
+        for(int j=0;j<stars;j++){
+            cout<<"* ";
+        }
+        cout<<"\n";
+    }
+}
+void symmetry(int n) {
+    int totalColumns = n*2;
+    int i=n;
+    for(;i>0;i--){
+        int spaces=(0+(i-1)*2);
+        int stars = (totalColumns-spaces)/2;
+        for(int j=0;j<stars;j++){
+            cout<<"* ";
+        }
+        for(int j=0;j<spaces;j++){
+            cout<<"  ";
+        }
+        for(int j=0;j<stars;j++){
+            cout<<"* ";
+        }
+        cout<<"\n";
+    }
+    i+=2;
+    for(;i<=n;i++){
+        int spaces=(0+(i-1)*2);
+        int stars = (totalColumns-spaces)/2;
+        for(int j=0;j<stars;j++){
+            cout<<"* ";
+        }
+        for(int j=0;j<spaces;j++){
+            cout<<"  ";
+        }
+        for(int j=0;j<stars;j++){
+            cout<<"* ";
+        }
+        cout<<"\n";
+    }
+}
+
+void getStarPattern(int n) {
+    for(int i=0;i<n;i++){
+        cout<<"* ";
+    }
+    cout<<"\n";
+    int spaces = n-2;
+    int i=1;
+    for(;i<n-1;i++){
+        cout<<"* ";
+        for(int j=0;j<spaces;j++){
+            cout<<" ";
+        }
+        cout<<"* ";
+        cout<<"\n";
+    }
+    if(i>=n)return;
+    for(int i = 0;i<n;i++){
+        cout<<"* ";
+    }
+    cout<<"\n";
+}
+
+void getNumberPattern(int n) {
+    int size = 2*n;
+    for(int i = 0; i < size-1; i++){
+        for(int j = 0; j <size-1; j++){
+            cout<<(n-min(min(i,j),min(2*n-2-i,2*n-2-j)));
+        }
+        cout<<"\n";
+    }
+}
 
 
 int main(int argc, char** argv){
-    alphaTriangle_2(5);
+//    alphaTriangle_2(5);
+//    symmetricVoid(20);
+    getNumberPattern(4);
+    
 }
