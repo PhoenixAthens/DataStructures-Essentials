@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F79766B2C7B34DE00D92C3E /* Unordered-set.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F3FDC062C6EF6C800D86410 /* Unordered-set.cpp */; };
+		5F7B93F82C7DA79A0002986E /* algorithms-stl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F7B93F72C7DA7990002986E /* algorithms-stl.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5F1218A62C77723800DE79B8 /* test1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test1.cpp; sourceTree = "<group>"; };
 		5F17818A2C4C19B60057C7D8 /* Staircase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Staircase.cpp; sourceTree = "<group>"; };
 		5F17818C2C4C1A990057C7D8 /* Min_Max_Sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Min_Max_Sum.cpp; sourceTree = "<group>"; };
 		5F17818E2C4C1CAB0057C7D8 /* Birthday-Cake-Candles.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Birthday-Cake-Candles.cpp"; sourceTree = "<group>"; };
@@ -65,6 +64,7 @@
 		5F6B6BB92C459AA40094DDE4 /* Squares-of-sorted-array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Squares-of-sorted-array.cpp"; sourceTree = "<group>"; };
 		5F6B6BBC2C4619140094DDE4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5F6FE0F12C636B740052BDED /* ClosestSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ClosestSum.cpp; sourceTree = "<group>"; };
+		5F7B93F72C7DA7990002986E /* algorithms-stl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "algorithms-stl.cpp"; sourceTree = "<group>"; };
 		5F7E4E8D2C4663D100A634F9 /* Subarray-Sums-Divisible-by-K.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Subarray-Sums-Divisible-by-K.cpp"; sourceTree = "<group>"; };
 		5F7E4E902C478B3200A634F9 /* pointers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pointers.cpp; sourceTree = "<group>"; };
 		5F7E4E922C479EE900A634F9 /* Search-a-2D-Matric.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Search-a-2D-Matric.cpp"; sourceTree = "<group>"; };
@@ -134,14 +134,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5F1218A52C77722B00DE79B8 /* Test */ = {
-			isa = PBXGroup;
-			children = (
-				5F1218A62C77723800DE79B8 /* test1.cpp */,
-			);
-			path = Test;
-			sourceTree = "<group>";
-		};
 		5F1781992C4EA6440057C7D8 /* GFG */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +194,7 @@
 			children = (
 				5F3FDC062C6EF6C800D86410 /* Unordered-set.cpp */,
 				5F47DC132C706FA4007580F7 /* README.md */,
+				5F7B93F72C7DA7990002986E /* algorithms-stl.cpp */,
 			);
 			path = TUF;
 			sourceTree = "<group>";
@@ -330,7 +323,6 @@
 		5FEBAC7E2C0D821200F361A8 /* DataStructures-Essentials */ = {
 			isa = PBXGroup;
 			children = (
-				5F1218A52C77722B00DE79B8 /* Test */,
 				5F47DC192C70A94E007580F7 /* Mark-Allen-Weiss */,
 				5F47DC142C7071C4007580F7 /* Coding-Ninjas */,
 				5F3FDC052C6EF6AF00D86410 /* TUF */,
@@ -430,7 +422,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F79766B2C7B34DE00D92C3E /* Unordered-set.cpp in Sources */,
+				5F7B93F82C7DA79A0002986E /* algorithms-stl.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

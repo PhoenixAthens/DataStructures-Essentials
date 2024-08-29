@@ -7,6 +7,7 @@
 #include <stack>
 #include <queue>
 #include <set>
+#include <algorithm>
 using std::vector;
 using std::unordered_set;
 using std::cout;
@@ -18,6 +19,7 @@ using std::queue;
 using std::priority_queue;
 using std::greater;
 using std::set;
+using std::binary_search;
 int main(int argc, char** argv){
     
     
@@ -389,74 +391,76 @@ int main(int argc, char** argv){
     cout<<"\n";
     //-1 0 2 5 6 10 50 100
     
-    set<int> set;
-    set.emplace(2);
-    set.emplace(1);
-    set.emplace(10);
-    set.emplace(5);
-    set.emplace(3);
-    set.insert(6);
-    set.insert(4);
-    set.insert(0);
-    set.insert(4);
-    for(::set<int>::iterator iterator_of_set = set.begin(); iterator_of_set!=set.end(); iterator_of_set++){
+    set<int> setty;
+    setty.emplace(2);
+    setty.emplace(1);
+    setty.emplace(10);
+    setty.emplace(5);
+    setty.emplace(3);
+    setty.insert(6);
+    setty.insert(4);
+    setty.insert(0);
+    setty.insert(4);
+    for(set<int>::iterator iterator_of_set = setty.begin(); iterator_of_set!=setty.end(); iterator_of_set++){
         cout<<*(iterator_of_set)<<" ";
     }
     cout<<"\n";
     //0 1 2 3 4 5 6 10
     
-    ::set<int>::iterator iterator_of_sets_find = set.find(5);
+    set<int> set_copy(setty);
+    
+    ::set<int>::iterator iterator_of_sets_find = setty.find(5);
     cout<<*iterator_of_sets_find; //5
     cout<<"\n";
     
-    iterator_of_sets_find = set.find(15);
+    iterator_of_sets_find = setty.find(15);
     cout<<*iterator_of_sets_find; //24576
     cout<<"\n";
     
-    iterator_of_sets_find = set.find(10);
+    iterator_of_sets_find = setty.find(10);
     cout<<*iterator_of_sets_find; //10
     cout<<"\n";
     
-    set.erase(4);
-    for(::set<int>::iterator iterator_of_set = set.begin(); iterator_of_set!=set.end(); iterator_of_set++){
+    setty.erase(4);
+    for(::set<int>::iterator iterator_of_set = setty.begin(); iterator_of_set!=setty.end(); iterator_of_set++){
         cout<<*(iterator_of_set)<<" ";
     }
     cout<<"\n";
     //0 1 2 3 5 6 10
     
-    int countOF = set.count(5);
+    int countOF = setty.count(5);
     cout<<countOF<<"\n"; //1
-    countOF = set.count(15);
+    countOF = setty.count(15);
     cout<<countOF<<"\n"; //0
 
-    iterator_of_sets_find = set.find(100);
-    if(*(set.end()) == *(iterator_of_sets_find)){
+    iterator_of_sets_find = setty.find(100);
+    if(*(setty.end()) == *(iterator_of_sets_find)){
         cout<<"Element doesn't exist!!\n";
     }else{
-        set.erase(iterator_of_sets_find);
+        setty.erase(iterator_of_sets_find);
     }
     //Element doesn't exist!!
     
-    for(::set<int>::iterator iter = set.begin(); iter!=set.end(); iter++){
+    for(::set<int>::iterator iter = setty.begin(); iter!=setty.end(); iter++){
         cout<<*(iter)<<" ";
     }
     cout<<"\n";
     //0 1 2 3 5 6 10
     
-    iterator_of_sets_find = set.find(6);
-    if(*(set.end()) == *(iterator_of_sets_find)){
+    iterator_of_sets_find = setty.find(6);
+    if(*(setty.end()) == *(iterator_of_sets_find)){
         cout<<"Element doesn't exist!!\n";
     }else{
-        set.erase(iterator_of_sets_find);
+        setty.erase(iterator_of_sets_find);
     }
     
-    for(::set<int>::iterator iter = set.begin(); iter!=set.end(); iter++){
+    for(::set<int>::iterator iter = setty.begin(); iter!=setty.end(); iter++){
         cout<<*(iter)<<" ";
     }
     cout<<"\n";
     //0 1 2 3 5 10
     
-    
+    bool res = binary_search(set_copy.begin(),set_copy.end(),2);
     
     
     

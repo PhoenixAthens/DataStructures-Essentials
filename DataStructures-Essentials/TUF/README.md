@@ -48,4 +48,45 @@ cout << "\n";
 The output you're seeing is a result of undefined behavior and should not be relied upon. The correct and safe way to access vector elements is to stay within the bounds of valid iterators. If you need to access elements after the `end()` iterator, it's essential to reevaluate the logic or reconsider the data structure being used.
 
 ---
- 
+Q3: In the following code
+```C++
+class Foo{
+private:
+        int x;
+public:
+    Foo(int i):x(i){}
+    bool operator < (const Foo& rhs) const{
+        return x < rhs.x;
+    }
+    int get() const {
+        return x;
+    }
+};
+
+int main(){
+    //declaring a vector of custom data-type
+    vector<Foo> foo_vector{
+        Foo(8),Foo(6),Foo(7),Foo(1),Foo(10),Foo(-4)
+    };
+    
+    //applying sort on a custom data-type
+    sort(foo_vector.begin(), foo_vector.end());
+}
+```
+for the `sort` function to work on `vector` of `Foo` objects, why does the the operator overloading require `const` parameter and `const` function to make the overloaded operator work for the `sort` function?
+
+A: In C++, the `sort` function from the Standard Template Library (STL) requires that the comparison operator used for sorting (like `<` in your case) be a `const` member function. Here's why:
+
+## Const Member Function (`bool operator < (const Foo& rhs) const`)
+1. `const` parameter (`const Foo& rhs`):
+- The `const` qualifier on the parameter means that the `rhs` object cannot be modified within the function. This is important because when comparing two objects for sorting, you want to ensure that neither object is changed in the process. This makes the function safe and predictable, ensuring that the comparison does not have side effects.
+2. `const` member function (`const` after the function signature):
+- The `const` qualifier after the function signature idicates that the function does not modify the member variables of the object on which it is called. In other words, the function guarantees that the state of the object remains unchanged after the comparison is performed.
+- This is crucial because `sort` may call the comparison function multiple times during sorting, and it expects that the objects being compared do not change state between comparisons. If the function could modify the object, the sorting algorithm might behave unpredictably.
+
+## Why This Matters for `sort`:
+- The `sort` function internally needs to compare elements in the range `[first, last)` using the provided comparison comparison operator (in your case, `<`).
+- The objects being sorted might be const-qualified, meaning the sort function might need to compare const references to your objects. For example, the signature, the signature for the sort function expects a comparator function that can compare `const Foo&` objects.
+- If your comparison operator is not const, it won't be callable with const references, and hence, it won't work with the `sort` function. This is because `sort` works on const references to ensure that the objects themselves aren't modified during sorting, which is a fundamental requirement for correct and predictable sorting.
+
+
