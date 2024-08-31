@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F7B93F82C7DA79A0002986E /* algorithms-stl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F7B93F72C7DA7990002986E /* algorithms-stl.cpp */; };
+		5FFE14E32C81CA6800D10425 /* DSA-multisets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE14E22C81CA6800D10425 /* DSA-multisets.cpp */; };
+		5FFE14E52C81CEAB00D10425 /* is-subSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE14E42C81CEAB00D10425 /* is-subSequence.cpp */; };
+		5FFE14E72C82D04000D10425 /* scrap-use.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE14E62C82D04000D10425 /* scrap-use.cpp */; };
+		5FFE14E92C8316E300D10425 /* Best-Day-To-Buy-And-Sell-Stock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE14E82C8316E300D10425 /* Best-Day-To-Buy-And-Sell-Stock.cpp */; };
+		5FFE14EC2C8338DE00D10425 /* LongestCommonPrefix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE14EB2C8338DE00D10425 /* LongestCommonPrefix.cpp */; };
+		5FFE14EE2C838FF600D10425 /* summaryRanges.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE14ED2C838FF600D10425 /* summaryRanges.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -89,6 +94,8 @@
 		5FA785892C59536400671023 /* test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
 		5FA792F82C5A025000671023 /* MaximumDifference.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MaximumDifference.cpp; sourceTree = "<group>"; };
 		5FAA983F2C5CC08F00C8817D /* Pattern-Printing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Pattern-Printing.cpp"; sourceTree = "<group>"; };
+		5FB316042C8014F700762625 /* sets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sets.cpp; sourceTree = "<group>"; };
+		5FB316062C80350300762625 /* maps.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = maps.cpp; sourceTree = "<group>"; };
 		5FC521082C3A846800356594 /* Most-Common-Character-SubString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Most-Common-Character-SubString.cpp"; sourceTree = "<group>"; };
 		5FC5210A2C3BF6E600356594 /* reverse-a-string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "reverse-a-string.cpp"; sourceTree = "<group>"; };
 		5FC5210C2C3C004000356594 /* library-functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "library-functions.cpp"; sourceTree = "<group>"; };
@@ -121,6 +128,13 @@
 		5FEBACB72C0D86B500F361A8 /* arrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = arrays.cpp; sourceTree = "<group>"; };
 		5FEBACB92C0D8B3900F361A8 /* arrays-to-functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "arrays-to-functions.cpp"; sourceTree = "<group>"; };
 		5FEBACBB2C0D900200F361A8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5FFE14E22C81CA6800D10425 /* DSA-multisets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "DSA-multisets.cpp"; sourceTree = "<group>"; };
+		5FFE14E42C81CEAB00D10425 /* is-subSequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "is-subSequence.cpp"; sourceTree = "<group>"; };
+		5FFE14E62C82D04000D10425 /* scrap-use.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "scrap-use.cpp"; sourceTree = "<group>"; };
+		5FFE14E82C8316E300D10425 /* Best-Day-To-Buy-And-Sell-Stock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Best-Day-To-Buy-And-Sell-Stock.cpp"; sourceTree = "<group>"; };
+		5FFE14EA2C831D7300D10425 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5FFE14EB2C8338DE00D10425 /* LongestCommonPrefix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LongestCommonPrefix.cpp; sourceTree = "<group>"; };
+		5FFE14ED2C838FF600D10425 /* summaryRanges.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = summaryRanges.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +209,10 @@
 				5F3FDC062C6EF6C800D86410 /* Unordered-set.cpp */,
 				5F47DC132C706FA4007580F7 /* README.md */,
 				5F7B93F72C7DA7990002986E /* algorithms-stl.cpp */,
+				5FB316042C8014F700762625 /* sets.cpp */,
+				5FB316062C80350300762625 /* maps.cpp */,
+				5FFE14E22C81CA6800D10425 /* DSA-multisets.cpp */,
+				5FFE14E62C82D04000D10425 /* scrap-use.cpp */,
 			);
 			path = TUF;
 			sourceTree = "<group>";
@@ -238,6 +256,11 @@
 				5F3FDBFF2C6CC4C800D86410 /* Closest-Number-To-Zero.cpp */,
 				5F3FDC012C6CC5F900D86410 /* Merge-String-Alternatively.cpp */,
 				5F47DC172C707938007580F7 /* Roman-to-Integer.cpp */,
+				5FFE14E42C81CEAB00D10425 /* is-subSequence.cpp */,
+				5FFE14E82C8316E300D10425 /* Best-Day-To-Buy-And-Sell-Stock.cpp */,
+				5FFE14EA2C831D7300D10425 /* README.md */,
+				5FFE14EB2C8338DE00D10425 /* LongestCommonPrefix.cpp */,
+				5FFE14ED2C838FF600D10425 /* summaryRanges.cpp */,
 			);
 			path = "GregHogg-AlgoMap";
 			sourceTree = "<group>";
@@ -422,7 +445,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F7B93F82C7DA79A0002986E /* algorithms-stl.cpp in Sources */,
+				5FFE14EE2C838FF600D10425 /* summaryRanges.cpp in Sources */,
+				5FFE14E32C81CA6800D10425 /* DSA-multisets.cpp in Sources */,
+				5FFE14EC2C8338DE00D10425 /* LongestCommonPrefix.cpp in Sources */,
+				5FFE14E72C82D04000D10425 /* scrap-use.cpp in Sources */,
+				5FFE14E52C81CEAB00D10425 /* is-subSequence.cpp in Sources */,
+				5FFE14E92C8316E300D10425 /* Best-Day-To-Buy-And-Sell-Stock.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

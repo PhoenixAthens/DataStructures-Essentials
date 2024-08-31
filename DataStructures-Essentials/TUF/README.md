@@ -90,3 +90,60 @@ A: In C++, the `sort` function from the Standard Template Library (STL) requires
 - If your comparison operator is not const, it won't be callable with const references, and hence, it won't work with the `sort` function. This is because `sort` works on const references to ensure that the objects themselves aren't modified during sorting, which is a fundamental requirement for correct and predictable sorting.
 
 
+---
+Q4: Why does the following code
+```C++
+#include <iostream>
+
+auto addTwoNumbers(float a, float b) -> float {
+    return a + b;
+}
+
+int main() {
+    char a = 'a';
+    char b = 'b';
+    char c = 'c';
+
+    std::cout << "Address of a: " << &a << "\n"; //a
+    std::cout << "Address of b: " << &b << "\n"; //ba
+    std::cout << "Address of c: " << &c << "\n"; //cba
+    std::cout << "Address of addTwoNumbers: " << &addTwoNumbers << "\n"; //1
+    
+    std::cout << "Address of a: " << (void *)&a << "\n"; //0x16fdfef5f
+    std::cout << "Address of b: " << (void *)&b << "\n"; //0x16fdfef5e
+    std::cout << "Address of c: " << (void *)&c << "\n"; //0x16fdfef5d
+    std::cout << "Address of addTwoNumbers: " << (void *)&addTwoNumbers << "\n"; //0x100001308
+}
+```
+print to console the output as specified via comments?
+
+A: 
+## Explanation
+1. Address Printing for Characters (`char a`, `char b`, `char c`):
+- When you print the address of a character variable directly with `std::cout << &a;`, you may not see a typical memory address (like `0x16fdfef5f`). Instead, you might see unexpected output.
+- This happens because `std::cout` interprets `&a` (a pointer to a `char`) as a C-string. It will try to print the characters starting from that memory location until it hits a null terminator (`\0`).
+- Hence, the first block of address printing (`&a`, `&b`, `&c`) produces the output that reflects the characters stored in memory in reverse order (`cba`).
+    - The reason it shows as `a`, `ba`, `cba` is because of how these characters are stored sequentially in memory. The pointer to `a` prints just `a`, the pointer to `b` prints `ba`, and the pointer to `c` prints `cba`.
+
+2. Correctly Printing Memory Addresses:
+- The next set of outputs uses `std::cout<<(void*)&a;` to explicitly cast the character pointer to `void*`. This forces `std::cout` to print the actual memory addresses in hexadecimal format.
+- Here, you'll see addresses like `0x16fdfef5f`, `0x16fdfef5e`, and `0x16fdfef5d`. These addresses decrease because the stack grows downwards (from high memory to low memory).
+
+3. Address of the Function (`addTwoNumbers`):
+- The address of the function `addTwoNumbers` is stored in a different memory segment , typically the code segment . When you print it using `&addTwoNumbers`, it's shown as a separate address (e.g., `0x100001308`).
+- The function's address does not relate to the stack addresses of the variables (`a`, `b`, `c`), which explains why it's different.
+
+## Summary
+- The first set of outputs (`"Address of a: " << &a"`, etc.) prints strings like `"a", `"ba"`, `"cba"` because `std::cout` interprets the character pointers as C-strings.
+- The second set of outputs (`"Address of a: " << (void*)&a`, etc.) correctly prints the memory addresses in hexadecimal form by casting the pointers to `void*`.
+- The address of the `addTwoNumbers` function is printed separately, showing a distinct address in the code segment.
+
+The comments in your code explain the expected output based on these behaviors:
+- `"a"`, `"ba"`, `"cba"`: Representing how characters are stored in sequence.
+- `"0x16fdfef5f"`, `"0x16fdfef5e"`, `"0x16fdfef5d"`: The actual memory addresses in the stack.
+- `"0x100001308"`: The function address in the code segment.
+
+---
+
+
+
