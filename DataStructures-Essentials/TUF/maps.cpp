@@ -5,6 +5,7 @@
 #include <numeric>
 #include <iterator>
 #include <array>
+#include <unordered_map>
 
 using std::map;
 using std::cout;
@@ -20,6 +21,13 @@ using std::binary_search;
 using std::lower_bound;
 using std::upper_bound;
 using std::multiset;
+using std::unordered_map;
+using std::multimap;
+using std::sort;
+using std::greater;
+using std::next_permutation;
+using std::max_element;
+using std::min_element;
 
 class Contact{
 private:
@@ -37,8 +45,22 @@ public :
     }
 };
 
+bool comp1(pair<int,int> p1, pair<int,int> p2){
+    if(p1.second < p2.second) return true;
+    if(p1.second > p2.second) return false;
+    if(p1.first > p2.first) return true;
+    return false;
+}
+bool comp2(pair<int,int> p1, pair<int, int> p2){
+    if(p1.second < p2.second) return false;
+    if(p1.second > p2.second) return true;
+    if(p1.first < p2.first)return true;
+    return false;
+}
+
 //the parameter to method below has to be 'const', otherwise the function wouldn't work!!
-void printer(const pair<string, string>& p){
+template <class T>
+void printer(const pair<T, T>& p){
     cout << p.first << " : " << p.second << "\n";
 }
 void printer_2(const int& a){
@@ -118,7 +140,7 @@ int main(int argc, char** argv){
     
     //using emplace to insert a value into the map
     name_ph.emplace("Gene","5419-88888");
-    for_each(name_ph.begin(),name_ph.end(),printer);
+    for_each(name_ph.begin(),name_ph.end(),printer<string>);
     /*
     AB : 9891-09001
     Adobe : 1111-99999
@@ -310,8 +332,73 @@ int main(int argc, char** argv){
     
     //multisets in C++
     //multisets are also ordered, but these can also contain duplicates, as shown below
+    multimap<int,int> mapMe;
+    mapMe.insert(make_pair(1,23));
+    mapMe.insert(make_pair(1,23));
+    mapMe.insert(make_pair(1,23));
+    mapMe.insert(make_pair(1,23));
+    mapMe.insert(make_pair(2,100));
+    mapMe.insert(make_pair(3,250));
+    for(multimap<int,int>::iterator it=mapMe.begin(); it != mapMe.end(); it++){
+        cout << it->first << " : "<<it->second << "\n";
+    }
+    /*
+     1 : 23
+     1 : 23
+     1 : 23
+     1 : 23
+     2 : 100
+     3 : 250
+     */
     
+    array<int,10> a1{1,10,67,34,56,109,11,3,0,5};
+    sort(begin(a1),end(a1));
+    sort(a1.begin(),a1.end(),greater<int>());
+    for_each(a1.begin(),a1.end(),printer_2);
+    //109 67 56 34 11 10 5 3 1 0
+    cout<<"\n";
     
+    pair<int,int> arr_of_pairs[]{{1,2},{2,1},{4,1}};
+    pair<int,int> arr_of_pairs_2[]{{1,2},{2,1},{4,1}};
+    sort(begin(arr_of_pairs),end(arr_of_pairs),comp1);
+    for_each(begin(arr_of_pairs),end(arr_of_pairs),printer<int>);
+    cout<<"\n";
+//    4 : 1
+//    2 : 1
+//    1 : 2
+    
+    sort(begin(arr_of_pairs_2),end(arr_of_pairs_2),comp2);
+    for_each(begin(arr_of_pairs_2),end(arr_of_pairs_2),printer<int>);
+    cout<<"\n";
+//    1 : 2
+//    2 : 1
+//    4 : 1
+    
+    int num = 7;
+    cout << __builtin_popcount(num) << "\n"; //3
+    
+    int num2 = 6;
+    cout << __builtin_popcount(num2) << "\n"; //2
+    
+    long num3 = 1234567;
+    cout << __builtin_popcountl(num3) << "\n"; //11
+    
+    string s = "123";
+    do{
+        cout << s <<" ";
+    }while(next_permutation(s.begin(),s.end()));
+    //123 132 213 231 312 321
+    cout <<"\n";
+    
+    s = "213";
+    do{
+        cout << s <<" ";
+    }while(next_permutation(s.begin(),s.end()));
+    //213 231 312 321
+    cout <<"\n";
+    
+    cout << *max_element(begin(a1),end(a1))<<"\n"; //109
+    cout << *min_element(begin(a1),end(a1))<<"\n"; //0
     
     return 0;
 }

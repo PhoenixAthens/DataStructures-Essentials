@@ -7,12 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FFE14E32C81CA6800D10425 /* DSA-multisets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE14E22C81CA6800D10425 /* DSA-multisets.cpp */; };
-		5FFE14E52C81CEAB00D10425 /* is-subSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE14E42C81CEAB00D10425 /* is-subSequence.cpp */; };
-		5FFE14E72C82D04000D10425 /* scrap-use.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE14E62C82D04000D10425 /* scrap-use.cpp */; };
-		5FFE14E92C8316E300D10425 /* Best-Day-To-Buy-And-Sell-Stock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE14E82C8316E300D10425 /* Best-Day-To-Buy-And-Sell-Stock.cpp */; };
-		5FFE14EC2C8338DE00D10425 /* LongestCommonPrefix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE14EB2C8338DE00D10425 /* LongestCommonPrefix.cpp */; };
-		5FFE14EE2C838FF600D10425 /* summaryRanges.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE14ED2C838FF600D10425 /* summaryRanges.cpp */; };
+		5FFA2C0D2C887665007CF158 /* Remove-Duplicates-From-Sorted-Array-II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FFA2C0C2C887665007CF158 /* Remove-Duplicates-From-Sorted-Array-II.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -128,6 +123,7 @@
 		5FEBACB72C0D86B500F361A8 /* arrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = arrays.cpp; sourceTree = "<group>"; };
 		5FEBACB92C0D8B3900F361A8 /* arrays-to-functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "arrays-to-functions.cpp"; sourceTree = "<group>"; };
 		5FEBACBB2C0D900200F361A8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5FFA2C0C2C887665007CF158 /* Remove-Duplicates-From-Sorted-Array-II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Remove-Duplicates-From-Sorted-Array-II.cpp"; sourceTree = "<group>"; };
 		5FFE14E22C81CA6800D10425 /* DSA-multisets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "DSA-multisets.cpp"; sourceTree = "<group>"; };
 		5FFE14E42C81CEAB00D10425 /* is-subSequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "is-subSequence.cpp"; sourceTree = "<group>"; };
 		5FFE14E62C82D04000D10425 /* scrap-use.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "scrap-use.cpp"; sourceTree = "<group>"; };
@@ -135,6 +131,21 @@
 		5FFE14EA2C831D7300D10425 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5FFE14EB2C8338DE00D10425 /* LongestCommonPrefix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LongestCommonPrefix.cpp; sourceTree = "<group>"; };
 		5FFE14ED2C838FF600D10425 /* summaryRanges.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = summaryRanges.cpp; sourceTree = "<group>"; };
+		5FFE14EF2C83B2B100D10425 /* removeDuplicates.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = removeDuplicates.cpp; sourceTree = "<group>"; };
+		5FFE14F12C84B4E800D10425 /* removeElement.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = removeElement.cpp; sourceTree = "<group>"; };
+		5FFE14F32C85554300D10425 /* is-const.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "is-const.cpp"; sourceTree = "<group>"; };
+		5FFE15002C8824AB00D10425 /* count-Digits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "count-Digits.cpp"; sourceTree = "<group>"; };
+		5FFE15022C88286600D10425 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5FFE15032C882C0800D10425 /* merge-sorted-arrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "merge-sorted-arrays.cpp"; sourceTree = "<group>"; };
+		5FFE15052C88320900D10425 /* Best-Day-To-Buy-And-Sell-Stock-II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Best-Day-To-Buy-And-Sell-Stock-II.cpp"; sourceTree = "<group>"; };
+		5FFE15072C883CB600D10425 /* Array-Search.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Array-Search.cpp"; sourceTree = "<group>"; };
+		5FFE15092C883F7600D10425 /* Rotate-Array-By-One.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Rotate-Array-By-One.cpp"; sourceTree = "<group>"; };
+		5FFE150B2C88406900D10425 /* Count-Digits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Count-Digits.cpp"; sourceTree = "<group>"; };
+		5FFE150D2C8844A700D10425 /* Reverse-Bits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Reverse-Bits.cpp"; sourceTree = "<group>"; };
+		5FFE150F2C8855F200D10425 /* reverse-integer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "reverse-integer.cpp"; sourceTree = "<group>"; };
+		5FFE15112C8857A100D10425 /* palindrome-number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "palindrome-number.cpp"; sourceTree = "<group>"; };
+		5FFE15132C88713400D10425 /* palindrome-number-leet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "palindrome-number-leet.cpp"; sourceTree = "<group>"; };
+		5FFE15152C88724E00D10425 /* LCM-And-GCD.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "LCM-And-GCD.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +168,11 @@
 				5FA785872C58A0A600671023 /* Kadane-Algorithm.cpp */,
 				5FA785892C59536400671023 /* test.cpp */,
 				5FA792F82C5A025000671023 /* MaximumDifference.cpp */,
+				5FFE15002C8824AB00D10425 /* count-Digits.cpp */,
+				5FFE15022C88286600D10425 /* README.md */,
+				5FFE15072C883CB600D10425 /* Array-Search.cpp */,
+				5FFE15092C883F7600D10425 /* Rotate-Array-By-One.cpp */,
+				5FFE15152C88724E00D10425 /* LCM-And-GCD.cpp */,
 			);
 			path = GFG;
 			sourceTree = "<group>";
@@ -185,6 +201,7 @@
 				5F3CD2402C5E20C1003A8187 /* pattern-printing-2.cpp */,
 				5F3CD2432C5E3ACC003A8187 /* pattern-printing-3.cpp */,
 				5F64A18C2C6A309100C7770B /* pattern-printing-4.cpp */,
+				5FFE14F32C85554300D10425 /* is-const.cpp */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -221,6 +238,9 @@
 			isa = PBXGroup;
 			children = (
 				5F47DC152C7071D9007580F7 /* Set-Matrix-Zeros.cpp */,
+				5FFE150B2C88406900D10425 /* Count-Digits.cpp */,
+				5FFE150D2C8844A700D10425 /* Reverse-Bits.cpp */,
+				5FFE15112C8857A100D10425 /* palindrome-number.cpp */,
 			);
 			path = "Coding-Ninjas";
 			sourceTree = "<group>";
@@ -261,6 +281,11 @@
 				5FFE14EA2C831D7300D10425 /* README.md */,
 				5FFE14EB2C8338DE00D10425 /* LongestCommonPrefix.cpp */,
 				5FFE14ED2C838FF600D10425 /* summaryRanges.cpp */,
+				5FFE14EF2C83B2B100D10425 /* removeDuplicates.cpp */,
+				5FFE14F12C84B4E800D10425 /* removeElement.cpp */,
+				5FFE15032C882C0800D10425 /* merge-sorted-arrays.cpp */,
+				5FFE15052C88320900D10425 /* Best-Day-To-Buy-And-Sell-Stock-II.cpp */,
+				5FFA2C0C2C887665007CF158 /* Remove-Duplicates-From-Sorted-Array-II.cpp */,
 			);
 			path = "GregHogg-AlgoMap";
 			sourceTree = "<group>";
@@ -276,6 +301,8 @@
 				5FA785512C5272B500671023 /* Kth-Symbol-in-Grammar.cpp */,
 				5FA785852C58978100671023 /* Find-Peek-Element.cpp */,
 				5FE4D7022C7893F200049C30 /* UniquePaths.cpp */,
+				5FFE150F2C8855F200D10425 /* reverse-integer.cpp */,
+				5FFE15132C88713400D10425 /* palindrome-number-leet.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -445,12 +472,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FFE14EE2C838FF600D10425 /* summaryRanges.cpp in Sources */,
-				5FFE14E32C81CA6800D10425 /* DSA-multisets.cpp in Sources */,
-				5FFE14EC2C8338DE00D10425 /* LongestCommonPrefix.cpp in Sources */,
-				5FFE14E72C82D04000D10425 /* scrap-use.cpp in Sources */,
-				5FFE14E52C81CEAB00D10425 /* is-subSequence.cpp in Sources */,
-				5FFE14E92C8316E300D10425 /* Best-Day-To-Buy-And-Sell-Stock.cpp in Sources */,
+				5FFA2C0D2C887665007CF158 /* Remove-Duplicates-From-Sorted-Array-II.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
