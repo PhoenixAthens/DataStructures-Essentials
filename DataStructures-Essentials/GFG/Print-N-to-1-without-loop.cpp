@@ -1,8 +1,26 @@
-//
-//  Print-N-to-1-without-loop.cpp
-//  DataStructures-Essentials
-//
-//  Created by Anmol Khanna on 9/11/24.
-//
+#include <iostream>
+using std::cout;
+using std::cin;
+class Solution {
+  public:
+    void printNos(int N) {
+        if(N==0)return;
+        cout << N << " ";
+        printNos(--N);
+    }
+};
 
-#include <stdio.h>
+int main() {
+    int T;
+    cin >> T;
+
+    while (T--) {
+        int N;
+        cin >> N;
+        
+        Solution ob;
+        ob.printNos(N);
+        cout << "\n";
+    }
+    return 0;
+}

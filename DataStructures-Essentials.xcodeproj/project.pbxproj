@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FFA2C0D2C887665007CF158 /* Remove-Duplicates-From-Sorted-Array-II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FFA2C0C2C887665007CF158 /* Remove-Duplicates-From-Sorted-Array-II.cpp */; };
+		5FCB65432C982E5200A14E39 /* H-index.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FCB65422C982E5200A14E39 /* H-index.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -113,6 +113,18 @@
 		5FC5216B2C449BBB00356594 /* function-testing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "function-testing.cpp"; sourceTree = "<group>"; };
 		5FC521712C44C5A400356594 /* 2D-Array-PrefixSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2D-Array-PrefixSum.cpp"; sourceTree = "<group>"; };
 		5FC521762C44D99800356594 /* Structures.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Structures.c; sourceTree = "<group>"; };
+		5FCB65232C8F006D00A14E39 /* print-divisors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "print-divisors.cpp"; sourceTree = "<group>"; };
+		5FCB652B2C919D5A00A14E39 /* Print-1-to-N-Without-Loop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Print-1-to-N-Without-Loop.cpp"; sourceTree = "<group>"; };
+		5FCB652D2C91A0B500A14E39 /* Print-GFG-n-times.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Print-GFG-n-times.cpp"; sourceTree = "<group>"; };
+		5FCB652F2C91A27300A14E39 /* Print-N-to-1-without-loop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Print-N-to-1-without-loop.cpp"; sourceTree = "<group>"; };
+		5FCB65312C91A33F00A14E39 /* Sum-of-first-n-terms.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sum-of-first-n-terms.cpp"; sourceTree = "<group>"; };
+		5FCB65332C91A57B00A14E39 /* Find-All-factorial-numbers-less-than-or-equal-to-n.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Find-All-factorial-numbers-less-than-or-equal-to-n.cpp"; sourceTree = "<group>"; };
+		5FCB65352C91B7AF00A14E39 /* Sort-Colors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sort-Colors.cpp"; sourceTree = "<group>"; };
+		5FCB65372C91C0A800A14E39 /* Product-of-Array-Except-Self.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Product-of-Array-Except-Self.cpp"; sourceTree = "<group>"; };
+		5FCB65392C92BE0F00A14E39 /* reverse-an-array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "reverse-an-array.cpp"; sourceTree = "<group>"; };
+		5FCB653B2C92BFEB00A14E39 /* is-palindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "is-palindrome.cpp"; sourceTree = "<group>"; };
+		5FCB653D2C945F1600A14E39 /* recursion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = recursion.cpp; sourceTree = "<group>"; };
+		5FCB65422C982E5200A14E39 /* H-index.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "H-index.cpp"; sourceTree = "<group>"; };
 		5FCD09EF2C65399A00AECF75 /* K-Rotate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "K-Rotate.cpp"; sourceTree = "<group>"; };
 		5FCFB39C2C0ED2050096E02B /* binarySearch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = binarySearch.cpp; sourceTree = "<group>"; };
 		5FCFB39E2C0ED6580096E02B /* reverseArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reverseArray.cpp; sourceTree = "<group>"; };
@@ -124,6 +136,16 @@
 		5FEBACB92C0D8B3900F361A8 /* arrays-to-functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "arrays-to-functions.cpp"; sourceTree = "<group>"; };
 		5FEBACBB2C0D900200F361A8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5FFA2C0C2C887665007CF158 /* Remove-Duplicates-From-Sorted-Array-II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Remove-Duplicates-From-Sorted-Array-II.cpp"; sourceTree = "<group>"; };
+		5FFA2C0E2C888AEE007CF158 /* armstrong-number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "armstrong-number.cpp"; sourceTree = "<group>"; };
+		5FFA2C102C889CBF007CF158 /* sum-of-all-divisors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "sum-of-all-divisors.cpp"; sourceTree = "<group>"; };
+		5FFA2C122C88E3D6007CF158 /* Second-Largest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Second-Largest.cpp"; sourceTree = "<group>"; };
+		5FFA2C142C88EAFE007CF158 /* Missing-In-Array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Missing-In-Array.cpp"; sourceTree = "<group>"; };
+		5FFA2C162C88EF81007CF158 /* Third-Smallest-Element.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Third-Smallest-Element.cpp"; sourceTree = "<group>"; };
+		5FFA2C182C88F168007CF158 /* Smallest-Positive-Missing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Smallest-Positive-Missing.cpp"; sourceTree = "<group>"; };
+		5FFA2C1A2C896A06007CF158 /* Sum-of-all-divisors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sum-of-all-divisors.cpp"; sourceTree = "<group>"; };
+		5FFA2C1C2C898839007CF158 /* Check-Prime.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Check-Prime.cpp"; sourceTree = "<group>"; };
+		5FFA2C1E2C898A5B007CF158 /* Minimum-Jumps.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Minimum-Jumps.cpp"; sourceTree = "<group>"; };
+		5FFA2C202C89920B007CF158 /* Sort-Colors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sort-Colors.cpp"; sourceTree = "<group>"; };
 		5FFE14E22C81CA6800D10425 /* DSA-multisets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "DSA-multisets.cpp"; sourceTree = "<group>"; };
 		5FFE14E42C81CEAB00D10425 /* is-subSequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "is-subSequence.cpp"; sourceTree = "<group>"; };
 		5FFE14E62C82D04000D10425 /* scrap-use.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "scrap-use.cpp"; sourceTree = "<group>"; };
@@ -173,6 +195,19 @@
 				5FFE15072C883CB600D10425 /* Array-Search.cpp */,
 				5FFE15092C883F7600D10425 /* Rotate-Array-By-One.cpp */,
 				5FFE15152C88724E00D10425 /* LCM-And-GCD.cpp */,
+				5FFA2C122C88E3D6007CF158 /* Second-Largest.cpp */,
+				5FFA2C142C88EAFE007CF158 /* Missing-In-Array.cpp */,
+				5FFA2C162C88EF81007CF158 /* Third-Smallest-Element.cpp */,
+				5FFA2C182C88F168007CF158 /* Smallest-Positive-Missing.cpp */,
+				5FFA2C1A2C896A06007CF158 /* Sum-of-all-divisors.cpp */,
+				5FFA2C1E2C898A5B007CF158 /* Minimum-Jumps.cpp */,
+				5FCB652B2C919D5A00A14E39 /* Print-1-to-N-Without-Loop.cpp */,
+				5FCB652D2C91A0B500A14E39 /* Print-GFG-n-times.cpp */,
+				5FCB652F2C91A27300A14E39 /* Print-N-to-1-without-loop.cpp */,
+				5FCB65312C91A33F00A14E39 /* Sum-of-first-n-terms.cpp */,
+				5FCB65332C91A57B00A14E39 /* Find-All-factorial-numbers-less-than-or-equal-to-n.cpp */,
+				5FCB65392C92BE0F00A14E39 /* reverse-an-array.cpp */,
+				5FCB653B2C92BFEB00A14E39 /* is-palindrome.cpp */,
 			);
 			path = GFG;
 			sourceTree = "<group>";
@@ -230,6 +265,7 @@
 				5FB316062C80350300762625 /* maps.cpp */,
 				5FFE14E22C81CA6800D10425 /* DSA-multisets.cpp */,
 				5FFE14E62C82D04000D10425 /* scrap-use.cpp */,
+				5FCB653D2C945F1600A14E39 /* recursion.cpp */,
 			);
 			path = TUF;
 			sourceTree = "<group>";
@@ -241,6 +277,10 @@
 				5FFE150B2C88406900D10425 /* Count-Digits.cpp */,
 				5FFE150D2C8844A700D10425 /* Reverse-Bits.cpp */,
 				5FFE15112C8857A100D10425 /* palindrome-number.cpp */,
+				5FFA2C0E2C888AEE007CF158 /* armstrong-number.cpp */,
+				5FFA2C102C889CBF007CF158 /* sum-of-all-divisors.cpp */,
+				5FFA2C1C2C898839007CF158 /* Check-Prime.cpp */,
+				5FCB65232C8F006D00A14E39 /* print-divisors.cpp */,
 			);
 			path = "Coding-Ninjas";
 			sourceTree = "<group>";
@@ -266,6 +306,7 @@
 			children = (
 				5F64A18A2C69D9EE00C7770B /* Dynamic-Arrays.cpp */,
 				5F64A19C2C6C6DFD00C7770B /* Singly-Linked-List.cpp */,
+				5FCB65352C91B7AF00A14E39 /* Sort-Colors.cpp */,
 			);
 			path = NeetCode;
 			sourceTree = "<group>";
@@ -286,6 +327,8 @@
 				5FFE15032C882C0800D10425 /* merge-sorted-arrays.cpp */,
 				5FFE15052C88320900D10425 /* Best-Day-To-Buy-And-Sell-Stock-II.cpp */,
 				5FFA2C0C2C887665007CF158 /* Remove-Duplicates-From-Sorted-Array-II.cpp */,
+				5FFA2C202C89920B007CF158 /* Sort-Colors.cpp */,
+				5FCB65372C91C0A800A14E39 /* Product-of-Array-Except-Self.cpp */,
 			);
 			path = "GregHogg-AlgoMap";
 			sourceTree = "<group>";
@@ -303,6 +346,7 @@
 				5FE4D7022C7893F200049C30 /* UniquePaths.cpp */,
 				5FFE150F2C8855F200D10425 /* reverse-integer.cpp */,
 				5FFE15132C88713400D10425 /* palindrome-number-leet.cpp */,
+				5FCB65422C982E5200A14E39 /* H-index.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -472,7 +516,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FFA2C0D2C887665007CF158 /* Remove-Duplicates-From-Sorted-Array-II.cpp in Sources */,
+				5FCB65432C982E5200A14E39 /* H-index.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,8 +1,32 @@
-//
-//  Sum-of-all-divisors.cpp
-//  DataStructures-Essentials
-//
-//  Created by Anmol Khanna on 9/5/24.
-//
+#include <iostream>
+using std::cout;
+using std::cin;
+using std::endl;
 
-#include <stdio.h>
+class Solution
+{
+public:
+    long long sumOfDivisors(int N){
+        long long sum{0};
+        for(int i=1; i<=N; i++){
+            sum += i*(N/i);
+        }
+        return sum;
+    }
+};
+
+
+int main()
+{
+    int t;
+    cin >> t;
+    while (t--)
+    {
+        int N;
+        cin>>N;
+        Solution ob;
+        long long ans  = ob.sumOfDivisors(N);
+        cout<<ans<<endl;
+    }
+    return 0;
+}

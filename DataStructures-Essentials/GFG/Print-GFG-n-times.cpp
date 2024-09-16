@@ -1,8 +1,31 @@
-//
-//  Print-GFG-n-times.cpp
-//  DataStructures-Essentials
-//
-//  Created by Anmol Khanna on 9/11/24.
-//
+#include <iostream>
+using std::cout;
+using std::cin;
 
-#include <stdio.h>
+class Solution {
+private:
+    int start {1};
+public:
+    void printGfg(int N) {
+        if(start>N)return;
+        cout << "GFG" << " ";
+        start++;
+        printGfg(N);
+    }
+};
+
+int main() {
+    int T;
+
+    cin >> T;
+
+    while (T--) {
+        int N;
+
+        cin >> N;
+        Solution ob;
+        ob.printGfg(N);
+        cout << "\n";
+    }
+    return 0;
+}
