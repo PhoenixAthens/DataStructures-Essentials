@@ -37,6 +37,41 @@ public:
         }
         return ans;
     }
+    //O(n^2) complexity-approach
+    int hIndex_3(vector<int> citations){
+        int n = citations.size();
+        for(int i=1;i<=n;i++){
+            int count = 0;
+            for(int j=0; j<n;j++){
+                if(citations[j]>=i)count++;
+                if(count==i)break;
+            }
+            if(count<i)
+                return i-1;
+        }
+        return 0;
+    }
+    //Counting the papers with maximum number of citations
+    int hIndex_4(vector<int> citations){
+        int number_of_papers = citations.size();
+        int paper_citations[number_of_papers + 1];
+        for(int& i: paper_citations)i=0;
+        for(int i: citations){
+            if(i>number_of_papers){
+                paper_citations[number_of_papers]++;
+            }else{
+                paper_citations[i]++;
+            }
+        }
+        int cites = 0;
+        for(int i=number_of_papers;i>0;i--){
+            cites+=paper_citations[i];
+            if(cites>i){
+                return i;
+            }
+        }
+        return 0;
+    }
 };
 int main(int argc, char** argv){
     Solution s;
@@ -47,4 +82,9 @@ int main(int argc, char** argv){
     
     cout << s.hIndex_2(mainVec) << "\n";
     cout << s.hIndex_2(mainVec2) << "\n";
+    
+    cout << s.hIndex_3(mainVec) << "\n";
+    cout << s.hIndex_3(mainVec2) << "\n";
+    
+    
 }

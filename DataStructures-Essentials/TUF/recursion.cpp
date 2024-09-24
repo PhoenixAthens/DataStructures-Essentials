@@ -103,7 +103,7 @@ void printAllSubArrays(int index, vector<int> mainArrays, vector<int> emptArr){
     }
     emptArr.push_back(mainArrays[index]);
     printAllSubArrays(index+1, mainArrays, emptArr);
-    
+    emptArr.pop_back();
     printAllSubArrays(index+1, mainArrays, emptArr);
 }
 
@@ -138,6 +138,11 @@ int main(int argc, char** argv){
     cout<<"\n";
     for(int i: v4)cout<<i<<" ";
     cout<<"\n";
+    
+    //printing all sub-sequences (test-run)
+    vector<int> mainArr {3,1,2};
+    vector<int> emptArr ;
+    printAllSubArrays(0,mainArr,emptArr);
     
     return 0;
 }
