@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FCB65432C982E5200A14E39 /* H-index.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FCB65422C982E5200A14E39 /* H-index.cpp */; };
+		5F7A3CF82CB36F32006E81FD /* Selection-Sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F7A3CF72CB36F32006E81FD /* Selection-Sort.cpp */; };
+		5F7A3CFA2CB3BCCA006E81FD /* Maximum-Number-Of-Balloons.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F7A3CF92CB3BCCA006E81FD /* Maximum-Number-Of-Balloons.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -64,6 +65,14 @@
 		5F6B6BB92C459AA40094DDE4 /* Squares-of-sorted-array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Squares-of-sorted-array.cpp"; sourceTree = "<group>"; };
 		5F6B6BBC2C4619140094DDE4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5F6FE0F12C636B740052BDED /* ClosestSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ClosestSum.cpp; sourceTree = "<group>"; };
+		5F7A3CE92CB10EB2006E81FD /* lose-it-III.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "lose-it-III.cpp"; sourceTree = "<group>"; };
+		5F7A3CEB2CB138CE006E81FD /* Make-Sum-Divisble-By-P-II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Make-Sum-Divisble-By-P-II.cpp"; sourceTree = "<group>"; };
+		5F7A3CED2CB19C59006E81FD /* Dividie-Players-Into-Teams-Of-Equal-Size.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Dividie-Players-Into-Teams-Of-Equal-Size.cpp"; sourceTree = "<group>"; };
+		5F7A3CEF2CB1AA0B006E81FD /* Dividie-Players-Into-Teams-Of-Equal-Size-II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Dividie-Players-Into-Teams-Of-Equal-Size-II.cpp"; sourceTree = "<group>"; };
+		5F7A3CF12CB24935006E81FD /* Frequency-Of-Limited-Range-Array-Elements.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Frequency-Of-Limited-Range-Array-Elements.cpp"; sourceTree = "<group>"; };
+		5F7A3CF52CB36731006E81FD /* Valid-Anagrams.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Valid-Anagrams.cpp"; sourceTree = "<group>"; };
+		5F7A3CF72CB36F32006E81FD /* Selection-Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Selection-Sort.cpp"; sourceTree = "<group>"; };
+		5F7A3CF92CB3BCCA006E81FD /* Maximum-Number-Of-Balloons.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Maximum-Number-Of-Balloons.cpp"; sourceTree = "<group>"; };
 		5F7B93F72C7DA7990002986E /* algorithms-stl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "algorithms-stl.cpp"; sourceTree = "<group>"; };
 		5F7E4E8D2C4663D100A634F9 /* Subarray-Sums-Divisible-by-K.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Subarray-Sums-Divisible-by-K.cpp"; sourceTree = "<group>"; };
 		5F7E4E902C478B3200A634F9 /* pointers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pointers.cpp; sourceTree = "<group>"; };
@@ -91,6 +100,45 @@
 		5FAA983F2C5CC08F00C8817D /* Pattern-Printing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Pattern-Printing.cpp"; sourceTree = "<group>"; };
 		5FB316042C8014F700762625 /* sets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sets.cpp; sourceTree = "<group>"; };
 		5FB316062C80350300762625 /* maps.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = maps.cpp; sourceTree = "<group>"; };
+		5FB3FB812C9D2EBB002D742B /* Shortest-Palindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Shortest-Palindrome.cpp"; sourceTree = "<group>"; };
+		5FB3FB8A2CA13EF7002D742B /* ExtraCharactersInString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ExtraCharactersInString.cpp; sourceTree = "<group>"; };
+		5FB3FB8D2CA27521002D742B /* LongestCommonPrefix_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LongestCommonPrefix_1.cpp; sourceTree = "<group>"; };
+		5FB3FB8F2CA27DF1002D742B /* LongestCommonPrefix_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LongestCommonPrefix_2.cpp; sourceTree = "<group>"; };
+		5FB3FB912CA2969A002D742B /* SubSequencesWithSumK.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SubSequencesWithSumK.cpp; sourceTree = "<group>"; };
+		5FB3FB932CA2CE0C002D742B /* learning-about-nullptr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "learning-about-nullptr.cpp"; sourceTree = "<group>"; };
+		5FB3FB952CA46601002D742B /* Sum-Of-Prefix-Scores-Of-Strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sum-Of-Prefix-Scores-Of-Strings.cpp"; sourceTree = "<group>"; };
+		5FB3FB972CA683A5002D742B /* Sum-Of-Prefix-Scores-Of-Strings-II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sum-Of-Prefix-Scores-Of-Strings-II.cpp"; sourceTree = "<group>"; };
+		5FB3FB992CA69484002D742B /* My-Calender-I.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "My-Calender-I.cpp"; sourceTree = "<group>"; };
+		5FB3FB9B2CA6D4BB002D742B /* test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
+		5FB3FB9E2CA71E3B002D742B /* My-Calender-I-II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "My-Calender-I-II.cpp"; sourceTree = "<group>"; };
+		5FB3FBA02CA7E50B002D742B /* My-Calender-II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "My-Calender-II.cpp"; sourceTree = "<group>"; };
+		5FB3FBA22CA7E890002D742B /* Design-Circular-Deque.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Design-Circular-Deque.cpp"; sourceTree = "<group>"; };
+		5FB3FBA42CA83AAB002D742B /* Spiral-Matrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Spiral-Matrix.cpp"; sourceTree = "<group>"; };
+		5FB3FBA62CA8FF05002D742B /* All-O-One-DS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "All-O-One-DS.cpp"; sourceTree = "<group>"; };
+		5FB3FBA82CA9606B002D742B /* All-O-One-DS-II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "All-O-One-DS-II.cpp"; sourceTree = "<group>"; };
+		5FB3FBAA2CA9D4C2002D742B /* Spiral-Matrix-II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Spiral-Matrix-II.cpp"; sourceTree = "<group>"; };
+		5FB3FBAC2CAA6600002D742B /* Design-A-Stack-With-Increment-Operation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Design-A-Stack-With-Increment-Operation.cpp"; sourceTree = "<group>"; };
+		5FB3FBAE2CAA6AD7002D742B /* Design-A-Stack-With-Increment-Operation-II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Design-A-Stack-With-Increment-Operation-II.cpp"; sourceTree = "<group>"; };
+		5FB3FBB02CAA6F62002D742B /* Design-A-Stack-With-Increment-Operation-III.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Design-A-Stack-With-Increment-Operation-III.cpp"; sourceTree = "<group>"; };
+		5FB3FBB22CAA90E4002D742B /* SubArrays-with-Sum-K.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "SubArrays-with-Sum-K.cpp"; sourceTree = "<group>"; };
+		5FB3FBB42CAABBAF002D742B /* Zig-Zag-Conversion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Zig-Zag-Conversion.cpp"; sourceTree = "<group>"; };
+		5FB3FBB62CAB91AC002D742B /* Check-If-Array-Pairs-Are-Divisible-By-K.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Check-If-Array-Pairs-Are-Divisible-By-K.cpp"; sourceTree = "<group>"; };
+		5FB3FBBA2CAE8ADD002D742B /* Car-Trip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Car-Trip.cpp"; sourceTree = "<group>"; };
+		5FB3FBBE2CAE904A002D742B /* Divide-It.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Divide-It.cpp"; sourceTree = "<group>"; };
+		5FB3FBC02CAEA315002D742B /* ZigZagConversion-II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ZigZagConversion-II.cpp"; sourceTree = "<group>"; };
+		5FB3FBC22CAEAC73002D742B /* Rotate-Image.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Rotate-Image.cpp"; sourceTree = "<group>"; };
+		5FB3FBC42CAEB0EF002D742B /* ZigZag-Conversion-III.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ZigZag-Conversion-III.cpp"; sourceTree = "<group>"; };
+		5FB3FBC62CAEB527002D742B /* ZigZag-Conversion-IV.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ZigZag-Conversion-IV.cpp"; sourceTree = "<group>"; };
+		5FB3FBC82CAEF926002D742B /* Rank-Transform-Of-An-Array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Rank-Transform-Of-An-Array.cpp"; sourceTree = "<group>"; };
+		5FB3FBCB2CAFC493002D742B /* Check-If-Array-Pairs-Divisible-By-K.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Check-If-Array-Pairs-Divisible-By-K.cpp"; sourceTree = "<group>"; };
+		5FB3FBCD2CAFC991002D742B /* Check-If-Array-Pairs-Divisible-By-K-III.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Check-If-Array-Pairs-Divisible-By-K-III.cpp"; sourceTree = "<group>"; };
+		5FB3FBCF2CAFCF2B002D742B /* Jewels-And-Stones.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Jewels-And-Stones.cpp"; sourceTree = "<group>"; };
+		5FB3FBD12CAFEB3F002D742B /* Contains-Duplicates.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Contains-Duplicates.cpp"; sourceTree = "<group>"; };
+		5FB3FBD32CB0375F002D742B /* MakeSumDivisibleByP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MakeSumDivisibleByP.cpp; sourceTree = "<group>"; };
+		5FB3FBD52CB0416D002D742B /* RansonNote.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RansonNote.cpp; sourceTree = "<group>"; };
+		5FB3FBD72CB04CD0002D742B /* MergeIt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeIt.cpp; sourceTree = "<group>"; };
+		5FB3FBD92CB0F2A4002D742B /* Lose-It.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Lose-It.cpp"; sourceTree = "<group>"; };
+		5FB3FBDB2CB0FF3A002D742B /* Lose-It-II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Lose-It-II.cpp"; sourceTree = "<group>"; };
 		5FC521082C3A846800356594 /* Most-Common-Character-SubString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Most-Common-Character-SubString.cpp"; sourceTree = "<group>"; };
 		5FC5210A2C3BF6E600356594 /* reverse-a-string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "reverse-a-string.cpp"; sourceTree = "<group>"; };
 		5FC5210C2C3C004000356594 /* library-functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "library-functions.cpp"; sourceTree = "<group>"; };
@@ -125,6 +173,9 @@
 		5FCB653B2C92BFEB00A14E39 /* is-palindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "is-palindrome.cpp"; sourceTree = "<group>"; };
 		5FCB653D2C945F1600A14E39 /* recursion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = recursion.cpp; sourceTree = "<group>"; };
 		5FCB65422C982E5200A14E39 /* H-index.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "H-index.cpp"; sourceTree = "<group>"; };
+		5FCB65442C98569000A14E39 /* Minimum-Time-Difference.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Minimum-Time-Difference.cpp"; sourceTree = "<group>"; };
+		5FCB65472C9871D500A14E39 /* Merge-Intervals.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Merge-Intervals.cpp"; sourceTree = "<group>"; };
+		5FCB65492C99C0EE00A14E39 /* Uncommon-Words-From-Two-Sentences.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Uncommon-Words-From-Two-Sentences.cpp"; sourceTree = "<group>"; };
 		5FCD09EF2C65399A00AECF75 /* K-Rotate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "K-Rotate.cpp"; sourceTree = "<group>"; };
 		5FCFB39C2C0ED2050096E02B /* binarySearch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = binarySearch.cpp; sourceTree = "<group>"; };
 		5FCFB39E2C0ED6580096E02B /* reverseArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reverseArray.cpp; sourceTree = "<group>"; };
@@ -208,6 +259,7 @@
 				5FCB65332C91A57B00A14E39 /* Find-All-factorial-numbers-less-than-or-equal-to-n.cpp */,
 				5FCB65392C92BE0F00A14E39 /* reverse-an-array.cpp */,
 				5FCB653B2C92BFEB00A14E39 /* is-palindrome.cpp */,
+				5F7A3CF12CB24935006E81FD /* Frequency-Of-Limited-Range-Array-Elements.cpp */,
 			);
 			path = GFG;
 			sourceTree = "<group>";
@@ -237,6 +289,8 @@
 				5F3CD2432C5E3ACC003A8187 /* pattern-printing-3.cpp */,
 				5F64A18C2C6A309100C7770B /* pattern-printing-4.cpp */,
 				5FFE14F32C85554300D10425 /* is-const.cpp */,
+				5FB3FB932CA2CE0C002D742B /* learning-about-nullptr.cpp */,
+				5F7A3CF72CB36F32006E81FD /* Selection-Sort.cpp */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -266,6 +320,8 @@
 				5FFE14E22C81CA6800D10425 /* DSA-multisets.cpp */,
 				5FFE14E62C82D04000D10425 /* scrap-use.cpp */,
 				5FCB653D2C945F1600A14E39 /* recursion.cpp */,
+				5FB3FB912CA2969A002D742B /* SubSequencesWithSumK.cpp */,
+				5FB3FBB22CAA90E4002D742B /* SubArrays-with-Sum-K.cpp */,
 			);
 			path = TUF;
 			sourceTree = "<group>";
@@ -329,6 +385,18 @@
 				5FFA2C0C2C887665007CF158 /* Remove-Duplicates-From-Sorted-Array-II.cpp */,
 				5FFA2C202C89920B007CF158 /* Sort-Colors.cpp */,
 				5FCB65372C91C0A800A14E39 /* Product-of-Array-Except-Self.cpp */,
+				5FB3FBA42CA83AAB002D742B /* Spiral-Matrix.cpp */,
+				5FB3FBAA2CA9D4C2002D742B /* Spiral-Matrix-II.cpp */,
+				5FB3FBB42CAABBAF002D742B /* Zig-Zag-Conversion.cpp */,
+				5FB3FBC02CAEA315002D742B /* ZigZagConversion-II.cpp */,
+				5FB3FBC22CAEAC73002D742B /* Rotate-Image.cpp */,
+				5FB3FBC42CAEB0EF002D742B /* ZigZag-Conversion-III.cpp */,
+				5FB3FBC62CAEB527002D742B /* ZigZag-Conversion-IV.cpp */,
+				5FB3FBCF2CAFCF2B002D742B /* Jewels-And-Stones.cpp */,
+				5FB3FBD12CAFEB3F002D742B /* Contains-Duplicates.cpp */,
+				5FB3FBD52CB0416D002D742B /* RansonNote.cpp */,
+				5F7A3CF52CB36731006E81FD /* Valid-Anagrams.cpp */,
+				5F7A3CF92CB3BCCA006E81FD /* Maximum-Number-Of-Balloons.cpp */,
 			);
 			path = "GregHogg-AlgoMap";
 			sourceTree = "<group>";
@@ -347,8 +415,70 @@
 				5FFE150F2C8855F200D10425 /* reverse-integer.cpp */,
 				5FFE15132C88713400D10425 /* palindrome-number-leet.cpp */,
 				5FCB65422C982E5200A14E39 /* H-index.cpp */,
+				5FCB65442C98569000A14E39 /* Minimum-Time-Difference.cpp */,
+				5FCB65472C9871D500A14E39 /* Merge-Intervals.cpp */,
+				5FCB65492C99C0EE00A14E39 /* Uncommon-Words-From-Two-Sentences.cpp */,
+				5FB3FB812C9D2EBB002D742B /* Shortest-Palindrome.cpp */,
+				5FB3FB8A2CA13EF7002D742B /* ExtraCharactersInString.cpp */,
+				5FB3FB8D2CA27521002D742B /* LongestCommonPrefix_1.cpp */,
+				5FB3FB8F2CA27DF1002D742B /* LongestCommonPrefix_2.cpp */,
+				5FB3FB952CA46601002D742B /* Sum-Of-Prefix-Scores-Of-Strings.cpp */,
+				5FB3FB972CA683A5002D742B /* Sum-Of-Prefix-Scores-Of-Strings-II.cpp */,
+				5FB3FB992CA69484002D742B /* My-Calender-I.cpp */,
+				5FB3FB9E2CA71E3B002D742B /* My-Calender-I-II.cpp */,
+				5FB3FBA02CA7E50B002D742B /* My-Calender-II.cpp */,
+				5FB3FBA22CA7E890002D742B /* Design-Circular-Deque.cpp */,
+				5FB3FBA62CA8FF05002D742B /* All-O-One-DS.cpp */,
+				5FB3FBA82CA9606B002D742B /* All-O-One-DS-II.cpp */,
+				5FB3FBAC2CAA6600002D742B /* Design-A-Stack-With-Increment-Operation.cpp */,
+				5FB3FBAE2CAA6AD7002D742B /* Design-A-Stack-With-Increment-Operation-II.cpp */,
+				5FB3FBB02CAA6F62002D742B /* Design-A-Stack-With-Increment-Operation-III.cpp */,
+				5FB3FBB62CAB91AC002D742B /* Check-If-Array-Pairs-Are-Divisible-By-K.cpp */,
+				5FB3FBC82CAEF926002D742B /* Rank-Transform-Of-An-Array.cpp */,
+				5FB3FBCB2CAFC493002D742B /* Check-If-Array-Pairs-Divisible-By-K.cpp */,
+				5FB3FBCD2CAFC991002D742B /* Check-If-Array-Pairs-Divisible-By-K-III.cpp */,
+				5FB3FBD32CB0375F002D742B /* MakeSumDivisibleByP.cpp */,
+				5F7A3CEB2CB138CE006E81FD /* Make-Sum-Divisble-By-P-II.cpp */,
+				5F7A3CED2CB19C59006E81FD /* Dividie-Players-Into-Teams-Of-Equal-Size.cpp */,
+				5F7A3CEF2CB1AA0B006E81FD /* Dividie-Players-Into-Teams-Of-Equal-Size-II.cpp */,
 			);
 			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		5FB3FB832C9D4E28002D742B /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				5FB3FB9B2CA6D4BB002D742B /* test.cpp */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		5FB3FBB92CAE8AC8002D742B /* CodeChef */ = {
+			isa = PBXGroup;
+			children = (
+				5FB3FBBA2CAE8ADD002D742B /* Car-Trip.cpp */,
+			);
+			path = CodeChef;
+			sourceTree = "<group>";
+		};
+		5FB3FBBC2CAE902C002D742B /* Virtual-Judge */ = {
+			isa = PBXGroup;
+			children = (
+				5FB3FBBD2CAE903C002D742B /* Contests */,
+			);
+			path = "Virtual-Judge";
+			sourceTree = "<group>";
+		};
+		5FB3FBBD2CAE903C002D742B /* Contests */ = {
+			isa = PBXGroup;
+			children = (
+				5FB3FBBE2CAE904A002D742B /* Divide-It.cpp */,
+				5FB3FBD72CB04CD0002D742B /* MergeIt.cpp */,
+				5FB3FBD92CB0F2A4002D742B /* Lose-It.cpp */,
+				5FB3FBDB2CB0FF3A002D742B /* Lose-It-II.cpp */,
+				5F7A3CE92CB10EB2006E81FD /* lose-it-III.cpp */,
+			);
+			path = Contests;
 			sourceTree = "<group>";
 		};
 		5FC521292C3E2FAA00356594 /* C-Basics */ = {
@@ -417,6 +547,9 @@
 		5FEBAC7E2C0D821200F361A8 /* DataStructures-Essentials */ = {
 			isa = PBXGroup;
 			children = (
+				5FB3FBBC2CAE902C002D742B /* Virtual-Judge */,
+				5FB3FBB92CAE8AC8002D742B /* CodeChef */,
+				5FB3FB832C9D4E28002D742B /* Test */,
 				5F47DC192C70A94E007580F7 /* Mark-Allen-Weiss */,
 				5F47DC142C7071C4007580F7 /* Coding-Ninjas */,
 				5F3FDC052C6EF6AF00D86410 /* TUF */,
@@ -516,7 +649,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FCB65432C982E5200A14E39 /* H-index.cpp in Sources */,
+				5F7A3CFA2CB3BCCA006E81FD /* Maximum-Number-Of-Balloons.cpp in Sources */,
+				5F7A3CF82CB36F32006E81FD /* Selection-Sort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
