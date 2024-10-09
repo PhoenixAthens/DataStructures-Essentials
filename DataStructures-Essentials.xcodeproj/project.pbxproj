@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		5F7A3CF82CB36F32006E81FD /* Selection-Sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F7A3CF72CB36F32006E81FD /* Selection-Sort.cpp */; };
 		5F7A3CFA2CB3BCCA006E81FD /* Maximum-Number-Of-Balloons.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F7A3CF92CB3BCCA006E81FD /* Maximum-Number-Of-Balloons.cpp */; };
+		5F7A3CFC2CB3D2EE006E81FD /* Frequency-Of-The-Most-Frequent-Element.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F7A3CFB2CB3D2EE006E81FD /* Frequency-Of-The-Most-Frequent-Element.cpp */; };
+		5F7A3CFE2CB3F910006E81FD /* Frequency-Of-The-Most-Frequent-Element-II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F7A3CFD2CB3F910006E81FD /* Frequency-Of-The-Most-Frequent-Element-II.cpp */; };
+		5F7A3D002CB3FBAD006E81FD /* Two-Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F7A3CFF2CB3FBAD006E81FD /* Two-Sum.cpp */; };
+		5F7A3D022CB3FE0D006E81FD /* Two-Sum-II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F7A3D012CB3FE0D006E81FD /* Two-Sum-II.cpp */; };
+		5F7A3D042CB6C7BB006E81FD /* Valid-Sudoku.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F7A3D032CB6C7BB006E81FD /* Valid-Sudoku.cpp */; };
+		5F7A3D062CB6DF75006E81FD /* Frequency-Of-Most-Frequent-Element-III.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F7A3D052CB6DF75006E81FD /* Frequency-Of-Most-Frequent-Element-III.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -73,6 +79,12 @@
 		5F7A3CF52CB36731006E81FD /* Valid-Anagrams.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Valid-Anagrams.cpp"; sourceTree = "<group>"; };
 		5F7A3CF72CB36F32006E81FD /* Selection-Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Selection-Sort.cpp"; sourceTree = "<group>"; };
 		5F7A3CF92CB3BCCA006E81FD /* Maximum-Number-Of-Balloons.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Maximum-Number-Of-Balloons.cpp"; sourceTree = "<group>"; };
+		5F7A3CFB2CB3D2EE006E81FD /* Frequency-Of-The-Most-Frequent-Element.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Frequency-Of-The-Most-Frequent-Element.cpp"; sourceTree = "<group>"; };
+		5F7A3CFD2CB3F910006E81FD /* Frequency-Of-The-Most-Frequent-Element-II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Frequency-Of-The-Most-Frequent-Element-II.cpp"; sourceTree = "<group>"; };
+		5F7A3CFF2CB3FBAD006E81FD /* Two-Sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Two-Sum.cpp"; sourceTree = "<group>"; };
+		5F7A3D012CB3FE0D006E81FD /* Two-Sum-II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Two-Sum-II.cpp"; sourceTree = "<group>"; };
+		5F7A3D032CB6C7BB006E81FD /* Valid-Sudoku.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Valid-Sudoku.cpp"; sourceTree = "<group>"; };
+		5F7A3D052CB6DF75006E81FD /* Frequency-Of-Most-Frequent-Element-III.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Frequency-Of-Most-Frequent-Element-III.cpp"; sourceTree = "<group>"; };
 		5F7B93F72C7DA7990002986E /* algorithms-stl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "algorithms-stl.cpp"; sourceTree = "<group>"; };
 		5F7E4E8D2C4663D100A634F9 /* Subarray-Sums-Divisible-by-K.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Subarray-Sums-Divisible-by-K.cpp"; sourceTree = "<group>"; };
 		5F7E4E902C478B3200A634F9 /* pointers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pointers.cpp; sourceTree = "<group>"; };
@@ -322,6 +334,9 @@
 				5FCB653D2C945F1600A14E39 /* recursion.cpp */,
 				5FB3FB912CA2969A002D742B /* SubSequencesWithSumK.cpp */,
 				5FB3FBB22CAA90E4002D742B /* SubArrays-with-Sum-K.cpp */,
+				5F7A3CFB2CB3D2EE006E81FD /* Frequency-Of-The-Most-Frequent-Element.cpp */,
+				5F7A3CFD2CB3F910006E81FD /* Frequency-Of-The-Most-Frequent-Element-II.cpp */,
+				5F7A3D052CB6DF75006E81FD /* Frequency-Of-Most-Frequent-Element-III.cpp */,
 			);
 			path = TUF;
 			sourceTree = "<group>";
@@ -397,6 +412,9 @@
 				5FB3FBD52CB0416D002D742B /* RansonNote.cpp */,
 				5F7A3CF52CB36731006E81FD /* Valid-Anagrams.cpp */,
 				5F7A3CF92CB3BCCA006E81FD /* Maximum-Number-Of-Balloons.cpp */,
+				5F7A3CFF2CB3FBAD006E81FD /* Two-Sum.cpp */,
+				5F7A3D012CB3FE0D006E81FD /* Two-Sum-II.cpp */,
+				5F7A3D032CB6C7BB006E81FD /* Valid-Sudoku.cpp */,
 			);
 			path = "GregHogg-AlgoMap";
 			sourceTree = "<group>";
@@ -649,8 +667,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F7A3D002CB3FBAD006E81FD /* Two-Sum.cpp in Sources */,
+				5F7A3D062CB6DF75006E81FD /* Frequency-Of-Most-Frequent-Element-III.cpp in Sources */,
+				5F7A3D042CB6C7BB006E81FD /* Valid-Sudoku.cpp in Sources */,
 				5F7A3CFA2CB3BCCA006E81FD /* Maximum-Number-Of-Balloons.cpp in Sources */,
+				5F7A3D022CB3FE0D006E81FD /* Two-Sum-II.cpp in Sources */,
+				5F7A3CFE2CB3F910006E81FD /* Frequency-Of-The-Most-Frequent-Element-II.cpp in Sources */,
 				5F7A3CF82CB36F32006E81FD /* Selection-Sort.cpp in Sources */,
+				5F7A3CFC2CB3D2EE006E81FD /* Frequency-Of-The-Most-Frequent-Element.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
