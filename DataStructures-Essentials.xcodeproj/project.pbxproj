@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F8743442CBFF51300EA7642 /* Longest-Happy-String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8743432CBFF51300EA7642 /* Longest-Happy-String.cpp */; };
+		5F02AE872CC0E50D0056D786 /* Merge-Sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AE862CC0E50D0056D786 /* Merge-Sort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5F02AE842CC0D6C00056D786 /* Group-Anagrams-III.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Group-Anagrams-III.cpp"; sourceTree = "<group>"; };
+		5F02AE862CC0E50D0056D786 /* Merge-Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Merge-Sort.cpp"; sourceTree = "<group>"; };
 		5F0A128D2CB7CAE300394595 /* Selection-Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Selection-Sort.cpp"; sourceTree = "<group>"; };
 		5F0A128F2CB7E5CC00394595 /* Selection-Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Selection-Sort.cpp"; sourceTree = "<group>"; };
 		5F0A12912CB7EA9200394595 /* Group-Anagrams.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Group-Anagrams.cpp"; sourceTree = "<group>"; };
@@ -352,6 +354,7 @@
 				5F7A3D052CB6DF75006E81FD /* Frequency-Of-Most-Frequent-Element-III.cpp */,
 				5F0A128D2CB7CAE300394595 /* Selection-Sort.cpp */,
 				5F0A12932CB80C3200394595 /* Bubble-Sort.cpp */,
+				5F02AE862CC0E50D0056D786 /* Merge-Sort.cpp */,
 			);
 			path = TUF;
 			sourceTree = "<group>";
@@ -432,6 +435,7 @@
 				5F7A3D032CB6C7BB006E81FD /* Valid-Sudoku.cpp */,
 				5F0A12912CB7EA9200394595 /* Group-Anagrams.cpp */,
 				5F0A12952CB8118100394595 /* Group-Anagrams-II.cpp */,
+				5F02AE842CC0D6C00056D786 /* Group-Anagrams-III.cpp */,
 			);
 			path = "GregHogg-AlgoMap";
 			sourceTree = "<group>";
@@ -686,7 +690,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F8743442CBFF51300EA7642 /* Longest-Happy-String.cpp in Sources */,
+				5F02AE872CC0E50D0056D786 /* Merge-Sort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
