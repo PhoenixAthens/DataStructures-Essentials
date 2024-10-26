@@ -7,7 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F02AEA62CCA437F0056D786 /* Guessing-Game.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AEA52CCA437F0056D786 /* Guessing-Game.c */; };
+		5F02AEC32CCBFF000056D786 /* Biryani-Classes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AEC22CCBFF000056D786 /* Biryani-Classes.cpp */; };
+		5F02AEC52CCBFFCF0056D786 /* Chef-Plays-Ludo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AEC42CCBFFCF0056D786 /* Chef-Plays-Ludo.cpp */; };
+		5F02AEC72CCC00790056D786 /* How-Many-Unattempted-Problems.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AEC62CCC00790056D786 /* How-Many-Unattempted-Problems.cpp */; };
+		5F02AEC92CCC00D40056D786 /* Determine-The-Score.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AEC82CCC00D40056D786 /* Determine-The-Score.cpp */; };
+		5F02AECB2CCC01740056D786 /* 404-Not-Found.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AECA2CCC01740056D786 /* 404-Not-Found.cpp */; };
+		5F02AECD2CCC01C90056D786 /* Off-By-One.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AECC2CCC01C90056D786 /* Off-By-One.cpp */; };
+		5F02AECF2CCC022C0056D786 /* Donation-Drive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AECE2CCC022C0056D786 /* Donation-Drive.cpp */; };
+		5F02AED12CCC03950056D786 /* Kitchen-Timings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AED02CCC03950056D786 /* Kitchen-Timings.cpp */; };
+		5F02AED32CCC04000056D786 /* IPL-Ticket-Rush.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AED22CCC04000056D786 /* IPL-Ticket-Rush.cpp */; };
+		5F02AED52CCC04CE0056D786 /* Audible-Range.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AED42CCC04CE0056D786 /* Audible-Range.cpp */; };
+		5F02AED72CCC05640056D786 /* Reach-On-Time.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AED62CCC05640056D786 /* Reach-On-Time.cpp */; };
+		5F02AED92CCC060E0056D786 /* Puzzle-Hunt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AED82CCC060E0056D786 /* Puzzle-Hunt.cpp */; };
+		5F02AEDB2CCC072E0056D786 /* Bon-Appetit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AEDA2CCC072E0056D786 /* Bon-Appetit.cpp */; };
+		5F02AEDD2CCC07DF0056D786 /* Who-Is-Taller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AEDC2CCC07DF0056D786 /* Who-Is-Taller.cpp */; };
+		5F02AEDF2CCC08620056D786 /* Reach-The-Target.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AEDE2CCC08620056D786 /* Reach-The-Target.cpp */; };
+		5F02AEE12CCCCF420056D786 /* Best-Of-Two.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AEE02CCCCF420056D786 /* Best-Of-Two.cpp */; };
+		5F02AEE32CCCCFA20056D786 /* 2000.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AEE22CCCCFA20056D786 /* 2000.cpp */; };
+		5F02AEE52CCCD01B0056D786 /* RollerCoaster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AEE42CCCD01B0056D786 /* RollerCoaster.cpp */; };
+		5F02AEE72CCCD0920056D786 /* Candy-Division.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AEE62CCCD0920056D786 /* Candy-Division.cpp */; };
+		5F02AEE92CCCD10B0056D786 /* Chef-On-Date.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AEE82CCCD10B0056D786 /* Chef-On-Date.cpp */; };
+		5F02AEEB2CCCD1790056D786 /* Parity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AEEA2CCCD1790056D786 /* Parity.cpp */; };
+		5F02AEED2CCCD1DD0056D786 /* Total-Prize-Money.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AEEC2CCCD1DD0056D786 /* Total-Prize-Money.cpp */; };
+		5F02AEEF2CCCD2650056D786 /* Counting-Words.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AEEE2CCCD2650056D786 /* Counting-Words.cpp */; };
+		5F02AEF12CCCD2CE0056D786 /* Battery-Health.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AEF02CCCD2CE0056D786 /* Battery-Health.cpp */; };
+		5F02AEF32CCCD3B30056D786 /* Tom-And-Jerry-Chase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AEF22CCCD3B30056D786 /* Tom-And-Jerry-Chase.cpp */; };
+		5F02AEF52CCCD4550056D786 /* Ageing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AEF42CCCD4550056D786 /* Ageing.cpp */; };
+		5F02AEF72CCCD4DD0056D786 /* Right-There.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AEF62CCCD4DD0056D786 /* Right-There.cpp */; };
+		5F02AEF92CCCD56A0056D786 /* Second-Max-Of-Three-Numbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AEF82CCCD56A0056D786 /* Second-Max-Of-Three-Numbers.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,6 +65,46 @@
 		5F02AEA02CC9465B0056D786 /* Not-too-far-Replacement.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Not-too-far-Replacement.cpp"; sourceTree = "<group>"; };
 		5F02AEA22CC97ECB0056D786 /* Sub-arrays-with-equal-number-of-occurences.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sub-arrays-with-equal-number-of-occurences.cpp"; sourceTree = "<group>"; };
 		5F02AEA52CCA437F0056D786 /* Guessing-Game.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Guessing-Game.c"; sourceTree = "<group>"; };
+		5F02AEA82CCAA0B40056D786 /* Sakurako-and-kosuke.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sakurako-and-kosuke.cpp"; sourceTree = "<group>"; };
+		5F02AEAA2CCAA7000056D786 /* Sakurako-and-Water.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sakurako-and-Water.cpp"; sourceTree = "<group>"; };
+		5F02AEAE2CCB71D00056D786 /* Prime-Numbers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Prime-Numbers.c"; sourceTree = "<group>"; };
+		5F02AEB02CCBD23E0056D786 /* Remove-sub-folders-from-the-filesystem-I.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Remove-sub-folders-from-the-filesystem-I.cpp"; sourceTree = "<group>"; };
+		5F02AEB22CCBE75B0056D786 /* LinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedList.cpp; sourceTree = "<group>"; };
+		5F02AEB52CCBFB320056D786 /* Cricked-World-Cup-Qualifier.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Cricked-World-Cup-Qualifier.cpp"; sourceTree = "<group>"; };
+		5F02AEB72CCBFBDD0056D786 /* Lucky-Seven.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Lucky-Seven.cpp"; sourceTree = "<group>"; };
+		5F02AEB92CCBFC600056D786 /* Clear-Day.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Clear-Day.cpp"; sourceTree = "<group>"; };
+		5F02AEBB2CCBFCC80056D786 /* Double-Rent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Double-Rent.cpp"; sourceTree = "<group>"; };
+		5F02AEBD2CCBFCDB0056D786 /* all.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = all.h; sourceTree = "<group>"; };
+		5F02AEBE2CCBFD5E0056D786 /* Saving-Taxes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Saving-Taxes.cpp"; sourceTree = "<group>"; };
+		5F02AEC02CCBFE110056D786 /* Masterched-Finals.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Masterched-Finals.cpp"; sourceTree = "<group>"; };
+		5F02AEC22CCBFF000056D786 /* Biryani-Classes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Biryani-Classes.cpp"; sourceTree = "<group>"; };
+		5F02AEC42CCBFFCF0056D786 /* Chef-Plays-Ludo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Chef-Plays-Ludo.cpp"; sourceTree = "<group>"; };
+		5F02AEC62CCC00790056D786 /* How-Many-Unattempted-Problems.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "How-Many-Unattempted-Problems.cpp"; sourceTree = "<group>"; };
+		5F02AEC82CCC00D40056D786 /* Determine-The-Score.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Determine-The-Score.cpp"; sourceTree = "<group>"; };
+		5F02AECA2CCC01740056D786 /* 404-Not-Found.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "404-Not-Found.cpp"; sourceTree = "<group>"; };
+		5F02AECC2CCC01C90056D786 /* Off-By-One.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Off-By-One.cpp"; sourceTree = "<group>"; };
+		5F02AECE2CCC022C0056D786 /* Donation-Drive.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Donation-Drive.cpp"; sourceTree = "<group>"; };
+		5F02AED02CCC03950056D786 /* Kitchen-Timings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Kitchen-Timings.cpp"; sourceTree = "<group>"; };
+		5F02AED22CCC04000056D786 /* IPL-Ticket-Rush.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "IPL-Ticket-Rush.cpp"; sourceTree = "<group>"; };
+		5F02AED42CCC04CE0056D786 /* Audible-Range.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Audible-Range.cpp"; sourceTree = "<group>"; };
+		5F02AED62CCC05640056D786 /* Reach-On-Time.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Reach-On-Time.cpp"; sourceTree = "<group>"; };
+		5F02AED82CCC060E0056D786 /* Puzzle-Hunt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Puzzle-Hunt.cpp"; sourceTree = "<group>"; };
+		5F02AEDA2CCC072E0056D786 /* Bon-Appetit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Bon-Appetit.cpp"; sourceTree = "<group>"; };
+		5F02AEDC2CCC07DF0056D786 /* Who-Is-Taller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Who-Is-Taller.cpp"; sourceTree = "<group>"; };
+		5F02AEDE2CCC08620056D786 /* Reach-The-Target.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Reach-The-Target.cpp"; sourceTree = "<group>"; };
+		5F02AEE02CCCCF420056D786 /* Best-Of-Two.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Best-Of-Two.cpp"; sourceTree = "<group>"; };
+		5F02AEE22CCCCFA20056D786 /* 2000.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2000.cpp; sourceTree = "<group>"; };
+		5F02AEE42CCCD01B0056D786 /* RollerCoaster.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RollerCoaster.cpp; sourceTree = "<group>"; };
+		5F02AEE62CCCD0920056D786 /* Candy-Division.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Candy-Division.cpp"; sourceTree = "<group>"; };
+		5F02AEE82CCCD10B0056D786 /* Chef-On-Date.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Chef-On-Date.cpp"; sourceTree = "<group>"; };
+		5F02AEEA2CCCD1790056D786 /* Parity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Parity.cpp; sourceTree = "<group>"; };
+		5F02AEEC2CCCD1DD0056D786 /* Total-Prize-Money.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Total-Prize-Money.cpp"; sourceTree = "<group>"; };
+		5F02AEEE2CCCD2650056D786 /* Counting-Words.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Counting-Words.cpp"; sourceTree = "<group>"; };
+		5F02AEF02CCCD2CE0056D786 /* Battery-Health.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Battery-Health.cpp"; sourceTree = "<group>"; };
+		5F02AEF22CCCD3B30056D786 /* Tom-And-Jerry-Chase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Tom-And-Jerry-Chase.cpp"; sourceTree = "<group>"; };
+		5F02AEF42CCCD4550056D786 /* Ageing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Ageing.cpp; sourceTree = "<group>"; };
+		5F02AEF62CCCD4DD0056D786 /* Right-There.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Right-There.cpp"; sourceTree = "<group>"; };
+		5F02AEF82CCCD56A0056D786 /* Second-Max-Of-Three-Numbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Second-Max-Of-Three-Numbers.cpp"; sourceTree = "<group>"; };
 		5F0A128D2CB7CAE300394595 /* Selection-Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Selection-Sort.cpp"; sourceTree = "<group>"; };
 		5F0A128F2CB7E5CC00394595 /* Selection-Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Selection-Sort.cpp"; sourceTree = "<group>"; };
 		5F0A12912CB7EA9200394595 /* Group-Anagrams.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Group-Anagrams.cpp"; sourceTree = "<group>"; };
@@ -263,6 +330,7 @@
 		5F02AE882CC3F7020056D786 /* CodeForces-Compete */ = {
 			isa = PBXGroup;
 			children = (
+				5F02AEA72CCAA0940056D786 /* Contest-981 */,
 				5F02AE8E2CC502180056D786 /* Contest-980 */,
 				5F02AE892CC3F7130056D786 /* Contest-979 */,
 			);
@@ -313,6 +381,57 @@
 				5F02AEA02CC9465B0056D786 /* Not-too-far-Replacement.cpp */,
 			);
 			path = "Starter-157";
+			sourceTree = "<group>";
+		};
+		5F02AEA72CCAA0940056D786 /* Contest-981 */ = {
+			isa = PBXGroup;
+			children = (
+				5F02AEA82CCAA0B40056D786 /* Sakurako-and-kosuke.cpp */,
+				5F02AEAA2CCAA7000056D786 /* Sakurako-and-Water.cpp */,
+			);
+			path = "Contest-981";
+			sourceTree = "<group>";
+		};
+		5F02AEB42CCBFB160056D786 /* Below500 */ = {
+			isa = PBXGroup;
+			children = (
+				5F02AEB52CCBFB320056D786 /* Cricked-World-Cup-Qualifier.cpp */,
+				5F02AEB72CCBFBDD0056D786 /* Lucky-Seven.cpp */,
+				5F02AEB92CCBFC600056D786 /* Clear-Day.cpp */,
+				5F02AEBB2CCBFCC80056D786 /* Double-Rent.cpp */,
+				5F02AEBD2CCBFCDB0056D786 /* all.h */,
+				5F02AEBE2CCBFD5E0056D786 /* Saving-Taxes.cpp */,
+				5F02AEC02CCBFE110056D786 /* Masterched-Finals.cpp */,
+				5F02AEC22CCBFF000056D786 /* Biryani-Classes.cpp */,
+				5F02AEC42CCBFFCF0056D786 /* Chef-Plays-Ludo.cpp */,
+				5F02AEC62CCC00790056D786 /* How-Many-Unattempted-Problems.cpp */,
+				5F02AEC82CCC00D40056D786 /* Determine-The-Score.cpp */,
+				5F02AECA2CCC01740056D786 /* 404-Not-Found.cpp */,
+				5F02AECC2CCC01C90056D786 /* Off-By-One.cpp */,
+				5F02AECE2CCC022C0056D786 /* Donation-Drive.cpp */,
+				5F02AED02CCC03950056D786 /* Kitchen-Timings.cpp */,
+				5F02AED22CCC04000056D786 /* IPL-Ticket-Rush.cpp */,
+				5F02AED42CCC04CE0056D786 /* Audible-Range.cpp */,
+				5F02AED62CCC05640056D786 /* Reach-On-Time.cpp */,
+				5F02AED82CCC060E0056D786 /* Puzzle-Hunt.cpp */,
+				5F02AEDA2CCC072E0056D786 /* Bon-Appetit.cpp */,
+				5F02AEDC2CCC07DF0056D786 /* Who-Is-Taller.cpp */,
+				5F02AEDE2CCC08620056D786 /* Reach-The-Target.cpp */,
+				5F02AEE02CCCCF420056D786 /* Best-Of-Two.cpp */,
+				5F02AEE22CCCCFA20056D786 /* 2000.cpp */,
+				5F02AEE42CCCD01B0056D786 /* RollerCoaster.cpp */,
+				5F02AEE62CCCD0920056D786 /* Candy-Division.cpp */,
+				5F02AEE82CCCD10B0056D786 /* Chef-On-Date.cpp */,
+				5F02AEEA2CCCD1790056D786 /* Parity.cpp */,
+				5F02AEEC2CCCD1DD0056D786 /* Total-Prize-Money.cpp */,
+				5F02AEEE2CCCD2650056D786 /* Counting-Words.cpp */,
+				5F02AEF02CCCD2CE0056D786 /* Battery-Health.cpp */,
+				5F02AEF22CCCD3B30056D786 /* Tom-And-Jerry-Chase.cpp */,
+				5F02AEF42CCCD4550056D786 /* Ageing.cpp */,
+				5F02AEF62CCCD4DD0056D786 /* Right-There.cpp */,
+				5F02AEF82CCCD56A0056D786 /* Second-Max-Of-Three-Numbers.cpp */,
+			);
+			path = Below500;
 			sourceTree = "<group>";
 		};
 		5F0A12992CB9221A00394595 /* think-cell */ = {
@@ -387,6 +506,8 @@
 				5FB3FB932CA2CE0C002D742B /* learning-about-nullptr.cpp */,
 				5F7A3CF72CB36F32006E81FD /* Selection-Sort.cpp */,
 				5F02AEA52CCA437F0056D786 /* Guessing-Game.c */,
+				5F02AEAE2CCB71D00056D786 /* Prime-Numbers.c */,
+				5F02AEB22CCBE75B0056D786 /* LinkedList.cpp */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -551,6 +672,7 @@
 				5F7A3CED2CB19C59006E81FD /* Dividie-Players-Into-Teams-Of-Equal-Size.cpp */,
 				5F7A3CEF2CB1AA0B006E81FD /* Dividie-Players-Into-Teams-Of-Equal-Size-II.cpp */,
 				5F8743432CBFF51300EA7642 /* Longest-Happy-String.cpp */,
+				5F02AEB02CCBD23E0056D786 /* Remove-sub-folders-from-the-filesystem-I.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -566,6 +688,7 @@
 		5FB3FBB92CAE8AC8002D742B /* CodeChef */ = {
 			isa = PBXGroup;
 			children = (
+				5F02AEB42CCBFB160056D786 /* Below500 */,
 				5F02AE9B2CC940E90056D786 /* Starter-157 */,
 				5FB3FBBA2CAE8ADD002D742B /* Car-Trip.cpp */,
 			);
@@ -762,7 +885,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F02AEA62CCA437F0056D786 /* Guessing-Game.c in Sources */,
+				5F02AEDF2CCC08620056D786 /* Reach-The-Target.cpp in Sources */,
+				5F02AEC92CCC00D40056D786 /* Determine-The-Score.cpp in Sources */,
+				5F02AEC32CCBFF000056D786 /* Biryani-Classes.cpp in Sources */,
+				5F02AEDD2CCC07DF0056D786 /* Who-Is-Taller.cpp in Sources */,
+				5F02AED92CCC060E0056D786 /* Puzzle-Hunt.cpp in Sources */,
+				5F02AED12CCC03950056D786 /* Kitchen-Timings.cpp in Sources */,
+				5F02AEEF2CCCD2650056D786 /* Counting-Words.cpp in Sources */,
+				5F02AEEB2CCCD1790056D786 /* Parity.cpp in Sources */,
+				5F02AEC72CCC00790056D786 /* How-Many-Unattempted-Problems.cpp in Sources */,
+				5F02AEF12CCCD2CE0056D786 /* Battery-Health.cpp in Sources */,
+				5F02AEF72CCCD4DD0056D786 /* Right-There.cpp in Sources */,
+				5F02AEE72CCCD0920056D786 /* Candy-Division.cpp in Sources */,
+				5F02AEE12CCCCF420056D786 /* Best-Of-Two.cpp in Sources */,
+				5F02AEF52CCCD4550056D786 /* Ageing.cpp in Sources */,
+				5F02AEDB2CCC072E0056D786 /* Bon-Appetit.cpp in Sources */,
+				5F02AECF2CCC022C0056D786 /* Donation-Drive.cpp in Sources */,
+				5F02AECD2CCC01C90056D786 /* Off-By-One.cpp in Sources */,
+				5F02AEE92CCCD10B0056D786 /* Chef-On-Date.cpp in Sources */,
+				5F02AEED2CCCD1DD0056D786 /* Total-Prize-Money.cpp in Sources */,
+				5F02AEF92CCCD56A0056D786 /* Second-Max-Of-Three-Numbers.cpp in Sources */,
+				5F02AED72CCC05640056D786 /* Reach-On-Time.cpp in Sources */,
+				5F02AED52CCC04CE0056D786 /* Audible-Range.cpp in Sources */,
+				5F02AECB2CCC01740056D786 /* 404-Not-Found.cpp in Sources */,
+				5F02AEF32CCCD3B30056D786 /* Tom-And-Jerry-Chase.cpp in Sources */,
+				5F02AED32CCC04000056D786 /* IPL-Ticket-Rush.cpp in Sources */,
+				5F02AEE52CCCD01B0056D786 /* RollerCoaster.cpp in Sources */,
+				5F02AEC52CCBFFCF0056D786 /* Chef-Plays-Ludo.cpp in Sources */,
+				5F02AEE32CCCCFA20056D786 /* 2000.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
