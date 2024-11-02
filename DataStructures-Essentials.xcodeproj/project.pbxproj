@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F02AF3E2CD530E30056D786 /* Medians.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AF3D2CD530E30056D786 /* Medians.cpp */; };
+		5F02AF482CD63BA80056D786 /* Validating-Strings-W-RegEx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AF472CD63BA70056D786 /* Validating-Strings-W-RegEx.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -104,6 +104,10 @@
 		5F02AF382CD4CCF70056D786 /* The-Next-Palindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "The-Next-Palindrome.cpp"; sourceTree = "<group>"; };
 		5F02AF3B2CD525850056D786 /* Circuit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Circuit.cpp; sourceTree = "<group>"; };
 		5F02AF3D2CD530E30056D786 /* Medians.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Medians.cpp; sourceTree = "<group>"; };
+		5F02AF402CD613BD0056D786 /* The-Next-Palindrome-II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "The-Next-Palindrome-II.cpp"; sourceTree = "<group>"; };
+		5F02AF422CD61F940056D786 /* Simple-Arithmetic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Simple-Arithmetic.cpp"; sourceTree = "<group>"; };
+		5F02AF452CD6357E0056D786 /* Sort-The-Summary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sort-The-Summary.cpp"; sourceTree = "<group>"; };
+		5F02AF472CD63BA70056D786 /* Validating-Strings-W-RegEx.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Validating-Strings-W-RegEx.cpp"; sourceTree = "<group>"; };
 		5F0A128D2CB7CAE300394595 /* Selection-Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Selection-Sort.cpp"; sourceTree = "<group>"; };
 		5F0A128F2CB7E5CC00394595 /* Selection-Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Selection-Sort.cpp"; sourceTree = "<group>"; };
 		5F0A12912CB7EA9200394595 /* Group-Anagrams.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Group-Anagrams.cpp"; sourceTree = "<group>"; };
@@ -547,6 +551,8 @@
 				5F02AF342CD4BB790056D786 /* SubString-Check.cpp */,
 				5F02AF362CD4CAA30056D786 /* Transform-The-Expression.cpp */,
 				5F02AF382CD4CCF70056D786 /* The-Next-Palindrome.cpp */,
+				5F02AF402CD613BD0056D786 /* The-Next-Palindrome-II.cpp */,
+				5F02AF422CD61F940056D786 /* Simple-Arithmetic.cpp */,
 			);
 			path = Spoj;
 			sourceTree = "<group>";
@@ -558,6 +564,15 @@
 				5F02AF3D2CD530E30056D786 /* Medians.cpp */,
 			);
 			path = "Contest-983-div2";
+			sourceTree = "<group>";
+		};
+		5F02AF442CD635680056D786 /* Amazon-SDE-Practice-OA */ = {
+			isa = PBXGroup;
+			children = (
+				5F02AF452CD6357E0056D786 /* Sort-The-Summary.cpp */,
+				5F02AF472CD63BA70056D786 /* Validating-Strings-W-RegEx.cpp */,
+			);
+			path = "Amazon-SDE-Practice-OA";
 			sourceTree = "<group>";
 		};
 		5F0A12992CB9221A00394595 /* think-cell */ = {
@@ -915,6 +930,7 @@
 		5FEBAC7E2C0D821200F361A8 /* DataStructures-Essentials */ = {
 			isa = PBXGroup;
 			children = (
+				5F02AF442CD635680056D786 /* Amazon-SDE-Practice-OA */,
 				5F02AF2F2CD4B81B0056D786 /* Spoj */,
 				5F02AF192CCF4C890056D786 /* Project-Euler */,
 				5F02AF012CCD258D0056D786 /* AtCoder */,
@@ -1022,7 +1038,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F02AF3E2CD530E30056D786 /* Medians.cpp in Sources */,
+				5F02AF482CD63BA80056D786 /* Validating-Strings-W-RegEx.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
