@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F02AF1D2CCF55A90056D786 /* Sum-Square-Difference.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AF1C2CCF55A90056D786 /* Sum-Square-Difference.cpp */; };
+		5F02AF3E2CD530E30056D786 /* Medians.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AF3D2CD530E30056D786 /* Medians.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -90,6 +90,20 @@
 		5F02AF172CCE88E60056D786 /* Sliding.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sliding.cpp; sourceTree = "<group>"; };
 		5F02AF1A2CCF4C9D0056D786 /* Smallest-Multiple.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Smallest-Multiple.cpp"; sourceTree = "<group>"; };
 		5F02AF1C2CCF55A90056D786 /* Sum-Square-Difference.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sum-Square-Difference.cpp"; sourceTree = "<group>"; };
+		5F02AF202CCF90350056D786 /* Check-Identical-Trees.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Check-Identical-Trees.cpp"; sourceTree = "<group>"; };
+		5F02AF222CCF96520056D786 /* Excel-Sheet-Part2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Excel-Sheet-Part2.cpp"; sourceTree = "<group>"; };
+		5F02AF252CD2829C0056D786 /* Diwali-Discount.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Diwali-Discount.cpp"; sourceTree = "<group>"; };
+		5F02AF272CD2835C0056D786 /* Even-And-Odd-Divisors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Even-And-Odd-Divisors.cpp"; sourceTree = "<group>"; };
+		5F02AF292CD28EF80056D786 /* Largest-Subsequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Largest-Subsequence.cpp"; sourceTree = "<group>"; };
+		5F02AF2B2CD352090056D786 /* 10001st-Prime.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "10001st-Prime.cpp"; sourceTree = "<group>"; };
+		5F02AF2D2CD354230056D786 /* Largest-Product-In-A-Series.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Largest-Product-In-A-Series.cpp"; sourceTree = "<group>"; };
+		5F02AF302CD4B8320056D786 /* Life-Universe-Everything.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Life-Universe-Everything.cpp"; sourceTree = "<group>"; };
+		5F02AF322CD4B92D0056D786 /* Prime-Number-Generator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Prime-Number-Generator.cpp"; sourceTree = "<group>"; };
+		5F02AF342CD4BB790056D786 /* SubString-Check.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "SubString-Check.cpp"; sourceTree = "<group>"; };
+		5F02AF362CD4CAA30056D786 /* Transform-The-Expression.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Transform-The-Expression.cpp"; sourceTree = "<group>"; };
+		5F02AF382CD4CCF70056D786 /* The-Next-Palindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "The-Next-Palindrome.cpp"; sourceTree = "<group>"; };
+		5F02AF3B2CD525850056D786 /* Circuit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Circuit.cpp; sourceTree = "<group>"; };
+		5F02AF3D2CD530E30056D786 /* Medians.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Medians.cpp; sourceTree = "<group>"; };
 		5F0A128D2CB7CAE300394595 /* Selection-Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Selection-Sort.cpp"; sourceTree = "<group>"; };
 		5F0A128F2CB7E5CC00394595 /* Selection-Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Selection-Sort.cpp"; sourceTree = "<group>"; };
 		5F0A12912CB7EA9200394595 /* Group-Anagrams.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Group-Anagrams.cpp"; sourceTree = "<group>"; };
@@ -315,6 +329,7 @@
 		5F02AE882CC3F7020056D786 /* CodeForces-Compete */ = {
 			isa = PBXGroup;
 			children = (
+				5F02AF3A2CD5256A0056D786 /* Contest-983-div2 */,
 				5F02AF162CCE88B10056D786 /* Global-Round-27 */,
 				5F02AEA72CCAA0940056D786 /* Contest-981 */,
 				5F02AE8E2CC502180056D786 /* Contest-980 */,
@@ -345,6 +360,7 @@
 			isa = PBXGroup;
 			children = (
 				5F02AE942CC6226F0056D786 /* Find-Integer.cpp */,
+				5F02AF222CCF96520056D786 /* Excel-Sheet-Part2.cpp */,
 			);
 			path = POTD;
 			sourceTree = "<group>";
@@ -491,8 +507,57 @@
 			children = (
 				5F02AF1A2CCF4C9D0056D786 /* Smallest-Multiple.cpp */,
 				5F02AF1C2CCF55A90056D786 /* Sum-Square-Difference.cpp */,
+				5F02AF2B2CD352090056D786 /* 10001st-Prime.cpp */,
+				5F02AF2D2CD354230056D786 /* Largest-Product-In-A-Series.cpp */,
 			);
 			path = "Project-Euler";
+			sourceTree = "<group>";
+		};
+		5F02AF1E2CCF90050056D786 /* 7-Day-Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				5F02AF1F2CCF90190056D786 /* Binary-Tree-Challenge */,
+			);
+			path = "7-Day-Challenge";
+			sourceTree = "<group>";
+		};
+		5F02AF1F2CCF90190056D786 /* Binary-Tree-Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				5F02AF202CCF90350056D786 /* Check-Identical-Trees.cpp */,
+			);
+			path = "Binary-Tree-Challenge";
+			sourceTree = "<group>";
+		};
+		5F02AF242CD2828A0056D786 /* Starter-158 */ = {
+			isa = PBXGroup;
+			children = (
+				5F02AF252CD2829C0056D786 /* Diwali-Discount.cpp */,
+				5F02AF272CD2835C0056D786 /* Even-And-Odd-Divisors.cpp */,
+				5F02AF292CD28EF80056D786 /* Largest-Subsequence.cpp */,
+			);
+			path = "Starter-158";
+			sourceTree = "<group>";
+		};
+		5F02AF2F2CD4B81B0056D786 /* Spoj */ = {
+			isa = PBXGroup;
+			children = (
+				5F02AF302CD4B8320056D786 /* Life-Universe-Everything.cpp */,
+				5F02AF322CD4B92D0056D786 /* Prime-Number-Generator.cpp */,
+				5F02AF342CD4BB790056D786 /* SubString-Check.cpp */,
+				5F02AF362CD4CAA30056D786 /* Transform-The-Expression.cpp */,
+				5F02AF382CD4CCF70056D786 /* The-Next-Palindrome.cpp */,
+			);
+			path = Spoj;
+			sourceTree = "<group>";
+		};
+		5F02AF3A2CD5256A0056D786 /* Contest-983-div2 */ = {
+			isa = PBXGroup;
+			children = (
+				5F02AF3B2CD525850056D786 /* Circuit.cpp */,
+				5F02AF3D2CD530E30056D786 /* Medians.cpp */,
+			);
+			path = "Contest-983-div2";
 			sourceTree = "<group>";
 		};
 		5F0A12992CB9221A00394595 /* think-cell */ = {
@@ -617,6 +682,7 @@
 		5F47DC142C7071C4007580F7 /* Coding-Ninjas */ = {
 			isa = PBXGroup;
 			children = (
+				5F02AF1E2CCF90050056D786 /* 7-Day-Challenge */,
 				5F02AE932CC622590056D786 /* POTD */,
 				5F47DC152C7071D9007580F7 /* Set-Matrix-Zeros.cpp */,
 				5FFE150B2C88406900D10425 /* Count-Digits.cpp */,
@@ -755,6 +821,7 @@
 		5FB3FBB92CAE8AC8002D742B /* CodeChef */ = {
 			isa = PBXGroup;
 			children = (
+				5F02AF242CD2828A0056D786 /* Starter-158 */,
 				5F02AEB42CCBFB160056D786 /* Below500 */,
 				5F02AE9B2CC940E90056D786 /* Starter-157 */,
 				5FB3FBBA2CAE8ADD002D742B /* Car-Trip.cpp */,
@@ -848,6 +915,7 @@
 		5FEBAC7E2C0D821200F361A8 /* DataStructures-Essentials */ = {
 			isa = PBXGroup;
 			children = (
+				5F02AF2F2CD4B81B0056D786 /* Spoj */,
 				5F02AF192CCF4C890056D786 /* Project-Euler */,
 				5F02AF012CCD258D0056D786 /* AtCoder */,
 				5F02AE882CC3F7020056D786 /* CodeForces-Compete */,
@@ -954,7 +1022,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F02AF1D2CCF55A90056D786 /* Sum-Square-Difference.cpp in Sources */,
+				5F02AF3E2CD530E30056D786 /* Medians.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
