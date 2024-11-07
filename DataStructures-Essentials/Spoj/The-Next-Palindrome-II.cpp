@@ -1,4 +1,3 @@
-#include<iostream>
 #include<string.h>
 #include<stdio.h>
 int main()
@@ -31,7 +30,7 @@ int main()
         }
         if(check=='s'||check=='e')
         {
-            if(len%2==0&&a[len/2]!='9')
+            if(len%2==0 && a[len/2]!='9')
             {
                 a[len/2]+=1;
                 a[len/2-1]+=1;
@@ -41,9 +40,9 @@ int main()
             else if(a[len/2]=='9')
             {
                 i=len/2+1;
-                while(i<len&&a[i]=='9')
+                while(i < len && a[i] == '9')
                 {
-                    a[i]=a[len-i-1]='0';
+                    a[i] = a[len-i-1] = '0';
                     i++;
                 }
                 if(i!=len)
