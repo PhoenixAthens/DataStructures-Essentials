@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FDFFCAE2CDBC648009C88D6 /* Super-Hero.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFFCAD2CDBC648009C88D6 /* Super-Hero.cpp */; };
+		5FDFFD512CDCFF8C009C88D6 /* Best-Coupon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFFD502CDCFF8C009C88D6 /* Best-Coupon.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -295,6 +295,87 @@
 		5FDFFCA92CDBB8FB009C88D6 /* Election.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Election.cpp; sourceTree = "<group>"; };
 		5FDFFCAB2CDBBCD8009C88D6 /* Random-Nim.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Random-Nim.cpp"; sourceTree = "<group>"; };
 		5FDFFCAD2CDBC648009C88D6 /* Super-Hero.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Super-Hero.cpp"; sourceTree = "<group>"; };
+		5FDFFCAF2CDC6E3E009C88D6 /* Bull-Or-Bear.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Bull-Or-Bear.cpp"; sourceTree = "<group>"; };
+		5FDFFCB12CDC6EF1009C88D6 /* Four-Tickets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Four-Tickets.cpp"; sourceTree = "<group>"; };
+		5FDFFCB32CDC6F93009C88D6 /* Chairs-Requirement.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Chairs-Requirement.cpp"; sourceTree = "<group>"; };
+		5FDFFCB52CDC701A009C88D6 /* Chef-and-Donation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Chef-and-Donation.cpp"; sourceTree = "<group>"; };
+		5FDFFCB72CDC70CC009C88D6 /* Sum-it.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sum-it.cpp"; sourceTree = "<group>"; };
+		5FDFFCB92CDC7162009C88D6 /* Get-Subscription.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Get-Subscription.cpp"; sourceTree = "<group>"; };
+		5FDFFCBB2CDC7355009C88D6 /* Messi-vs-Ronaldo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Messi-vs-Ronaldo.cpp"; sourceTree = "<group>"; };
+		5FDFFCBD2CDC7423009C88D6 /* Waiting-Time.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Waiting-Time.cpp"; sourceTree = "<group>"; };
+		5FDFFCBF2CDC74AA009C88D6 /* October-Marathon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "October-Marathon.cpp"; sourceTree = "<group>"; };
+		5FDFFCC12CDC75CA009C88D6 /* Just-One-More-Episode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Just-One-More-Episode.cpp"; sourceTree = "<group>"; };
+		5FDFFCC32CDC76C3009C88D6 /* Mana-Points.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Mana-Points.cpp"; sourceTree = "<group>"; };
+		5FDFFCC52CDC77C4009C88D6 /* Rain-In-Chefland.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Rain-In-Chefland.cpp"; sourceTree = "<group>"; };
+		5FDFFCC72CDC7841009C88D6 /* Bidding.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Bidding.cpp; sourceTree = "<group>"; };
+		5FDFFCC92CDC7950009C88D6 /* Overspeeding-Fine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Overspeeding-Fine.cpp"; sourceTree = "<group>"; };
+		5FDFFCCB2CDC79E6009C88D6 /* Chess-Time.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Chess-Time.cpp"; sourceTree = "<group>"; };
+		5FDFFCCD2CDC7A4D009C88D6 /* Passes-For-Fair.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Passes-For-Fair.cpp"; sourceTree = "<group>"; };
+		5FDFFCCF2CDC7BDC009C88D6 /* Read-Pages.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Read-Pages.cpp"; sourceTree = "<group>"; };
+		5FDFFCD12CDC98C2009C88D6 /* Couple-Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Couple-Game.cpp"; sourceTree = "<group>"; };
+		5FDFFCD32CDC9993009C88D6 /* Air-Quality-Index.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Air-Quality-Index.cpp"; sourceTree = "<group>"; };
+		5FDFFCD52CDC9B34009C88D6 /* Fever.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Fever.cpp; sourceTree = "<group>"; };
+		5FDFFCD72CDC9B9F009C88D6 /* Sleep-Deprivation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sleep-Deprivation.cpp"; sourceTree = "<group>"; };
+		5FDFFCD92CDC9C05009C88D6 /* Math1-Enrollment.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Math1-Enrollment.cpp"; sourceTree = "<group>"; };
+		5FDFFCDB2CDC9E21009C88D6 /* Chef-and-Chapters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Chef-and-Chapters.cpp"; sourceTree = "<group>"; };
+		5FDFFCDD2CDC9E91009C88D6 /* Water-Requirement.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Water-Requirement.cpp"; sourceTree = "<group>"; };
+		5FDFFCDF2CDC9EF7009C88D6 /* Lunchtime.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Lunchtime.cpp; sourceTree = "<group>"; };
+		5FDFFCE12CDC9F53009C88D6 /* Good-Investment-Or-Note.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Good-Investment-Or-Note.cpp"; sourceTree = "<group>"; };
+		5FDFFCE32CDC9FCB009C88D6 /* Final-Population.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Final-Population.cpp"; sourceTree = "<group>"; };
+		5FDFFCE52CDCA045009C88D6 /* Chef-Gives-Party.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Chef-Gives-Party.cpp"; sourceTree = "<group>"; };
+		5FDFFCE72CDCA0B5009C88D6 /* Time-Complexity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Time-Complexity.cpp"; sourceTree = "<group>"; };
+		5FDFFCE92CDCA12B009C88D6 /* Interior-Design.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Interior-Design.cpp"; sourceTree = "<group>"; };
+		5FDFFCEB2CDCA1A9009C88D6 /* Car-Trip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Car-Trip.cpp"; sourceTree = "<group>"; };
+		5FDFFCED2CDCA264009C88D6 /* Multivitamin-Tablets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Multivitamin-Tablets.cpp"; sourceTree = "<group>"; };
+		5FDFFCEF2CDCA2D6009C88D6 /* Six-Friends.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Six-Friends.cpp"; sourceTree = "<group>"; };
+		5FDFFCF12CDCA387009C88D6 /* Chef-And-Wire-Frames.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Chef-And-Wire-Frames.cpp"; sourceTree = "<group>"; };
+		5FDFFCF32CDCA3F7009C88D6 /* Minimum-Coins.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Minimum-Coins.cpp"; sourceTree = "<group>"; };
+		5FDFFCF52CDCA494009C88D6 /* Spice-Level.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Spice-Level.cpp"; sourceTree = "<group>"; };
+		5FDFFCF72CDCA509009C88D6 /* The-Gift.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "The-Gift.cpp"; sourceTree = "<group>"; };
+		5FDFFCF92CDCA603009C88D6 /* Reach-Home.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Reach-Home.cpp"; sourceTree = "<group>"; };
+		5FDFFCFB2CDCA687009C88D6 /* Donation-Rewards.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Donation-Rewards.cpp"; sourceTree = "<group>"; };
+		5FDFFCFD2CDCA703009C88D6 /* True-And-False-Paper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "True-And-False-Paper.cpp"; sourceTree = "<group>"; };
+		5FDFFCFF2CDCA77A009C88D6 /* The-Cheaper-Cab.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "The-Cheaper-Cab.cpp"; sourceTree = "<group>"; };
+		5FDFFD012CDCA80C009C88D6 /* Discount.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Discount.cpp; sourceTree = "<group>"; };
+		5FDFFD032CDCA877009C88D6 /* Height-Of-Rationals.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Height-Of-Rationals.cpp"; sourceTree = "<group>"; };
+		5FDFFD052CDCA8E9009C88D6 /* Instagram.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Instagram.cpp; sourceTree = "<group>"; };
+		5FDFFD072CDCB94F009C88D6 /* Volume-Control.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Volume-Control.cpp"; sourceTree = "<group>"; };
+		5FDFFD092CDCB9F5009C88D6 /* ATM.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ATM.cpp; sourceTree = "<group>"; };
+		5FDFFD0B2CDCBE28009C88D6 /* Is-It-Hot-Or-Cold.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Is-It-Hot-Or-Cold.cpp"; sourceTree = "<group>"; };
+		5FDFFD0D2CDCBEA1009C88D6 /* Profit-Increment.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Profit-Increment.cpp"; sourceTree = "<group>"; };
+		5FDFFD0F2CDCC17D009C88D6 /* Fill-The-Bucket.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Fill-The-Bucket.cpp"; sourceTree = "<group>"; };
+		5FDFFD112CDCC229009C88D6 /* Parliament.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Parliament.cpp; sourceTree = "<group>"; };
+		5FDFFD132CDCC726009C88D6 /* Find-Remainder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Find-Remainder.cpp"; sourceTree = "<group>"; };
+		5FDFFD152CDCC7B2009C88D6 /* Ezio-And-Guards.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Ezio-And-Guards.cpp"; sourceTree = "<group>"; };
+		5FDFFD172CDCC829009C88D6 /* Chef-And-Masks.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Chef-And-Masks.cpp"; sourceTree = "<group>"; };
+		5FDFFD192CDCC920009C88D6 /* Speciality.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Speciality.cpp; sourceTree = "<group>"; };
+		5FDFFD1B2CDCC9F0009C88D6 /* Maximum-Submissions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Maximum-Submissions.cpp"; sourceTree = "<group>"; };
+		5FDFFD1D2CDCCAA7009C88D6 /* TV-Discount.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "TV-Discount.cpp"; sourceTree = "<group>"; };
+		5FDFFD1F2CDCCB53009C88D6 /* Broken-Phone.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Broken-Phone.cpp"; sourceTree = "<group>"; };
+		5FDFFD212CDCCBD2009C88D6 /* Tyre-Problem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Tyre-Problem.cpp"; sourceTree = "<group>"; };
+		5FDFFD232CDCCC1F009C88D6 /* Sum-Of-Digits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sum-Of-Digits.cpp"; sourceTree = "<group>"; };
+		5FDFFD252CDCCC9E009C88D6 /* Monthly-Budget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Monthly-Budget.cpp"; sourceTree = "<group>"; };
+		5FDFFD272CDCCD1A009C88D6 /* Credit-Score.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Credit-Score.cpp"; sourceTree = "<group>"; };
+		5FDFFD292CDCCD68009C88D6 /* first-and-last-digit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "first-and-last-digit.cpp"; sourceTree = "<group>"; };
+		5FDFFD2B2CDCCDEB009C88D6 /* Enormous-Input-Test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Enormous-Input-Test.cpp"; sourceTree = "<group>"; };
+		5FDFFD2D2CDCCE95009C88D6 /* Practice-Makes-Us-Perfect.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Practice-Makes-Us-Perfect.cpp"; sourceTree = "<group>"; };
+		5FDFFD2F2CDCCF4A009C88D6 /* Pending-Assignments.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Pending-Assignments.cpp"; sourceTree = "<group>"; };
+		5FDFFD312CDCCFD9009C88D6 /* Course-Registration.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Course-Registration.cpp"; sourceTree = "<group>"; };
+		5FDFFD332CDCD040009C88D6 /* Insurance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Insurance.cpp; sourceTree = "<group>"; };
+		5FDFFD352CDCEDA3009C88D6 /* Codechef-Airlines.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Codechef-Airlines.cpp"; sourceTree = "<group>"; };
+		5FDFFD372CDCF83E009C88D6 /* IncreaseIQ.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IncreaseIQ.cpp; sourceTree = "<group>"; };
+		5FDFFD392CDCF8BB009C88D6 /* Battery-Low.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Battery-Low.cpp"; sourceTree = "<group>"; };
+		5FDFFD3B2CDCF915009C88D6 /* Bob-At-The-Bank.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Bob-At-The-Bank.cpp"; sourceTree = "<group>"; };
+		5FDFFD3D2CDCF988009C88D6 /* Mango-Truck.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Mango-Truck.cpp"; sourceTree = "<group>"; };
+		5FDFFD3F2CDCFA04009C88D6 /* Monopoly-in-Chefland.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Monopoly-in-Chefland.cpp"; sourceTree = "<group>"; };
+		5FDFFD412CDCFA8E009C88D6 /* Bucket-and-Water-Flow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Bucket-and-Water-Flow.cpp"; sourceTree = "<group>"; };
+		5FDFFD432CDCFB3F009C88D6 /* Miami-GP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Miami-GP.cpp"; sourceTree = "<group>"; };
+		5FDFFD462CDCFCB6009C88D6 /* Dominant-Army.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Dominant-Army.cpp"; sourceTree = "<group>"; };
+		5FDFFD482CDCFD42009C88D6 /* Playlist.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Playlist.cpp; sourceTree = "<group>"; };
+		5FDFFD4A2CDCFDF4009C88D6 /* Chef-and-Chocolates.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Chef-and-Chocolates.cpp"; sourceTree = "<group>"; };
+		5FDFFD4C2CDCFE81009C88D6 /* Netflix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Netflix.cpp; sourceTree = "<group>"; };
+		5FDFFD4E2CDCFEFC009C88D6 /* Chef-and-Gym.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Chef-and-Gym.cpp"; sourceTree = "<group>"; };
+		5FDFFD502CDCFF8C009C88D6 /* Best-Coupon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Best-Coupon.cpp"; sourceTree = "<group>"; };
 		5FE4D7022C7893F200049C30 /* UniquePaths.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UniquePaths.cpp; sourceTree = "<group>"; };
 		5FEBAC7C2C0D821200F361A8 /* DataStructures-Essentials */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DataStructures-Essentials"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FEBAC7F2C0D821200F361A8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -454,6 +535,87 @@
 				5F02AEF42CCCD4550056D786 /* Ageing.cpp */,
 				5F02AEF62CCCD4DD0056D786 /* Right-There.cpp */,
 				5F02AEF82CCCD56A0056D786 /* Second-Max-Of-Three-Numbers.cpp */,
+				5FDFFCAF2CDC6E3E009C88D6 /* Bull-Or-Bear.cpp */,
+				5FDFFCB12CDC6EF1009C88D6 /* Four-Tickets.cpp */,
+				5FDFFCB32CDC6F93009C88D6 /* Chairs-Requirement.cpp */,
+				5FDFFCB52CDC701A009C88D6 /* Chef-and-Donation.cpp */,
+				5FDFFCB72CDC70CC009C88D6 /* Sum-it.cpp */,
+				5FDFFCB92CDC7162009C88D6 /* Get-Subscription.cpp */,
+				5FDFFCBB2CDC7355009C88D6 /* Messi-vs-Ronaldo.cpp */,
+				5FDFFCBD2CDC7423009C88D6 /* Waiting-Time.cpp */,
+				5FDFFCBF2CDC74AA009C88D6 /* October-Marathon.cpp */,
+				5FDFFCC12CDC75CA009C88D6 /* Just-One-More-Episode.cpp */,
+				5FDFFCC32CDC76C3009C88D6 /* Mana-Points.cpp */,
+				5FDFFCC52CDC77C4009C88D6 /* Rain-In-Chefland.cpp */,
+				5FDFFCC72CDC7841009C88D6 /* Bidding.cpp */,
+				5FDFFCC92CDC7950009C88D6 /* Overspeeding-Fine.cpp */,
+				5FDFFCCB2CDC79E6009C88D6 /* Chess-Time.cpp */,
+				5FDFFCCD2CDC7A4D009C88D6 /* Passes-For-Fair.cpp */,
+				5FDFFCCF2CDC7BDC009C88D6 /* Read-Pages.cpp */,
+				5FDFFCD12CDC98C2009C88D6 /* Couple-Game.cpp */,
+				5FDFFCD32CDC9993009C88D6 /* Air-Quality-Index.cpp */,
+				5FDFFCD52CDC9B34009C88D6 /* Fever.cpp */,
+				5FDFFCD72CDC9B9F009C88D6 /* Sleep-Deprivation.cpp */,
+				5FDFFCD92CDC9C05009C88D6 /* Math1-Enrollment.cpp */,
+				5FDFFCDB2CDC9E21009C88D6 /* Chef-and-Chapters.cpp */,
+				5FDFFCDD2CDC9E91009C88D6 /* Water-Requirement.cpp */,
+				5FDFFCDF2CDC9EF7009C88D6 /* Lunchtime.cpp */,
+				5FDFFCE12CDC9F53009C88D6 /* Good-Investment-Or-Note.cpp */,
+				5FDFFCE32CDC9FCB009C88D6 /* Final-Population.cpp */,
+				5FDFFCE52CDCA045009C88D6 /* Chef-Gives-Party.cpp */,
+				5FDFFCE72CDCA0B5009C88D6 /* Time-Complexity.cpp */,
+				5FDFFCE92CDCA12B009C88D6 /* Interior-Design.cpp */,
+				5FDFFCEB2CDCA1A9009C88D6 /* Car-Trip.cpp */,
+				5FDFFCED2CDCA264009C88D6 /* Multivitamin-Tablets.cpp */,
+				5FDFFCEF2CDCA2D6009C88D6 /* Six-Friends.cpp */,
+				5FDFFCF12CDCA387009C88D6 /* Chef-And-Wire-Frames.cpp */,
+				5FDFFCF32CDCA3F7009C88D6 /* Minimum-Coins.cpp */,
+				5FDFFCF52CDCA494009C88D6 /* Spice-Level.cpp */,
+				5FDFFCF72CDCA509009C88D6 /* The-Gift.cpp */,
+				5FDFFCF92CDCA603009C88D6 /* Reach-Home.cpp */,
+				5FDFFCFB2CDCA687009C88D6 /* Donation-Rewards.cpp */,
+				5FDFFCFD2CDCA703009C88D6 /* True-And-False-Paper.cpp */,
+				5FDFFCFF2CDCA77A009C88D6 /* The-Cheaper-Cab.cpp */,
+				5FDFFD012CDCA80C009C88D6 /* Discount.cpp */,
+				5FDFFD032CDCA877009C88D6 /* Height-Of-Rationals.cpp */,
+				5FDFFD052CDCA8E9009C88D6 /* Instagram.cpp */,
+				5FDFFD072CDCB94F009C88D6 /* Volume-Control.cpp */,
+				5FDFFD092CDCB9F5009C88D6 /* ATM.cpp */,
+				5FDFFD0B2CDCBE28009C88D6 /* Is-It-Hot-Or-Cold.cpp */,
+				5FDFFD0D2CDCBEA1009C88D6 /* Profit-Increment.cpp */,
+				5FDFFD0F2CDCC17D009C88D6 /* Fill-The-Bucket.cpp */,
+				5FDFFD112CDCC229009C88D6 /* Parliament.cpp */,
+				5FDFFD132CDCC726009C88D6 /* Find-Remainder.cpp */,
+				5FDFFD152CDCC7B2009C88D6 /* Ezio-And-Guards.cpp */,
+				5FDFFD172CDCC829009C88D6 /* Chef-And-Masks.cpp */,
+				5FDFFD192CDCC920009C88D6 /* Speciality.cpp */,
+				5FDFFD1B2CDCC9F0009C88D6 /* Maximum-Submissions.cpp */,
+				5FDFFD1D2CDCCAA7009C88D6 /* TV-Discount.cpp */,
+				5FDFFD1F2CDCCB53009C88D6 /* Broken-Phone.cpp */,
+				5FDFFD212CDCCBD2009C88D6 /* Tyre-Problem.cpp */,
+				5FDFFD232CDCCC1F009C88D6 /* Sum-Of-Digits.cpp */,
+				5FDFFD252CDCCC9E009C88D6 /* Monthly-Budget.cpp */,
+				5FDFFD272CDCCD1A009C88D6 /* Credit-Score.cpp */,
+				5FDFFD292CDCCD68009C88D6 /* first-and-last-digit.cpp */,
+				5FDFFD2B2CDCCDEB009C88D6 /* Enormous-Input-Test.cpp */,
+				5FDFFD2D2CDCCE95009C88D6 /* Practice-Makes-Us-Perfect.cpp */,
+				5FDFFD2F2CDCCF4A009C88D6 /* Pending-Assignments.cpp */,
+				5FDFFD312CDCCFD9009C88D6 /* Course-Registration.cpp */,
+				5FDFFD332CDCD040009C88D6 /* Insurance.cpp */,
+				5FDFFD352CDCEDA3009C88D6 /* Codechef-Airlines.cpp */,
+				5FDFFD372CDCF83E009C88D6 /* IncreaseIQ.cpp */,
+				5FDFFD392CDCF8BB009C88D6 /* Battery-Low.cpp */,
+				5FDFFD3B2CDCF915009C88D6 /* Bob-At-The-Bank.cpp */,
+				5FDFFD3D2CDCF988009C88D6 /* Mango-Truck.cpp */,
+				5FDFFD3F2CDCFA04009C88D6 /* Monopoly-in-Chefland.cpp */,
+				5FDFFD412CDCFA8E009C88D6 /* Bucket-and-Water-Flow.cpp */,
+				5FDFFD432CDCFB3F009C88D6 /* Miami-GP.cpp */,
+				5FDFFD462CDCFCB6009C88D6 /* Dominant-Army.cpp */,
+				5FDFFD482CDCFD42009C88D6 /* Playlist.cpp */,
+				5FDFFD4A2CDCFDF4009C88D6 /* Chef-and-Chocolates.cpp */,
+				5FDFFD4C2CDCFE81009C88D6 /* Netflix.cpp */,
+				5FDFFD4E2CDCFEFC009C88D6 /* Chef-and-Gym.cpp */,
+				5FDFFD502CDCFF8C009C88D6 /* Best-Coupon.cpp */,
 			);
 			path = Below500;
 			sourceTree = "<group>";
@@ -1112,7 +1274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FDFFCAE2CDBC648009C88D6 /* Super-Hero.cpp in Sources */,
+				5FDFFD512CDCFF8C009C88D6 /* Best-Coupon.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
