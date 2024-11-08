@@ -1,3 +1,5 @@
+//This (borrowed) solution has some error!
+
 #include<string.h>
 #include<stdio.h>
 int main()

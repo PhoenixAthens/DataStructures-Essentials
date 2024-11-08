@@ -35,13 +35,33 @@ int main(){
                     s[numOfDigits/2]++;
                 }
             }else{
-                for(int i=0;i<numOfDigits;i++){
-                    s[i]=0;
+                int i = numOfDigits/2;
+                if(numOfDigits%2==0){
+                    while(i<numOfDigits && s[i]=='9'){
+                        s[i]='0';
+                        s[numOfDigits-i-1]='0';
+                        i++;
+                    }
+                }else{
+                    s[i++]='0';
+                    while(i<numOfDigits && s[i]=='9'){
+                        s[i]='0';
+                        s[numOfDigits-i-1]='0';;
+                        i++;
+                        
+                    }
                 }
-                s[0]='1';
-                s.push_back('1');
+                if(i!=numOfDigits){
+                    s[i]++;
+                    s[numOfDigits-i-1]++;
+                }else{
+                    s[0]='1';
+                    s.push_back('1');
+                }
             }
         }
+        
+        
         cout << s << "\n";
         t--;
     }

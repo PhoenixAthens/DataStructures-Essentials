@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FDFFD512CDCFF8C009C88D6 /* Best-Coupon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFFD502CDCFF8C009C88D6 /* Best-Coupon.cpp */; };
+		5FDFFD682CDE3586009C88D6 /* Simple-Arithmetic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AF422CD61F940056D786 /* Simple-Arithmetic.cpp */; };
+		5FDFFD6B2CDE72BC009C88D6 /* Greater-Average.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFFD6A2CDE72BC009C88D6 /* Greater-Average.cpp */; };
+		5FDFFD6D2CDE73C2009C88D6 /* Minimum-Repeat-To-Make-SubString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFFD6C2CDE73C2009C88D6 /* Minimum-Repeat-To-Make-SubString.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -376,6 +378,18 @@
 		5FDFFD4C2CDCFE81009C88D6 /* Netflix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Netflix.cpp; sourceTree = "<group>"; };
 		5FDFFD4E2CDCFEFC009C88D6 /* Chef-and-Gym.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Chef-and-Gym.cpp"; sourceTree = "<group>"; };
 		5FDFFD502CDCFF8C009C88D6 /* Best-Coupon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Best-Coupon.cpp"; sourceTree = "<group>"; };
+		5FDFFD522CDDAE84009C88D6 /* Time-Addition-Function.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Time-Addition-Function.cpp"; sourceTree = "<group>"; };
+		5FDFFD542CDDB034009C88D6 /* ComplexNumbers-part2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ComplexNumbers-part2.cpp"; sourceTree = "<group>"; };
+		5FDFFD562CDDB167009C88D6 /* Banking-Program.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Banking-Program.cpp"; sourceTree = "<group>"; };
+		5FDFFD582CDDB2AF009C88D6 /* Adding-Complex-Numbers-Operator-Overloading.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Adding-Complex-Numbers-Operator-Overloading.cpp"; sourceTree = "<group>"; };
+		5FDFFD5A2CDDB382009C88D6 /* Exam.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Exam.cpp; sourceTree = "<group>"; };
+		5FDFFD5C2CDDB59D009C88D6 /* Inheritance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Inheritance.cpp; sourceTree = "<group>"; };
+		5FDFFD5E2CDDB718009C88D6 /* Base1-Base2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Base1-Base2.cpp"; sourceTree = "<group>"; };
+		5FDFFD602CDDB847009C88D6 /* Polygon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Polygon.cpp; sourceTree = "<group>"; };
+		5FDFFD622CDDB911009C88D6 /* Exception-Handling.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Exception-Handling.cpp"; sourceTree = "<group>"; };
+		5FDFFD642CDDB9B3009C88D6 /* Find-Largest-Of-Three.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Find-Largest-Of-Three.cpp"; sourceTree = "<group>"; };
+		5FDFFD6A2CDE72BC009C88D6 /* Greater-Average.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Greater-Average.cpp"; sourceTree = "<group>"; };
+		5FDFFD6C2CDE73C2009C88D6 /* Minimum-Repeat-To-Make-SubString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Minimum-Repeat-To-Make-SubString.cpp"; sourceTree = "<group>"; };
 		5FE4D7022C7893F200049C30 /* UniquePaths.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UniquePaths.cpp; sourceTree = "<group>"; };
 		5FEBAC7C2C0D821200F361A8 /* DataStructures-Essentials */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DataStructures-Essentials"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FEBAC7F2C0D821200F361A8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -474,6 +488,7 @@
 				5F02AE972CC6E3CB0056D786 /* Split-The-Array.cpp */,
 				5F02AE992CC7D8200056D786 /* Split-The-Array-II.cpp */,
 				5F02AEA22CC97ECB0056D786 /* Sub-arrays-with-equal-number-of-occurences.cpp */,
+				5FDFFD6C2CDE73C2009C88D6 /* Minimum-Repeat-To-Make-SubString.cpp */,
 			);
 			path = POTD;
 			sourceTree = "<group>";
@@ -1048,6 +1063,7 @@
 		5FB3FBB92CAE8AC8002D742B /* CodeChef */ = {
 			isa = PBXGroup;
 			children = (
+				5FDFFD692CDE72A0009C88D6 /* Below1000 */,
 				5FDFFCA42CDBB540009C88D6 /* Starter-159 */,
 				5F02AF242CD2828A0056D786 /* Starter-158 */,
 				5F02AEB42CCBFB160056D786 /* Below500 */,
@@ -1131,6 +1147,16 @@
 				5FDFFC9C2CDA3C2D009C88D6 /* Bank-Login.cpp */,
 				5FDFFC9E2CDA4D3B009C88D6 /* Add-Complex-Numbers.cpp */,
 				5FDFFCA02CDA4E21009C88D6 /* StudentDetails.cpp */,
+				5FDFFD522CDDAE84009C88D6 /* Time-Addition-Function.cpp */,
+				5FDFFD542CDDB034009C88D6 /* ComplexNumbers-part2.cpp */,
+				5FDFFD562CDDB167009C88D6 /* Banking-Program.cpp */,
+				5FDFFD582CDDB2AF009C88D6 /* Adding-Complex-Numbers-Operator-Overloading.cpp */,
+				5FDFFD5A2CDDB382009C88D6 /* Exam.cpp */,
+				5FDFFD5C2CDDB59D009C88D6 /* Inheritance.cpp */,
+				5FDFFD5E2CDDB718009C88D6 /* Base1-Base2.cpp */,
+				5FDFFD602CDDB847009C88D6 /* Polygon.cpp */,
+				5FDFFD622CDDB911009C88D6 /* Exception-Handling.cpp */,
+				5FDFFD642CDDB9B3009C88D6 /* Find-Largest-Of-Three.cpp */,
 			);
 			path = Scrap;
 			sourceTree = "<group>";
@@ -1145,6 +1171,14 @@
 				5FDFFCAD2CDBC648009C88D6 /* Super-Hero.cpp */,
 			);
 			path = "Starter-159";
+			sourceTree = "<group>";
+		};
+		5FDFFD692CDE72A0009C88D6 /* Below1000 */ = {
+			isa = PBXGroup;
+			children = (
+				5FDFFD6A2CDE72BC009C88D6 /* Greater-Average.cpp */,
+			);
+			path = Below1000;
 			sourceTree = "<group>";
 		};
 		5FEBAC732C0D821200F361A8 = {
@@ -1274,7 +1308,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FDFFD512CDCFF8C009C88D6 /* Best-Coupon.cpp in Sources */,
+				5FDFFD6D2CDE73C2009C88D6 /* Minimum-Repeat-To-Make-SubString.cpp in Sources */,
+				5FDFFD6B2CDE72BC009C88D6 /* Greater-Average.cpp in Sources */,
+				5FDFFD682CDE3586009C88D6 /* Simple-Arithmetic.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
