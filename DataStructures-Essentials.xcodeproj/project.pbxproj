@@ -7,11 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FDFFDA52CE10B16009C88D6 /* Alice-Adventure-In-Chess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFFDA42CE10B16009C88D6 /* Alice-Adventure-In-Chess.cpp */; };
-		5FDFFDA72CE12EE7009C88D6 /* Chef-and-NextGen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFFDA62CE12EE7009C88D6 /* Chef-and-NextGen.cpp */; };
-		5FDFFDA92CE12FD7009C88D6 /* Sugarcane-Juice-Business.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFFDA82CE12FD7009C88D6 /* Sugarcane-Juice-Business.cpp */; };
-		5FDFFDAB2CE13100009C88D6 /* Count-the-Notebooks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFFDAA2CE13100009C88D6 /* Count-the-Notebooks.cpp */; };
-		5FDFFDAD2CE1319E009C88D6 /* Chef-and-Candles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFFDAC2CE1319E009C88D6 /* Chef-and-Candles.cpp */; };
+		5FDFFDAF2CE1A675009C88D6 /* Simple-Arithmetic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AF422CD61F940056D786 /* Simple-Arithmetic.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -1412,11 +1408,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FDFFDAD2CE1319E009C88D6 /* Chef-and-Candles.cpp in Sources */,
-				5FDFFDAB2CE13100009C88D6 /* Count-the-Notebooks.cpp in Sources */,
-				5FDFFDA52CE10B16009C88D6 /* Alice-Adventure-In-Chess.cpp in Sources */,
-				5FDFFDA92CE12FD7009C88D6 /* Sugarcane-Juice-Business.cpp in Sources */,
-				5FDFFDA72CE12EE7009C88D6 /* Chef-and-NextGen.cpp in Sources */,
+				5FDFFDAF2CE1A675009C88D6 /* Simple-Arithmetic.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

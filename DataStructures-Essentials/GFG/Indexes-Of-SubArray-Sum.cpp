@@ -12,10 +12,10 @@ class Solution {
         int l = 0;
         int r = 1;
         int sum = arr[0];
-        while(sum!=target && r<=arr.size() && l < r){
-            if(sum<target){
+        while(sum!=target && r<arr.size() && l<arr.size()){
+            if(sum<target && r<arr.size()){
                 sum+=arr[r++];
-            }else if(sum>target){
+            }else if(sum>target && l<arr.size()){
                 sum-=arr[l++];
             }
         }
@@ -34,17 +34,21 @@ int main() {
     vector<int> arr4 {7,49,25,18,14,10,29,1,31,19};
     vector<int> arr5 {42,16,39,7,12,3,35};
     
-    vector<int> r1 = s.subarraySum(arr1,69);
-    vector<int> r2 = s.subarraySum(arr2,27);
+    //vector<int> r1 = s.subarraySum(arr1,69);
+    //vector<int> r2 = s.subarraySum(arr2,27);
     vector<int> r3 = s.subarraySum(arr3,174);
-    vector<int> r4 = s.subarraySum(arr4,109);
+    //vector<int> r4 = s.subarraySum(arr4,109);
     vector<int> r5 = s.subarraySum(arr5,23);
     //vector<int> r2 = s.subarraySum(<#vector<int> &arr#>, <#int target#>)
-    cout << r1[0] << ", " << r1[1] << "\n";
-    cout << r2[0] << ", " << r2[1] << "\n";
+//    cout << r1[0] << ", " << r1[1] << "\n";
+//    cout << r2[0] << ", " << r2[1] << "\n";
     cout << r3[0] << ", " << r3[1] << "\n";
-    cout << r4[0] << ", " << r4[1] << "\n";
-    cout << r5[0] << ", " << r5[1] << "\n";
+//    cout << r4[0] << ", " << r4[1] << "\n";
+    if(r5.size()>1){
+        cout << r5[0] << ", " << r5[1] << "\n";
+    }else{
+        cout << r5[0] << "\n";
+    }
     return 0;
 }
 
