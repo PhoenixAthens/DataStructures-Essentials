@@ -11,6 +11,8 @@
 #include <vector>
 #include <algorithm>
 #include <iomanip>
+#include <unordered_set>
+#include <unordered_map>
 using std::cout;
 using std::cin;
 using std::string;
@@ -25,5 +27,7 @@ using std::fixed;
 using std::ios;
 using std::endl;
 using std::ios_base;
-
+using std::unordered_set;
+using std::unordered_map;
+using std::min;
 #endif /* all_h */

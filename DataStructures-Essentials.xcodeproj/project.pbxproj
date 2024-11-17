@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FDFFDAF2CE1A675009C88D6 /* Simple-Arithmetic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F02AF422CD61F940056D786 /* Simple-Arithmetic.cpp */; };
+		5FDFFE022CE8C659009C88D6 /* C-Move-Segment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFFE012CE8C659009C88D6 /* C-Move-Segment.cpp */; };
+		5FDFFE042CE8D585009C88D6 /* E-1D-Bucket-Tool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFFE032CE8D585009C88D6 /* E-1D-Bucket-Tool.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -415,6 +416,46 @@
 		5FDFFDA82CE12FD7009C88D6 /* Sugarcane-Juice-Business.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sugarcane-Juice-Business.cpp"; sourceTree = "<group>"; };
 		5FDFFDAA2CE13100009C88D6 /* Count-the-Notebooks.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Count-the-Notebooks.cpp"; sourceTree = "<group>"; };
 		5FDFFDAC2CE1319E009C88D6 /* Chef-and-Candles.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Chef-and-Candles.cpp"; sourceTree = "<group>"; };
+		5FDFFDB02CE1C47C009C88D6 /* Car-Or-Bike.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Car-Or-Bike.cpp"; sourceTree = "<group>"; };
+		5FDFFDB22CE1C555009C88D6 /* Is-The-Score-Consistent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Is-The-Score-Consistent.cpp"; sourceTree = "<group>"; };
+		5FDFFDB42CE1C622009C88D6 /* The-Three-Topics.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "The-Three-Topics.cpp"; sourceTree = "<group>"; };
+		5FDFFDB62CE1C718009C88D6 /* Monopoly.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Monopoly.cpp; sourceTree = "<group>"; };
+		5FDFFDB82CE1C80C009C88D6 /* Problems-In-Your-To-Do-List.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Problems-In-Your-To-Do-List.cpp"; sourceTree = "<group>"; };
+		5FDFFDBA2CE1C91C009C88D6 /* Air-Conditioner-Temprature.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Air-Conditioner-Temprature.cpp"; sourceTree = "<group>"; };
+		5FDFFDBC2CE1CA32009C88D6 /* Nearest-Exit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Nearest-Exit.cpp"; sourceTree = "<group>"; };
+		5FDFFDBE2CE1CE88009C88D6 /* Reverse-The-Number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Reverse-The-Number.cpp"; sourceTree = "<group>"; };
+		5FDFFDC02CE1CF2E009C88D6 /* Sasta-Shark-Tank.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sasta-Shark-Tank.cpp"; sourceTree = "<group>"; };
+		5FDFFDC22CE1D06F009C88D6 /* Good-Program.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Good-Program.cpp"; sourceTree = "<group>"; };
+		5FDFFDC42CE1D0F4009C88D6 /* Qualify-The-Round.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Qualify-The-Round.cpp"; sourceTree = "<group>"; };
+		5FDFFDC62CE1D170009C88D6 /* Elections-In-Chefland.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Elections-In-Chefland.cpp"; sourceTree = "<group>"; };
+		5FDFFDC82CE1FE25009C88D6 /* Majority-Element.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Majority-Element.cpp"; sourceTree = "<group>"; };
+		5FDFFDCA2CE28F72009C88D6 /* Majority-Element-II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Majority-Element-II.cpp"; sourceTree = "<group>"; };
+		5FDFFDCC2CE29571009C88D6 /* Longest-Consecutive-Sequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Longest-Consecutive-Sequence.cpp"; sourceTree = "<group>"; };
+		5FDFFDCE2CE2FA49009C88D6 /* Squares-Of-A-Sorted-Array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Squares-Of-A-Sorted-Array.cpp"; sourceTree = "<group>"; };
+		5FDFFDD12CE2FF09009C88D6 /* Reverse-String.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Reverse-String.cpp"; sourceTree = "<group>"; };
+		5FDFFDD32CE302D5009C88D6 /* Two-Sum-II-Input-Array-Is-Sorted.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Two-Sum-II-Input-Array-Is-Sorted.cpp"; sourceTree = "<group>"; };
+		5FDFFDD52CE34DD3009C88D6 /* Minimum-Cars-Required.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Minimum-Cars-Required.cpp"; sourceTree = "<group>"; };
+		5FDFFDD72CE34E75009C88D6 /* Test-Score.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Test-Score.cpp"; sourceTree = "<group>"; };
+		5FDFFDDA2CE4574B009C88D6 /* Valid-Palindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Valid-Palindrome.cpp"; sourceTree = "<group>"; };
+		5FDFFDDC2CE46433009C88D6 /* Three-Sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Three-Sum.cpp"; sourceTree = "<group>"; };
+		5FDFFDDE2CE47D61009C88D6 /* Optimized-Bubble-Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Optimized-Bubble-Sort.cpp"; sourceTree = "<group>"; };
+		5FDFFDE02CE47EFD009C88D6 /* Sorting-With-Comparator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sorting-With-Comparator.cpp"; sourceTree = "<group>"; };
+		5FDFFDE22CE48143009C88D6 /* Sorting-Cartesian-Coordinates.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sorting-Cartesian-Coordinates.cpp"; sourceTree = "<group>"; };
+		5FDFFDE42CE48255009C88D6 /* ChopSticks.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ChopSticks.cpp; sourceTree = "<group>"; };
+		5FDFFDE62CE51840009C88D6 /* Jenga-Night.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Jenga-Night.cpp"; sourceTree = "<group>"; };
+		5FDFFDE82CE519E1009C88D6 /* Bus-Seat-Numbering.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Bus-Seat-Numbering.cpp"; sourceTree = "<group>"; };
+		5FDFFDEA2CE51C08009C88D6 /* Discus-Throw.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Discus-Throw.cpp"; sourceTree = "<group>"; };
+		5FDFFDEC2CE51C84009C88D6 /* Maximise-The-Tastiness.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Maximise-The-Tastiness.cpp"; sourceTree = "<group>"; };
+		5FDFFDEE2CE51D3B009C88D6 /* Watching-Movies-at-2x.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Watching-Movies-at-2x.cpp"; sourceTree = "<group>"; };
+		5FDFFDF02CE51E55009C88D6 /* Police-And-Thief.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Police-And-Thief.cpp"; sourceTree = "<group>"; };
+		5FDFFDF22CE5A4BC009C88D6 /* Flip-The-Cards.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Flip-The-Cards.cpp"; sourceTree = "<group>"; };
+		5FDFFDF42CE5A59A009C88D6 /* Bath-In-Winters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Bath-In-Winters.cpp"; sourceTree = "<group>"; };
+		5FDFFDF62CE5ACB5009C88D6 /* Small-Factorials.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Small-Factorials.cpp"; sourceTree = "<group>"; };
+		5FDFFDFA2CE77B91009C88D6 /* A-Penchick-And-Modern-Monument.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "A-Penchick-And-Modern-Monument.cpp"; sourceTree = "<group>"; };
+		5FDFFDFD2CE8C121009C88D6 /* A-123233.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "A-123233.cpp"; sourceTree = "<group>"; };
+		5FDFFDFF2CE8C37C009C88D6 /* B-Hurdle-Parsing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "B-Hurdle-Parsing.cpp"; sourceTree = "<group>"; };
+		5FDFFE012CE8C659009C88D6 /* C-Move-Segment.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C-Move-Segment.cpp"; sourceTree = "<group>"; };
+		5FDFFE032CE8D585009C88D6 /* E-1D-Bucket-Tool.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "E-1D-Bucket-Tool.cpp"; sourceTree = "<group>"; };
 		5FE4D7022C7893F200049C30 /* UniquePaths.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UniquePaths.cpp; sourceTree = "<group>"; };
 		5FEBAC7C2C0D821200F361A8 /* DataStructures-Essentials */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DataStructures-Essentials"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FEBAC7F2C0D821200F361A8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -470,6 +511,7 @@
 		5F02AE882CC3F7020056D786 /* CodeForces-Compete */ = {
 			isa = PBXGroup;
 			children = (
+				5FDFFDF92CE77B6A009C88D6 /* Contest-987-div2 */,
 				5FDFFDA32CE10AF8009C88D6 /* Contest-986-div2 */,
 				5FDFFD952CDFBD86009C88D6 /* Refact.ai Match1 (round 985) */,
 				5F02AF4D2CD78FD80056D786 /* Contest-984-div3 */,
@@ -665,6 +707,7 @@
 		5F02AF012CCD258D0056D786 /* AtCoder */ = {
 			isa = PBXGroup;
 			children = (
+				5FDFFDFC2CE8C103009C88D6 /* BegineerContest-380 */,
 				5FDFFD862CDF8689009C88D6 /* BegineerContest-379 */,
 				5F02AF492CD64D010056D786 /* BegineerContest-378 */,
 				5F02AF0D2CCE6B090056D786 /* RegularContest-186 */,
@@ -910,6 +953,10 @@
 				5F02AEA52CCA437F0056D786 /* Guessing-Game.c */,
 				5F02AEAE2CCB71D00056D786 /* Prime-Numbers.c */,
 				5F02AEB22CCBE75B0056D786 /* LinkedList.cpp */,
+				5FDFFDDE2CE47D61009C88D6 /* Optimized-Bubble-Sort.cpp */,
+				5FDFFDE02CE47EFD009C88D6 /* Sorting-With-Comparator.cpp */,
+				5FDFFDE22CE48143009C88D6 /* Sorting-Cartesian-Coordinates.cpp */,
+				5FDFFDE42CE48255009C88D6 /* ChopSticks.cpp */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -1033,6 +1080,14 @@
 				5F0A12912CB7EA9200394595 /* Group-Anagrams.cpp */,
 				5F0A12952CB8118100394595 /* Group-Anagrams-II.cpp */,
 				5F02AE842CC0D6C00056D786 /* Group-Anagrams-III.cpp */,
+				5FDFFDC82CE1FE25009C88D6 /* Majority-Element.cpp */,
+				5FDFFDCA2CE28F72009C88D6 /* Majority-Element-II.cpp */,
+				5FDFFDCC2CE29571009C88D6 /* Longest-Consecutive-Sequence.cpp */,
+				5FDFFDCE2CE2FA49009C88D6 /* Squares-Of-A-Sorted-Array.cpp */,
+				5FDFFDD12CE2FF09009C88D6 /* Reverse-String.cpp */,
+				5FDFFDD32CE302D5009C88D6 /* Two-Sum-II-Input-Array-Is-Sorted.cpp */,
+				5FDFFDDA2CE4574B009C88D6 /* Valid-Palindrome.cpp */,
+				5FDFFDDC2CE46433009C88D6 /* Three-Sum.cpp */,
 			);
 			path = "GregHogg-AlgoMap";
 			sourceTree = "<group>";
@@ -1225,6 +1280,29 @@
 				5FDFFDA82CE12FD7009C88D6 /* Sugarcane-Juice-Business.cpp */,
 				5FDFFDAA2CE13100009C88D6 /* Count-the-Notebooks.cpp */,
 				5FDFFDAC2CE1319E009C88D6 /* Chef-and-Candles.cpp */,
+				5FDFFDB02CE1C47C009C88D6 /* Car-Or-Bike.cpp */,
+				5FDFFDB22CE1C555009C88D6 /* Is-The-Score-Consistent.cpp */,
+				5FDFFDB42CE1C622009C88D6 /* The-Three-Topics.cpp */,
+				5FDFFDB62CE1C718009C88D6 /* Monopoly.cpp */,
+				5FDFFDB82CE1C80C009C88D6 /* Problems-In-Your-To-Do-List.cpp */,
+				5FDFFDBA2CE1C91C009C88D6 /* Air-Conditioner-Temprature.cpp */,
+				5FDFFDBC2CE1CA32009C88D6 /* Nearest-Exit.cpp */,
+				5FDFFDBE2CE1CE88009C88D6 /* Reverse-The-Number.cpp */,
+				5FDFFDC02CE1CF2E009C88D6 /* Sasta-Shark-Tank.cpp */,
+				5FDFFDC22CE1D06F009C88D6 /* Good-Program.cpp */,
+				5FDFFDC42CE1D0F4009C88D6 /* Qualify-The-Round.cpp */,
+				5FDFFDC62CE1D170009C88D6 /* Elections-In-Chefland.cpp */,
+				5FDFFDD52CE34DD3009C88D6 /* Minimum-Cars-Required.cpp */,
+				5FDFFDD72CE34E75009C88D6 /* Test-Score.cpp */,
+				5FDFFDE62CE51840009C88D6 /* Jenga-Night.cpp */,
+				5FDFFDE82CE519E1009C88D6 /* Bus-Seat-Numbering.cpp */,
+				5FDFFDEA2CE51C08009C88D6 /* Discus-Throw.cpp */,
+				5FDFFDEC2CE51C84009C88D6 /* Maximise-The-Tastiness.cpp */,
+				5FDFFDEE2CE51D3B009C88D6 /* Watching-Movies-at-2x.cpp */,
+				5FDFFDF02CE51E55009C88D6 /* Police-And-Thief.cpp */,
+				5FDFFDF22CE5A4BC009C88D6 /* Flip-The-Cards.cpp */,
+				5FDFFDF42CE5A59A009C88D6 /* Bath-In-Winters.cpp */,
+				5FDFFDF62CE5ACB5009C88D6 /* Small-Factorials.cpp */,
 			);
 			path = Below1000;
 			sourceTree = "<group>";
@@ -1279,6 +1357,25 @@
 				5FDFFDA42CE10B16009C88D6 /* Alice-Adventure-In-Chess.cpp */,
 			);
 			path = "Contest-986-div2";
+			sourceTree = "<group>";
+		};
+		5FDFFDF92CE77B6A009C88D6 /* Contest-987-div2 */ = {
+			isa = PBXGroup;
+			children = (
+				5FDFFDFA2CE77B91009C88D6 /* A-Penchick-And-Modern-Monument.cpp */,
+			);
+			path = "Contest-987-div2";
+			sourceTree = "<group>";
+		};
+		5FDFFDFC2CE8C103009C88D6 /* BegineerContest-380 */ = {
+			isa = PBXGroup;
+			children = (
+				5FDFFDFD2CE8C121009C88D6 /* A-123233.cpp */,
+				5FDFFDFF2CE8C37C009C88D6 /* B-Hurdle-Parsing.cpp */,
+				5FDFFE012CE8C659009C88D6 /* C-Move-Segment.cpp */,
+				5FDFFE032CE8D585009C88D6 /* E-1D-Bucket-Tool.cpp */,
+			);
+			path = "BegineerContest-380";
 			sourceTree = "<group>";
 		};
 		5FEBAC732C0D821200F361A8 = {
@@ -1408,7 +1505,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FDFFDAF2CE1A675009C88D6 /* Simple-Arithmetic.cpp in Sources */,
+				5FDFFE042CE8D585009C88D6 /* E-1D-Bucket-Tool.cpp in Sources */,
+				5FDFFE022CE8C659009C88D6 /* C-Move-Segment.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,7 +6,7 @@ using std::string;
 using std::reverse;
 void add(string num1, string num2);
 void sub(string num1, string num2);
-//void multi(string num1, string num2);
+void multi(string num1, string num2);
 int main(){
     int t;
     cin >> t;
@@ -28,14 +28,17 @@ int main(){
         }else if(operation == '-'){
             sub(num1,num2);
         }else{
-            //multi(num1,num2);
+            multi(num1,num2);
         }
     }
     return 0;
 }
 //implement addition
+string addG(string num1,string num2){
+    
+}
 void add(string num1, string num2){
-    string revResult;
+    string revResult = addG(string num1,string num2);
     int size_num1 = num1.size();
     int size_num2 = num2.size();
     if(size_num1>size_num2){
@@ -175,4 +178,26 @@ void sub(string num1, string num2){
 }
 
 //implement multiplication
-
+void multi(string num1, string num2){
+    int num1_size = num1.size();
+    int num2_size = num2.size();
+    string arr[num2_size];
+    for(int i=num2_size-1;i>=0;i--){
+        int digit_f2 = (num2[i]-'0');
+        string result;
+        int carry=0;
+        for(int j=num1_size-1;j>=0;j--){
+            int digit_f1 = (num1[j]-'0');
+            int m = digit_f1*digit_f2;
+            result.push_back(('0'+(m%10+carry)));
+            m/=10;
+            carry=m;
+        }
+        result.push_back('0'+carry);
+        reverse(result.begin(),result.end());
+        arr[i]=result;
+    }
+    int i=1;
+    
+    
+}
