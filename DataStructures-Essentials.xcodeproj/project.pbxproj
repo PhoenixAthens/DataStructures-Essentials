@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FDFFE022CE8C659009C88D6 /* C-Move-Segment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFFE012CE8C659009C88D6 /* C-Move-Segment.cpp */; };
-		5FDFFE042CE8D585009C88D6 /* E-1D-Bucket-Tool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFFE032CE8D585009C88D6 /* E-1D-Bucket-Tool.cpp */; };
+		5FDFFE172CEB0810009C88D6 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFFE162CEB0810009C88D6 /* test.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -456,6 +455,14 @@
 		5FDFFDFF2CE8C37C009C88D6 /* B-Hurdle-Parsing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "B-Hurdle-Parsing.cpp"; sourceTree = "<group>"; };
 		5FDFFE012CE8C659009C88D6 /* C-Move-Segment.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C-Move-Segment.cpp"; sourceTree = "<group>"; };
 		5FDFFE032CE8D585009C88D6 /* E-1D-Bucket-Tool.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "E-1D-Bucket-Tool.cpp"; sourceTree = "<group>"; };
+		5FDFFE052CE9EE9B009C88D6 /* Finding-Shoes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Finding-Shoes.cpp"; sourceTree = "<group>"; };
+		5FDFFE082CE9F536009C88D6 /* Mario-And-Transformation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Mario-And-Transformation.cpp"; sourceTree = "<group>"; };
+		5FDFFE0A2CE9F61A009C88D6 /* Mario-And-Bullet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Mario-And-Bullet.cpp"; sourceTree = "<group>"; };
+		5FDFFE0D2CEA2800009C88D6 /* Count-Trips.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Count-Trips.cpp"; sourceTree = "<group>"; };
+		5FDFFE102CEA3778009C88D6 /* A-Twice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "A-Twice.cpp"; sourceTree = "<group>"; };
+		5FDFFE122CEA4506009C88D6 /* B-Intercepted-Inputs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "B-Intercepted-Inputs.cpp"; sourceTree = "<group>"; };
+		5FDFFE142CEA7D32009C88D6 /* C-Superultra-Favorite-Permutation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C-Superultra-Favorite-Permutation.cpp"; sourceTree = "<group>"; };
+		5FDFFE162CEB0810009C88D6 /* test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
 		5FE4D7022C7893F200049C30 /* UniquePaths.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UniquePaths.cpp; sourceTree = "<group>"; };
 		5FEBAC7C2C0D821200F361A8 /* DataStructures-Essentials */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DataStructures-Essentials"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FEBAC7F2C0D821200F361A8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -511,6 +518,7 @@
 		5F02AE882CC3F7020056D786 /* CodeForces-Compete */ = {
 			isa = PBXGroup;
 			children = (
+				5FDFFE0F2CEA3764009C88D6 /* Contest-987-div3 */,
 				5FDFFDF92CE77B6A009C88D6 /* Contest-987-div2 */,
 				5FDFFDA32CE10AF8009C88D6 /* Contest-986-div2 */,
 				5FDFFD952CDFBD86009C88D6 /* Refact.ai Match1 (round 985) */,
@@ -885,6 +893,7 @@
 		5F1781992C4EA6440057C7D8 /* GFG */ = {
 			isa = PBXGroup;
 			children = (
+				5FDFFE0C2CEA27E6009C88D6 /* GFG-Weekly-181 */,
 				5FDFFDA02CE0EC29009C88D6 /* GFG-Weekly-180 */,
 				5F02AF552CD7BAC40056D786 /* GFG-Weekly-179 */,
 				5F02AF102CCE78510056D786 /* GFG-Weekly-178 */,
@@ -1245,6 +1254,7 @@
 				5FDFFD602CDDB847009C88D6 /* Polygon.cpp */,
 				5FDFFD622CDDB911009C88D6 /* Exception-Handling.cpp */,
 				5FDFFD642CDDB9B3009C88D6 /* Find-Largest-Of-Three.cpp */,
+				5FDFFE162CEB0810009C88D6 /* test.cpp */,
 			);
 			path = Scrap;
 			sourceTree = "<group>";
@@ -1303,6 +1313,9 @@
 				5FDFFDF22CE5A4BC009C88D6 /* Flip-The-Cards.cpp */,
 				5FDFFDF42CE5A59A009C88D6 /* Bath-In-Winters.cpp */,
 				5FDFFDF62CE5ACB5009C88D6 /* Small-Factorials.cpp */,
+				5FDFFE052CE9EE9B009C88D6 /* Finding-Shoes.cpp */,
+				5FDFFE082CE9F536009C88D6 /* Mario-And-Transformation.cpp */,
+				5FDFFE0A2CE9F61A009C88D6 /* Mario-And-Bullet.cpp */,
 			);
 			path = Below1000;
 			sourceTree = "<group>";
@@ -1376,6 +1389,24 @@
 				5FDFFE032CE8D585009C88D6 /* E-1D-Bucket-Tool.cpp */,
 			);
 			path = "BegineerContest-380";
+			sourceTree = "<group>";
+		};
+		5FDFFE0C2CEA27E6009C88D6 /* GFG-Weekly-181 */ = {
+			isa = PBXGroup;
+			children = (
+				5FDFFE0D2CEA2800009C88D6 /* Count-Trips.cpp */,
+			);
+			path = "GFG-Weekly-181";
+			sourceTree = "<group>";
+		};
+		5FDFFE0F2CEA3764009C88D6 /* Contest-987-div3 */ = {
+			isa = PBXGroup;
+			children = (
+				5FDFFE102CEA3778009C88D6 /* A-Twice.cpp */,
+				5FDFFE122CEA4506009C88D6 /* B-Intercepted-Inputs.cpp */,
+				5FDFFE142CEA7D32009C88D6 /* C-Superultra-Favorite-Permutation.cpp */,
+			);
+			path = "Contest-987-div3";
 			sourceTree = "<group>";
 		};
 		5FEBAC732C0D821200F361A8 = {
@@ -1505,8 +1536,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FDFFE042CE8D585009C88D6 /* E-1D-Bucket-Tool.cpp in Sources */,
-				5FDFFE022CE8C659009C88D6 /* C-Move-Segment.cpp in Sources */,
+				5FDFFE172CEB0810009C88D6 /* test.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
