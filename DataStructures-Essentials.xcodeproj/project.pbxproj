@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FDFFE1A2CEC595D009C88D6 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFFE162CEB0810009C88D6 /* test.cpp */; };
+		5FDFFE212CEDC959009C88D6 /* Way-Too-Long-Words.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFFE1F2CEDC883009C88D6 /* Way-Too-Long-Words.cpp */; };
+		5FDFFE232CEDCDC0009C88D6 /* Team.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFFE222CEDCDC0009C88D6 /* Team.cpp */; };
+		5FDFFE252CEDCEF0009C88D6 /* Bits++.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFFE242CEDCEF0009C88D6 /* Bits++.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -464,6 +466,10 @@
 		5FDFFE142CEA7D32009C88D6 /* C-Superultra-Favorite-Permutation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C-Superultra-Favorite-Permutation.cpp"; sourceTree = "<group>"; };
 		5FDFFE162CEB0810009C88D6 /* test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
 		5FDFFE182CEB2AB6009C88D6 /* Container-With-Most-Water.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Container-With-Most-Water.cpp"; sourceTree = "<group>"; };
+		5FDFFE1D2CEDC86E009C88D6 /* A-Watermelon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "A-Watermelon.cpp"; sourceTree = "<group>"; };
+		5FDFFE1F2CEDC883009C88D6 /* Way-Too-Long-Words.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Way-Too-Long-Words.cpp"; sourceTree = "<group>"; };
+		5FDFFE222CEDCDC0009C88D6 /* Team.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Team.cpp; sourceTree = "<group>"; };
+		5FDFFE242CEDCEF0009C88D6 /* Bits++.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Bits++.cpp"; sourceTree = "<group>"; };
 		5FE4D7022C7893F200049C30 /* UniquePaths.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UniquePaths.cpp; sourceTree = "<group>"; };
 		5FEBAC7C2C0D821200F361A8 /* DataStructures-Essentials */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DataStructures-Essentials"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FEBAC7F2C0D821200F361A8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -1235,6 +1241,10 @@
 				5FC5216B2C449BBB00356594 /* function-testing.cpp */,
 				5F6B6BBC2C4619140094DDE4 /* README.md */,
 				5F7E4E992C48F25300A634F9 /* Ancient-Berland-Circus.cpp */,
+				5FDFFE1D2CEDC86E009C88D6 /* A-Watermelon.cpp */,
+				5FDFFE1F2CEDC883009C88D6 /* Way-Too-Long-Words.cpp */,
+				5FDFFE222CEDCDC0009C88D6 /* Team.cpp */,
+				5FDFFE242CEDCEF0009C88D6 /* Bits++.cpp */,
 			);
 			path = CodeForces;
 			sourceTree = "<group>";
@@ -1538,7 +1548,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FDFFE1A2CEC595D009C88D6 /* test.cpp in Sources */,
+				5FDFFE232CEDCDC0009C88D6 /* Team.cpp in Sources */,
+				5FDFFE212CEDC959009C88D6 /* Way-Too-Long-Words.cpp in Sources */,
+				5FDFFE252CEDCEF0009C88D6 /* Bits++.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
