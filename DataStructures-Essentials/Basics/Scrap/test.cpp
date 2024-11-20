@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <iomanip>
+#include <stdio.h>
 using std::cout;
 using std::vector;
 using std::cin;
@@ -111,7 +112,170 @@ void multiplication_2(){
     }
     cout << a*b << "\n";
 }
-
-int main(){
-    multiplication_2();
+void print_a_cat(){
+    cout << " \\ /\\" << "\n";
+    cout << "  ) ( ')" << "\n";
+    cout << " ( / )"   << "\n";
+    cout << "  \\(__)|"<< "\n";
 }
+void print_a_dog(){
+    printf("|\\_/|\n");
+    printf("|q p|   /}\n");
+    printf("( 0 )\"\"\"\\\n");
+    printf("|\"^\"`    |\n");
+    printf("||_/=\\\\__|\n");
+}
+void leap_year(){
+    int year;
+    cin >> year;
+    if(year%400==0)cout<<1<<"\n";
+    else if(year%4==0 && year%100!=0)cout<<1<<"\n";
+    else cout<<0<<"\n";
+}
+void find_quadrant(){
+    int x,y;
+    cin >> x;
+    cin >> y;
+    if(x>=0 && y>=0)cout<<1<<"\n";
+    else if(x<0 && y>=0)cout<<2<<"\n";
+    else if(x<0 && y<0)cout<<3<<"\n";
+    else cout<<4<<"\n";
+}
+
+void setAlarm(){
+    int h, m;
+    cin >> h >> m;
+    if(h==0 && m<45){
+        h=24;
+    }
+    int minutes = (h*60)+m;
+    minutes-=45;
+    cout << minutes/60 << " " << minutes%60 << "\n";
+}
+
+void cookTime(){
+    int cu_h, cu_m, cook_m;
+    cin >> cu_h >> cu_m;
+    cin >> cook_m;
+    int end = cook_m + cu_m;
+    cu_h+=(end/60);
+    end%=60;
+    cout << cu_h%24 << " " << end << "\n";
+}
+
+void three_dice(){
+    using std::max;
+    using std::cout;
+    using std::cin;
+    int a,b,c;
+    cin >> a >> b >> c;
+    if(a==b && b==c){
+        cout << 10000+a*1000 << "\n";
+    }else if(a==b){
+        cout << 1000+a*100 << "\n";
+    }else if(b==c){
+        cout << 1000+b*100 << "\n";
+    }else if(c==a){
+        cout << 1000+c*100 << "\n";
+    }else{
+        cout << max(a,max(b,c)) * 100 << "\n";
+    }
+}
+void multiplication_table(){
+    using std::cout;
+    using std::cin;
+    int n;
+    cin >> n;
+    for(int i=1;i<=9;i++){
+        cout << n << " * " << i << " = " << n*i << "\n";
+    }
+}
+
+void rep_add(){
+    using std::cout;
+    using std::cin;
+    int t;
+    cin >> t;
+    while(t--){
+        int a,b;
+        cin >> a >> b;
+        cout << a+b << "\n";
+    }
+}
+void sumOfIntegers(){
+    using std::cout;
+    using std::cin;
+    double n;
+    cin >> n;
+    cout << (n/2)*(n+1) << "\n";
+}
+
+void receipt(){
+    using std::cout;
+    using std::cin;
+    int total_amount;
+    cin >> total_amount;
+    int n;
+    cin >> n;
+    int query{0};
+    for(int i=0;i<n;i++){
+        int am, q;
+        cin >> am >> q;
+        query+=(am*q);
+    }
+    if(query==total_amount)cout<<"Yes\n";
+    else cout<<"No\n";
+}
+
+void coding_in_psyED(){
+    using std::cout;
+    using std::cin;
+    int n;
+    cin >> n;
+    int longs = n/4;
+    for(int i=0;i<longs;i++){
+        cout << "long ";
+    }
+    cout << "int\n";
+}
+
+void add_again(){
+    int t;
+    cin >> t;
+    for(int i=1;i<=t;i++){
+        int a,b;
+        cin >> a >> b;
+        cout << "Case #"<<i<<": "<<a<<" + "<<b<<" = "<<(a+b)<<"\n";
+    }
+}
+
+void pattern(){
+    int t;
+        cin >> t;
+        for(int i=1;i<=t;i++){
+            for(int j=0;j<t-i;j++){
+                cout << " ";
+            }
+            for(int j=0;j<i;j++){
+                cout << "*";
+            }
+            cout << "\n";
+        }
+}
+int main(){
+    pattern();
+}
+/*
+ 
+ \ /\
+ ) ( ')
+ ( / )
+ \(__)|
+ 
+ \ /\
+  ) ( ')
+ ( / )
+  \(__)|
+ 
+ 
+ */
