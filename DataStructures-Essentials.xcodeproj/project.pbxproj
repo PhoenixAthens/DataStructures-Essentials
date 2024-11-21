@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FDFFE322CEEE69B009C88D6 /* Petya-And-Strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFFE312CEEE69B009C88D6 /* Petya-And-Strings.cpp */; };
-		5FDFFE342CEEEB04009C88D6 /* Helpful-Math.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFFE332CEEEB04009C88D6 /* Helpful-Math.cpp */; };
+		5FC8FC852CEEFC2100907702 /* 10810-Put-The-Ball-In.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8FC842CEEFC2100907702 /* 10810-Put-The-Ball-In.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -267,6 +266,11 @@
 		5FC5216B2C449BBB00356594 /* function-testing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "function-testing.cpp"; sourceTree = "<group>"; };
 		5FC521712C44C5A400356594 /* 2D-Array-PrefixSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2D-Array-PrefixSum.cpp"; sourceTree = "<group>"; };
 		5FC521762C44D99800356594 /* Structures.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Structures.c; sourceTree = "<group>"; };
+		5FC8FC7C2CEEF21C00907702 /* 10807-Counting-the-number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "10807-Counting-the-number.cpp"; sourceTree = "<group>"; };
+		5FC8FC7E2CEEF3C600907702 /* 10871-A-Number-Less-Than-X.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "10871-A-Number-Less-Than-X.cpp"; sourceTree = "<group>"; };
+		5FC8FC802CEEF45500907702 /* 10818-Maximum-Minimum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "10818-Maximum-Minimum.cpp"; sourceTree = "<group>"; };
+		5FC8FC822CEEF56D00907702 /* 2562-Maximum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2562-Maximum.cpp"; sourceTree = "<group>"; };
+		5FC8FC842CEEFC2100907702 /* 10810-Put-The-Ball-In.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "10810-Put-The-Ball-In.cpp"; sourceTree = "<group>"; };
 		5FCB65232C8F006D00A14E39 /* print-divisors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "print-divisors.cpp"; sourceTree = "<group>"; };
 		5FCB652B2C919D5A00A14E39 /* Print-1-to-N-Without-Loop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Print-1-to-N-Without-Loop.cpp"; sourceTree = "<group>"; };
 		5FCB652D2C91A0B500A14E39 /* Print-GFG-n-times.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Print-GFG-n-times.cpp"; sourceTree = "<group>"; };
@@ -1261,6 +1265,18 @@
 			path = CodeForces;
 			sourceTree = "<group>";
 		};
+		5FC8FC7B2CEEF1FC00907702 /* Baekjoon (online-judge) */ = {
+			isa = PBXGroup;
+			children = (
+				5FC8FC7C2CEEF21C00907702 /* 10807-Counting-the-number.cpp */,
+				5FC8FC7E2CEEF3C600907702 /* 10871-A-Number-Less-Than-X.cpp */,
+				5FC8FC802CEEF45500907702 /* 10818-Maximum-Minimum.cpp */,
+				5FC8FC822CEEF56D00907702 /* 2562-Maximum.cpp */,
+				5FC8FC842CEEFC2100907702 /* 10810-Put-The-Ball-In.cpp */,
+			);
+			path = "Baekjoon (online-judge)";
+			sourceTree = "<group>";
+		};
 		5FDFFC992CDA2670009C88D6 /* Scrap */ = {
 			isa = PBXGroup;
 			children = (
@@ -1461,6 +1477,7 @@
 		5FEBAC7E2C0D821200F361A8 /* DataStructures-Essentials */ = {
 			isa = PBXGroup;
 			children = (
+				5FC8FC7B2CEEF1FC00907702 /* Baekjoon (online-judge) */,
 				5F02AF442CD635680056D786 /* Amazon-SDE-Practice-OA */,
 				5F02AF2F2CD4B81B0056D786 /* Spoj */,
 				5F02AF192CCF4C890056D786 /* Project-Euler */,
@@ -1569,8 +1586,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FDFFE342CEEEB04009C88D6 /* Helpful-Math.cpp in Sources */,
-				5FDFFE322CEEE69B009C88D6 /* Petya-And-Strings.cpp in Sources */,
+				5FC8FC852CEEFC2100907702 /* 10810-Put-The-Ball-In.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
