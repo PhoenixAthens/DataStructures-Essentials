@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FDFFE212CEDC959009C88D6 /* Way-Too-Long-Words.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFFE1F2CEDC883009C88D6 /* Way-Too-Long-Words.cpp */; };
-		5FDFFE232CEDCDC0009C88D6 /* Team.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFFE222CEDCDC0009C88D6 /* Team.cpp */; };
-		5FDFFE252CEDCEF0009C88D6 /* Bits++.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFFE242CEDCEF0009C88D6 /* Bits++.cpp */; };
+		5FDFFE322CEEE69B009C88D6 /* Petya-And-Strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFFE312CEEE69B009C88D6 /* Petya-And-Strings.cpp */; };
+		5FDFFE342CEEEB04009C88D6 /* Helpful-Math.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFFE332CEEEB04009C88D6 /* Helpful-Math.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -470,6 +469,13 @@
 		5FDFFE1F2CEDC883009C88D6 /* Way-Too-Long-Words.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Way-Too-Long-Words.cpp"; sourceTree = "<group>"; };
 		5FDFFE222CEDCDC0009C88D6 /* Team.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Team.cpp; sourceTree = "<group>"; };
 		5FDFFE242CEDCEF0009C88D6 /* Bits++.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Bits++.cpp"; sourceTree = "<group>"; };
+		5FDFFE272CEE3192009C88D6 /* MoneyMaking.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MoneyMaking.cpp; sourceTree = "<group>"; };
+		5FDFFE292CEE351D009C88D6 /* Selling-Donuts.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Selling-Donuts.cpp"; sourceTree = "<group>"; };
+		5FDFFE2B2CEE5911009C88D6 /* Next-Round.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Next-Round.cpp"; sourceTree = "<group>"; };
+		5FDFFE2D2CEEE10E009C88D6 /* Domini-Piling.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Domini-Piling.cpp"; sourceTree = "<group>"; };
+		5FDFFE2F2CEEE302009C88D6 /* Beautiful-Matrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Beautiful-Matrix.cpp"; sourceTree = "<group>"; };
+		5FDFFE312CEEE69B009C88D6 /* Petya-And-Strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Petya-And-Strings.cpp"; sourceTree = "<group>"; };
+		5FDFFE332CEEEB04009C88D6 /* Helpful-Math.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Helpful-Math.cpp"; sourceTree = "<group>"; };
 		5FE4D7022C7893F200049C30 /* UniquePaths.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UniquePaths.cpp; sourceTree = "<group>"; };
 		5FEBAC7C2C0D821200F361A8 /* DataStructures-Essentials */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DataStructures-Essentials"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FEBAC7F2C0D821200F361A8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -1168,6 +1174,7 @@
 		5FB3FBB92CAE8AC8002D742B /* CodeChef */ = {
 			isa = PBXGroup;
 			children = (
+				5FDFFE262CEE3167009C88D6 /* Starter-161 */,
 				5FDFFD692CDE72A0009C88D6 /* Below1000 */,
 				5FDFFCA42CDBB540009C88D6 /* Starter-159 */,
 				5F02AF242CD2828A0056D786 /* Starter-158 */,
@@ -1245,6 +1252,11 @@
 				5FDFFE1F2CEDC883009C88D6 /* Way-Too-Long-Words.cpp */,
 				5FDFFE222CEDCDC0009C88D6 /* Team.cpp */,
 				5FDFFE242CEDCEF0009C88D6 /* Bits++.cpp */,
+				5FDFFE2B2CEE5911009C88D6 /* Next-Round.cpp */,
+				5FDFFE2D2CEEE10E009C88D6 /* Domini-Piling.cpp */,
+				5FDFFE2F2CEEE302009C88D6 /* Beautiful-Matrix.cpp */,
+				5FDFFE312CEEE69B009C88D6 /* Petya-And-Strings.cpp */,
+				5FDFFE332CEEEB04009C88D6 /* Helpful-Math.cpp */,
 			);
 			path = CodeForces;
 			sourceTree = "<group>";
@@ -1421,6 +1433,15 @@
 			path = "Contest-987-div3";
 			sourceTree = "<group>";
 		};
+		5FDFFE262CEE3167009C88D6 /* Starter-161 */ = {
+			isa = PBXGroup;
+			children = (
+				5FDFFE272CEE3192009C88D6 /* MoneyMaking.cpp */,
+				5FDFFE292CEE351D009C88D6 /* Selling-Donuts.cpp */,
+			);
+			path = "Starter-161";
+			sourceTree = "<group>";
+		};
 		5FEBAC732C0D821200F361A8 = {
 			isa = PBXGroup;
 			children = (
@@ -1548,9 +1569,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FDFFE232CEDCDC0009C88D6 /* Team.cpp in Sources */,
-				5FDFFE212CEDC959009C88D6 /* Way-Too-Long-Words.cpp in Sources */,
-				5FDFFE252CEDCEF0009C88D6 /* Bits++.cpp in Sources */,
+				5FDFFE342CEEEB04009C88D6 /* Helpful-Math.cpp in Sources */,
+				5FDFFE322CEEE69B009C88D6 /* Petya-And-Strings.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
