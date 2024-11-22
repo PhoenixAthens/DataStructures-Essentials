@@ -7,17 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FC8FC852CEEFC2100907702 /* 10810-Put-The-Ball-In.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8FC842CEEFC2100907702 /* 10810-Put-The-Ball-In.cpp */; };
-		5FC8FC882CEF16A000907702 /* A-Add-and-Swap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8FC872CEF16A000907702 /* A-Add-and-Swap.cpp */; };
-		5FC8FC8A2CF002BE00907702 /* Chess-Ratings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8FC892CF002BE00907702 /* Chess-Ratings.cpp */; };
-		5FC8FC8C2CF0048E00907702 /* Complementary-String-In-A-DNA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8FC8B2CF0048E00907702 /* Complementary-String-In-A-DNA.cpp */; };
-		5FC8FC8E2CF0052F00907702 /* Chef-and-Water-Bottles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8FC8D2CF0052F00907702 /* Chef-and-Water-Bottles.cpp */; };
-		5FC8FC902CF0068300907702 /* Candy-Distribution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8FC8F2CF0068300907702 /* Candy-Distribution.cpp */; };
-		5FC8FC922CF007B900907702 /* Find-Square-Roots.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8FC912CF007B900907702 /* Find-Square-Roots.cpp */; };
-		5FC8FC942CF0084500907702 /* The-Last-Levels.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8FC932CF0084500907702 /* The-Last-Levels.cpp */; };
-		5FC8FC962CF00A9E00907702 /* Blackjack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8FC952CF00A9E00907702 /* Blackjack.cpp */; };
-		5FC8FC982CF00B8900907702 /* Fill-Candles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8FC972CF00B8900907702 /* Fill-Candles.cpp */; };
-		5FC8FC9A2CF00D0F00907702 /* X-Jumps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8FC992CF00D0F00907702 /* X-Jumps.cpp */; };
+		5FC8FCA42CF02EC400907702 /* 1546-Average.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8FCA32CF02EC400907702 /* 1546-Average.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -291,6 +281,11 @@
 		5FC8FC952CF00A9E00907702 /* Blackjack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Blackjack.cpp; sourceTree = "<group>"; };
 		5FC8FC972CF00B8900907702 /* Fill-Candles.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Fill-Candles.cpp"; sourceTree = "<group>"; };
 		5FC8FC992CF00D0F00907702 /* X-Jumps.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "X-Jumps.cpp"; sourceTree = "<group>"; };
+		5FC8FC9B2CF0251D00907702 /* 10813-Change-the-Ball.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "10813-Change-the-Ball.cpp"; sourceTree = "<group>"; };
+		5FC8FC9D2CF0278D00907702 /* 5597-Who-has-not-been-handed-over.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5597-Who-has-not-been-handed-over.cpp"; sourceTree = "<group>"; };
+		5FC8FC9F2CF0294600907702 /* 3052-Modulo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "3052-Modulo.cpp"; sourceTree = "<group>"; };
+		5FC8FCA12CF02AD700907702 /* 10811-Basket-Flip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "10811-Basket-Flip.cpp"; sourceTree = "<group>"; };
+		5FC8FCA32CF02EC400907702 /* 1546-Average.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1546-Average.cpp"; sourceTree = "<group>"; };
 		5FCB65232C8F006D00A14E39 /* print-divisors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "print-divisors.cpp"; sourceTree = "<group>"; };
 		5FCB652B2C919D5A00A14E39 /* Print-1-to-N-Without-Loop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Print-1-to-N-Without-Loop.cpp"; sourceTree = "<group>"; };
 		5FCB652D2C91A0B500A14E39 /* Print-GFG-n-times.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Print-GFG-n-times.cpp"; sourceTree = "<group>"; };
@@ -487,7 +482,7 @@
 		5FDFFE102CEA3778009C88D6 /* A-Twice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "A-Twice.cpp"; sourceTree = "<group>"; };
 		5FDFFE122CEA4506009C88D6 /* B-Intercepted-Inputs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "B-Intercepted-Inputs.cpp"; sourceTree = "<group>"; };
 		5FDFFE142CEA7D32009C88D6 /* C-Superultra-Favorite-Permutation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C-Superultra-Favorite-Permutation.cpp"; sourceTree = "<group>"; };
-		5FDFFE162CEB0810009C88D6 /* test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
+		5FDFFE162CEB0810009C88D6 /* Basic-Ones.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Basic-Ones.cpp"; sourceTree = "<group>"; };
 		5FDFFE182CEB2AB6009C88D6 /* Container-With-Most-Water.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Container-With-Most-Water.cpp"; sourceTree = "<group>"; };
 		5FDFFE1D2CEDC86E009C88D6 /* A-Watermelon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "A-Watermelon.cpp"; sourceTree = "<group>"; };
 		5FDFFE1F2CEDC883009C88D6 /* Way-Too-Long-Words.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Way-Too-Long-Words.cpp"; sourceTree = "<group>"; };
@@ -1289,11 +1284,17 @@
 		5FC8FC7B2CEEF1FC00907702 /* Baekjoon (online-judge) */ = {
 			isa = PBXGroup;
 			children = (
+				5FDFFE162CEB0810009C88D6 /* Basic-Ones.cpp */,
 				5FC8FC7C2CEEF21C00907702 /* 10807-Counting-the-number.cpp */,
 				5FC8FC7E2CEEF3C600907702 /* 10871-A-Number-Less-Than-X.cpp */,
 				5FC8FC802CEEF45500907702 /* 10818-Maximum-Minimum.cpp */,
 				5FC8FC822CEEF56D00907702 /* 2562-Maximum.cpp */,
 				5FC8FC842CEEFC2100907702 /* 10810-Put-The-Ball-In.cpp */,
+				5FC8FC9B2CF0251D00907702 /* 10813-Change-the-Ball.cpp */,
+				5FC8FC9D2CF0278D00907702 /* 5597-Who-has-not-been-handed-over.cpp */,
+				5FC8FC9F2CF0294600907702 /* 3052-Modulo.cpp */,
+				5FC8FCA12CF02AD700907702 /* 10811-Basket-Flip.cpp */,
+				5FC8FCA32CF02EC400907702 /* 1546-Average.cpp */,
 			);
 			path = "Baekjoon (online-judge)";
 			sourceTree = "<group>";
@@ -1323,7 +1324,6 @@
 				5FDFFD602CDDB847009C88D6 /* Polygon.cpp */,
 				5FDFFD622CDDB911009C88D6 /* Exception-Handling.cpp */,
 				5FDFFD642CDDB9B3009C88D6 /* Find-Largest-Of-Three.cpp */,
-				5FDFFE162CEB0810009C88D6 /* test.cpp */,
 			);
 			path = Scrap;
 			sourceTree = "<group>";
@@ -1624,17 +1624,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FC8FC8C2CF0048E00907702 /* Complementary-String-In-A-DNA.cpp in Sources */,
-				5FC8FC902CF0068300907702 /* Candy-Distribution.cpp in Sources */,
-				5FC8FC9A2CF00D0F00907702 /* X-Jumps.cpp in Sources */,
-				5FC8FC882CEF16A000907702 /* A-Add-and-Swap.cpp in Sources */,
-				5FC8FC8E2CF0052F00907702 /* Chef-and-Water-Bottles.cpp in Sources */,
-				5FC8FC8A2CF002BE00907702 /* Chess-Ratings.cpp in Sources */,
-				5FC8FC852CEEFC2100907702 /* 10810-Put-The-Ball-In.cpp in Sources */,
-				5FC8FC962CF00A9E00907702 /* Blackjack.cpp in Sources */,
-				5FC8FC982CF00B8900907702 /* Fill-Candles.cpp in Sources */,
-				5FC8FC942CF0084500907702 /* The-Last-Levels.cpp in Sources */,
-				5FC8FC922CF007B900907702 /* Find-Square-Roots.cpp in Sources */,
+				5FC8FCA42CF02EC400907702 /* 1546-Average.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
