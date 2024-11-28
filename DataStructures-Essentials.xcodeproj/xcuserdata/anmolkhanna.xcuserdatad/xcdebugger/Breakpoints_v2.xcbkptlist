@@ -1806,8 +1806,8 @@
             filePath = "DataStructures-Essentials/Spoj/Simple-Arithmetic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "10"
-            endingLineNumber = "10"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
             landmarkName = "main()"
             landmarkType = "9">
          </BreakpointContent>
@@ -1822,8 +1822,8 @@
             filePath = "DataStructures-Essentials/Spoj/Simple-Arithmetic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "11"
-            endingLineNumber = "11"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
             landmarkName = "main()"
             landmarkType = "9">
          </BreakpointContent>
@@ -1838,8 +1838,8 @@
             filePath = "DataStructures-Essentials/Spoj/Simple-Arithmetic.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "127"
-            endingLineNumber = "127"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
             landmarkName = "sub(num1, num2)"
             landmarkType = "9">
          </BreakpointContent>
@@ -1953,6 +1953,38 @@
             startingLineNumber = "97"
             endingLineNumber = "97"
             landmarkName = "multiplication()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "50D88EE7-5D8F-4143-9585-BE0A87700614"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DataStructures-Essentials/CodeForces/Queue-At-The-School.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "6"
+            endingLineNumber = "6"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "86440B49-4EC1-4DB9-81FF-3F07BE3B3A08"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DataStructures-Essentials/CodeForces/New-Year-And-Hurry-II.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "main()"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
