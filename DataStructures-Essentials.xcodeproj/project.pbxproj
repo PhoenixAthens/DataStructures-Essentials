@@ -7,16 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FC8FCED2CF5C41100907702 /* New-Year-And-Hurry-II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8FCEC2CF5C41100907702 /* New-Year-And-Hurry-II.cpp */; };
-		5FC8FCEF2CF6B03700907702 /* Chessboard-Distance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8FCEE2CF6B03700907702 /* Chessboard-Distance.cpp */; };
-		5FC8FCF12CF6B1F800907702 /* Valentine-Is-Coming.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8FCF02CF6B1F800907702 /* Valentine-Is-Coming.cpp */; };
-		5FC8FCF32CF6B27C00907702 /* It-Is-My-Serve.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8FCF22CF6B27C00907702 /* It-Is-My-Serve.cpp */; };
-		5FC8FCF52CF6B63400907702 /* Water-Mixing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8FCF42CF6B63400907702 /* Water-Mixing.cpp */; };
-		5FC8FCF72CF6B77700907702 /* Weights.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8FCF62CF6B77700907702 /* Weights.cpp */; };
-		5FC8FCF92CF6B88400907702 /* Chef-And-His-Apps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8FCF82CF6B88400907702 /* Chef-And-His-Apps.cpp */; };
-		5FC8FCFB2CF6B99100907702 /* Chef-Eren.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8FCFA2CF6B99100907702 /* Chef-Eren.cpp */; };
-		5FC8FCFD2CF6BA8900907702 /* Minimum-Number-of-Coins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8FCFC2CF6BA8900907702 /* Minimum-Number-of-Coins.cpp */; };
-		5FC8FCFF2CF838F400907702 /* Valid-Parenthesis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8FCFE2CF838F400907702 /* Valid-Parenthesis.cpp */; };
+		5FC8FD062CF8FBCE00907702 /* Excel-Sheet-Column-Title.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8FD052CF8FBCE00907702 /* Excel-Sheet-Column-Title.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -338,6 +329,9 @@
 		5FC8FCFA2CF6B99100907702 /* Chef-Eren.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Chef-Eren.cpp"; sourceTree = "<group>"; };
 		5FC8FCFC2CF6BA8900907702 /* Minimum-Number-of-Coins.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Minimum-Number-of-Coins.cpp"; sourceTree = "<group>"; };
 		5FC8FCFE2CF838F400907702 /* Valid-Parenthesis.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Valid-Parenthesis.cpp"; sourceTree = "<group>"; };
+		5FC8FD002CF8FAD900907702 /* Number-of-1-bit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Number-of-1-bit.cpp"; sourceTree = "<group>"; };
+		5FC8FD022CF8FAF900907702 /* Excel-Sheet-Column-Number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Excel-Sheet-Column-Number.cpp"; sourceTree = "<group>"; };
+		5FC8FD052CF8FBCE00907702 /* Excel-Sheet-Column-Title.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Excel-Sheet-Column-Title.cpp"; sourceTree = "<group>"; };
 		5FCB65232C8F006D00A14E39 /* print-divisors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "print-divisors.cpp"; sourceTree = "<group>"; };
 		5FCB652B2C919D5A00A14E39 /* Print-1-to-N-Without-Loop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Print-1-to-N-Without-Loop.cpp"; sourceTree = "<group>"; };
 		5FCB652D2C91A0B500A14E39 /* Print-GFG-n-times.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Print-GFG-n-times.cpp"; sourceTree = "<group>"; };
@@ -1233,6 +1227,9 @@
 				5F8743432CBFF51300EA7642 /* Longest-Happy-String.cpp */,
 				5F02AEB02CCBD23E0056D786 /* Remove-sub-folders-from-the-filesystem-I.cpp */,
 				5FC8FCFE2CF838F400907702 /* Valid-Parenthesis.cpp */,
+				5FC8FD002CF8FAD900907702 /* Number-of-1-bit.cpp */,
+				5FC8FD022CF8FAF900907702 /* Excel-Sheet-Column-Number.cpp */,
+				5FC8FD052CF8FBCE00907702 /* Excel-Sheet-Column-Title.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -1727,16 +1724,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FC8FCF92CF6B88400907702 /* Chef-And-His-Apps.cpp in Sources */,
-				5FC8FCEF2CF6B03700907702 /* Chessboard-Distance.cpp in Sources */,
-				5FC8FCF12CF6B1F800907702 /* Valentine-Is-Coming.cpp in Sources */,
-				5FC8FCFF2CF838F400907702 /* Valid-Parenthesis.cpp in Sources */,
-				5FC8FCFD2CF6BA8900907702 /* Minimum-Number-of-Coins.cpp in Sources */,
-				5FC8FCFB2CF6B99100907702 /* Chef-Eren.cpp in Sources */,
-				5FC8FCF52CF6B63400907702 /* Water-Mixing.cpp in Sources */,
-				5FC8FCF32CF6B27C00907702 /* It-Is-My-Serve.cpp in Sources */,
-				5FC8FCED2CF5C41100907702 /* New-Year-And-Hurry-II.cpp in Sources */,
-				5FC8FCF72CF6B77700907702 /* Weights.cpp in Sources */,
+				5FC8FD062CF8FBCE00907702 /* Excel-Sheet-Column-Title.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
