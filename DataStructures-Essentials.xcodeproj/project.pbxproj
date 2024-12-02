@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FC8FD062CF8FBCE00907702 /* Excel-Sheet-Column-Title.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8FD052CF8FBCE00907702 /* Excel-Sheet-Column-Title.cpp */; };
+		5FC8FD2A2CFCBE5900907702 /* The-New-Year-Meeting-Friends.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8FD262CFCA92B00907702 /* The-New-Year-Meeting-Friends.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -332,6 +332,22 @@
 		5FC8FD002CF8FAD900907702 /* Number-of-1-bit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Number-of-1-bit.cpp"; sourceTree = "<group>"; };
 		5FC8FD022CF8FAF900907702 /* Excel-Sheet-Column-Number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Excel-Sheet-Column-Number.cpp"; sourceTree = "<group>"; };
 		5FC8FD052CF8FBCE00907702 /* Excel-Sheet-Column-Title.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Excel-Sheet-Column-Title.cpp"; sourceTree = "<group>"; };
+		5FC8FD082CFB36D700907702 /* Daily-Cookie.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Daily-Cookie.cpp"; sourceTree = "<group>"; };
+		5FC8FD0A2CFB380F00907702 /* Daily-Cookie-2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Daily-Cookie-2.cpp"; sourceTree = "<group>"; };
+		5FC8FD0C2CFB3C1600907702 /* Kaiten-Sushi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Kaiten-Sushi.cpp"; sourceTree = "<group>"; };
+		5FC8FD0F2CFB626A00907702 /* King-Keykhosrow-Mystery.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "King-Keykhosrow-Mystery.cpp"; sourceTree = "<group>"; };
+		5FC8FD112CFB711100907702 /* Rakhsh-Revival.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Rakhsh-Revival.cpp"; sourceTree = "<group>"; };
+		5FC8FD142CFC14EE00907702 /* Insomnia-Cure.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Insomnia-Cure.cpp"; sourceTree = "<group>"; };
+		5FC8FD162CFC564D00907702 /* Hit-The-Lottery.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Hit-The-Lottery.cpp"; sourceTree = "<group>"; };
+		5FC8FD182CFC59E400907702 /* Anton-and-Letters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Anton-and-Letters.cpp"; sourceTree = "<group>"; };
+		5FC8FD1A2CFC5DA300907702 /* Anton-And-Polyhedrons.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Anton-And-Polyhedrons.cpp"; sourceTree = "<group>"; };
+		5FC8FD1C2CFC637D00907702 /* Games.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Games.cpp; sourceTree = "<group>"; };
+		5FC8FD1E2CFC66E300907702 /* Candies-And-Two-Sisters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Candies-And-Two-Sisters.cpp"; sourceTree = "<group>"; };
+		5FC8FD202CFC680600907702 /* Fox-And-Snake.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Fox-And-Snake.cpp"; sourceTree = "<group>"; };
+		5FC8FD222CFC6AC900907702 /* Amusing-Joke.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Amusing-Joke.cpp"; sourceTree = "<group>"; };
+		5FC8FD242CFC6CA700907702 /* Sum-Of-Round-Numbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sum-Of-Round-Numbers.cpp"; sourceTree = "<group>"; };
+		5FC8FD262CFCA92B00907702 /* The-New-Year-Meeting-Friends.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "The-New-Year-Meeting-Friends.cpp"; sourceTree = "<group>"; };
+		5FC8FD282CFCABDF00907702 /* Police-Recruits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Police-Recruits.cpp"; sourceTree = "<group>"; };
 		5FCB65232C8F006D00A14E39 /* print-divisors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "print-divisors.cpp"; sourceTree = "<group>"; };
 		5FCB652B2C919D5A00A14E39 /* Print-1-to-N-Without-Loop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Print-1-to-N-Without-Loop.cpp"; sourceTree = "<group>"; };
 		5FCB652D2C91A0B500A14E39 /* Print-GFG-n-times.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Print-GFG-n-times.cpp"; sourceTree = "<group>"; };
@@ -793,6 +809,7 @@
 		5F02AF012CCD258D0056D786 /* AtCoder */ = {
 			isa = PBXGroup;
 			children = (
+				5FC8FD072CFB36AD00907702 /* Begineer-Contest-382 */,
 				5FC8FC862CEF168A00907702 /* Regular-Contest-187 */,
 				5FDFFDFC2CE8C103009C88D6 /* BegineerContest-380 */,
 				5FDFFD862CDF8689009C88D6 /* BegineerContest-379 */,
@@ -1360,6 +1377,19 @@
 				5FC8FCE82CF4FFF100907702 /* I-Love-Username.cpp */,
 				5FC8FCEA2CF5048F00907702 /* New-Year-And-Hurry.cpp */,
 				5FC8FCEC2CF5C41100907702 /* New-Year-And-Hurry-II.cpp */,
+				5FC8FD0F2CFB626A00907702 /* King-Keykhosrow-Mystery.cpp */,
+				5FC8FD112CFB711100907702 /* Rakhsh-Revival.cpp */,
+				5FC8FD142CFC14EE00907702 /* Insomnia-Cure.cpp */,
+				5FC8FD162CFC564D00907702 /* Hit-The-Lottery.cpp */,
+				5FC8FD182CFC59E400907702 /* Anton-and-Letters.cpp */,
+				5FC8FD1A2CFC5DA300907702 /* Anton-And-Polyhedrons.cpp */,
+				5FC8FD1C2CFC637D00907702 /* Games.cpp */,
+				5FC8FD1E2CFC66E300907702 /* Candies-And-Two-Sisters.cpp */,
+				5FC8FD202CFC680600907702 /* Fox-And-Snake.cpp */,
+				5FC8FD222CFC6AC900907702 /* Amusing-Joke.cpp */,
+				5FC8FD242CFC6CA700907702 /* Sum-Of-Round-Numbers.cpp */,
+				5FC8FD262CFCA92B00907702 /* The-New-Year-Meeting-Friends.cpp */,
+				5FC8FD282CFCABDF00907702 /* Police-Recruits.cpp */,
 			);
 			path = CodeForces;
 			sourceTree = "<group>";
@@ -1397,6 +1427,16 @@
 				5FC8FCE02CF2313000907702 /* Shift-Distance-Between-Two-Strings.cpp */,
 			);
 			path = 144;
+			sourceTree = "<group>";
+		};
+		5FC8FD072CFB36AD00907702 /* Begineer-Contest-382 */ = {
+			isa = PBXGroup;
+			children = (
+				5FC8FD082CFB36D700907702 /* Daily-Cookie.cpp */,
+				5FC8FD0A2CFB380F00907702 /* Daily-Cookie-2.cpp */,
+				5FC8FD0C2CFB3C1600907702 /* Kaiten-Sushi.cpp */,
+			);
+			path = "Begineer-Contest-382";
 			sourceTree = "<group>";
 		};
 		5FDFFC992CDA2670009C88D6 /* Scrap */ = {
@@ -1724,7 +1764,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FC8FD062CF8FBCE00907702 /* Excel-Sheet-Column-Title.cpp in Sources */,
+				5FC8FD2A2CFCBE5900907702 /* The-New-Year-Meeting-Friends.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
