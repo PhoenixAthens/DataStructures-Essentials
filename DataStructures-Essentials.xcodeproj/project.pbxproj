@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FC8FD2A2CFCBE5900907702 /* The-New-Year-Meeting-Friends.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8FD262CFCA92B00907702 /* The-New-Year-Meeting-Friends.cpp */; };
+		5FC8FD402CFD7FF400907702 /* 11718-Print-as-is.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8FD3F2CFD7FF400907702 /* 11718-Print-as-is.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -348,6 +348,17 @@
 		5FC8FD242CFC6CA700907702 /* Sum-Of-Round-Numbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sum-Of-Round-Numbers.cpp"; sourceTree = "<group>"; };
 		5FC8FD262CFCA92B00907702 /* The-New-Year-Meeting-Friends.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "The-New-Year-Meeting-Friends.cpp"; sourceTree = "<group>"; };
 		5FC8FD282CFCABDF00907702 /* Police-Recruits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Police-Recruits.cpp"; sourceTree = "<group>"; };
+		5FC8FD2B2CFD692700907702 /* 27866-Characters-and-Strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "27866-Characters-and-Strings.cpp"; sourceTree = "<group>"; };
+		5FC8FD2D2CFD69DC00907702 /* 2743-Measure-Word-Length.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2743-Measure-Word-Length.cpp"; sourceTree = "<group>"; };
+		5FC8FD2F2CFD6B2900907702 /* 9086-String.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "9086-String.cpp"; sourceTree = "<group>"; };
+		5FC8FD312CFD6BAF00907702 /* 11654-ASCII-code.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "11654-ASCII-code.cpp"; sourceTree = "<group>"; };
+		5FC8FD332CFD6C9800907702 /* 11720-Sum-Of-Numbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "11720-Sum-Of-Numbers.cpp"; sourceTree = "<group>"; };
+		5FC8FD352CFD6F5200907702 /* 10809-Find-the-alphabet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "10809-Find-the-alphabet.cpp"; sourceTree = "<group>"; };
+		5FC8FD372CFD754C00907702 /* 2675-String-Repetition.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2675-String-Repetition.cpp"; sourceTree = "<group>"; };
+		5FC8FD392CFD768700907702 /* 1152-Number-of-Words.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1152-Number-of-Words.cpp"; sourceTree = "<group>"; };
+		5FC8FD3B2CFD78A200907702 /* 2908-Constant.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2908-Constant.cpp"; sourceTree = "<group>"; };
+		5FC8FD3D2CFD7E3000907702 /* 5622-Baka.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5622-Baka.cpp"; sourceTree = "<group>"; };
+		5FC8FD3F2CFD7FF400907702 /* 11718-Print-as-is.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "11718-Print-as-is.cpp"; sourceTree = "<group>"; };
 		5FCB65232C8F006D00A14E39 /* print-divisors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "print-divisors.cpp"; sourceTree = "<group>"; };
 		5FCB652B2C919D5A00A14E39 /* Print-1-to-N-Without-Loop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Print-1-to-N-Without-Loop.cpp"; sourceTree = "<group>"; };
 		5FCB652D2C91A0B500A14E39 /* Print-GFG-n-times.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Print-GFG-n-times.cpp"; sourceTree = "<group>"; };
@@ -1408,6 +1419,17 @@
 				5FC8FC9F2CF0294600907702 /* 3052-Modulo.cpp */,
 				5FC8FCA12CF02AD700907702 /* 10811-Basket-Flip.cpp */,
 				5FC8FCA32CF02EC400907702 /* 1546-Average.cpp */,
+				5FC8FD2B2CFD692700907702 /* 27866-Characters-and-Strings.cpp */,
+				5FC8FD2D2CFD69DC00907702 /* 2743-Measure-Word-Length.cpp */,
+				5FC8FD2F2CFD6B2900907702 /* 9086-String.cpp */,
+				5FC8FD312CFD6BAF00907702 /* 11654-ASCII-code.cpp */,
+				5FC8FD332CFD6C9800907702 /* 11720-Sum-Of-Numbers.cpp */,
+				5FC8FD352CFD6F5200907702 /* 10809-Find-the-alphabet.cpp */,
+				5FC8FD372CFD754C00907702 /* 2675-String-Repetition.cpp */,
+				5FC8FD392CFD768700907702 /* 1152-Number-of-Words.cpp */,
+				5FC8FD3B2CFD78A200907702 /* 2908-Constant.cpp */,
+				5FC8FD3D2CFD7E3000907702 /* 5622-Baka.cpp */,
+				5FC8FD3F2CFD7FF400907702 /* 11718-Print-as-is.cpp */,
 			);
 			path = "Baekjoon (online-judge)";
 			sourceTree = "<group>";
@@ -1764,7 +1786,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FC8FD2A2CFCBE5900907702 /* The-New-Year-Meeting-Friends.cpp in Sources */,
+				5FC8FD402CFD7FF400907702 /* 11718-Print-as-is.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
