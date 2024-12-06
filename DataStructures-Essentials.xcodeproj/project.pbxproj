@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FC8FD652D017DEB00907702 /* Borze.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8FD642D017DEB00907702 /* Borze.cpp */; };
-		5FC8FD672D017F5400907702 /* Plus-Or-Minus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8FD662D017F5400907702 /* Plus-Or-Minus.cpp */; };
+		5FC8FD772D02CBF700907702 /* 25206-Your-Rating-Is.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8FD762D02CBF700907702 /* 25206-Your-Rating-Is.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -379,6 +378,14 @@
 		5FC8FD622D017CAA00907702 /* Division.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Division.cpp; sourceTree = "<group>"; };
 		5FC8FD642D017DEB00907702 /* Borze.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Borze.cpp; sourceTree = "<group>"; };
 		5FC8FD662D017F5400907702 /* Plus-Or-Minus.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Plus-Or-Minus.cpp"; sourceTree = "<group>"; };
+		5FC8FD682D022EE500907702 /* 25083-Sprout.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "25083-Sprout.cpp"; sourceTree = "<group>"; };
+		5FC8FD6A2D0233B900907702 /* 3003-King-Queen-Rook-Bishop-Knight-Pawn.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "3003-King-Queen-Rook-Bishop-Knight-Pawn.cpp"; sourceTree = "<group>"; };
+		5FC8FD6C2D023B1E00907702 /* 2444-Star-Catch-7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2444-Star-Catch-7.cpp"; sourceTree = "<group>"; };
+		5FC8FD6E2D023F6A00907702 /* 10988-Check-If-It-Is-A-Palindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "10988-Check-If-It-Is-A-Palindrome.cpp"; sourceTree = "<group>"; };
+		5FC8FD702D0240AC00907702 /* 1157-Study-Words.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1157-Study-Words.cpp"; sourceTree = "<group>"; };
+		5FC8FD722D02C40500907702 /* 2941-LJESNJAK.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2941-LJESNJAK.cpp"; sourceTree = "<group>"; };
+		5FC8FD742D02C84600907702 /* 1316-Group-Word-Checker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1316-Group-Word-Checker.cpp"; sourceTree = "<group>"; };
+		5FC8FD762D02CBF700907702 /* 25206-Your-Rating-Is.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "25206-Your-Rating-Is.cpp"; sourceTree = "<group>"; };
 		5FCB65232C8F006D00A14E39 /* print-divisors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "print-divisors.cpp"; sourceTree = "<group>"; };
 		5FCB652B2C919D5A00A14E39 /* Print-1-to-N-Without-Loop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Print-1-to-N-Without-Loop.cpp"; sourceTree = "<group>"; };
 		5FCB652D2C91A0B500A14E39 /* Print-GFG-n-times.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Print-GFG-n-times.cpp"; sourceTree = "<group>"; };
@@ -1469,6 +1476,14 @@
 				5FC8FD3B2CFD78A200907702 /* 2908-Constant.cpp */,
 				5FC8FD3D2CFD7E3000907702 /* 5622-Baka.cpp */,
 				5FC8FD3F2CFD7FF400907702 /* 11718-Print-as-is.cpp */,
+				5FC8FD682D022EE500907702 /* 25083-Sprout.cpp */,
+				5FC8FD6A2D0233B900907702 /* 3003-King-Queen-Rook-Bishop-Knight-Pawn.cpp */,
+				5FC8FD6C2D023B1E00907702 /* 2444-Star-Catch-7.cpp */,
+				5FC8FD6E2D023F6A00907702 /* 10988-Check-If-It-Is-A-Palindrome.cpp */,
+				5FC8FD702D0240AC00907702 /* 1157-Study-Words.cpp */,
+				5FC8FD722D02C40500907702 /* 2941-LJESNJAK.cpp */,
+				5FC8FD742D02C84600907702 /* 1316-Group-Word-Checker.cpp */,
+				5FC8FD762D02CBF700907702 /* 25206-Your-Rating-Is.cpp */,
 			);
 			path = "Baekjoon (online-judge)";
 			sourceTree = "<group>";
@@ -1825,8 +1840,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FC8FD652D017DEB00907702 /* Borze.cpp in Sources */,
-				5FC8FD672D017F5400907702 /* Plus-Or-Minus.cpp in Sources */,
+				5FC8FD772D02CBF700907702 /* 25206-Your-Rating-Is.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
