@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F4B7A0C2D10085C00D3FAFB /* Equal-Candies.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F4B7A0B2D10085C00D3FAFB /* Equal-Candies.cpp */; };
+		5F4B7A122D1142F400D3FAFB /* Game-With-Integers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F4B7A112D1142F400D3FAFB /* Game-With-Integers.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -188,6 +188,9 @@
 		5F4B7A072D10045B00D3FAFB /* Vlad-and-the-best-of-five.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Vlad-and-the-best-of-five.cpp"; sourceTree = "<group>"; };
 		5F4B7A092D1005F600D3FAFB /* Brains-Photos.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Brains-Photos.cpp"; sourceTree = "<group>"; };
 		5F4B7A0B2D10085C00D3FAFB /* Equal-Candies.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Equal-Candies.cpp"; sourceTree = "<group>"; };
+		5F4B7A0D2D11384000D3FAFB /* Increasing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Increasing.cpp; sourceTree = "<group>"; };
+		5F4B7A0F2D113CA600D3FAFB /* A+B.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "A+B.cpp"; sourceTree = "<group>"; };
+		5F4B7A112D1142F400D3FAFB /* Game-With-Integers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Game-With-Integers.cpp"; sourceTree = "<group>"; };
 		5F64A1882C69CEFF00C7770B /* find-closest-number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "find-closest-number.cpp"; sourceTree = "<group>"; };
 		5F64A18A2C69D9EE00C7770B /* Dynamic-Arrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Dynamic-Arrays.cpp"; sourceTree = "<group>"; };
 		5F64A18C2C6A309100C7770B /* pattern-printing-4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "pattern-printing-4.cpp"; sourceTree = "<group>"; };
@@ -1545,6 +1548,9 @@
 				5F4B7A072D10045B00D3FAFB /* Vlad-and-the-best-of-five.cpp */,
 				5F4B7A092D1005F600D3FAFB /* Brains-Photos.cpp */,
 				5F4B7A0B2D10085C00D3FAFB /* Equal-Candies.cpp */,
+				5F4B7A0D2D11384000D3FAFB /* Increasing.cpp */,
+				5F4B7A0F2D113CA600D3FAFB /* A+B.cpp */,
+				5F4B7A112D1142F400D3FAFB /* Game-With-Integers.cpp */,
 			);
 			path = CodeForces;
 			sourceTree = "<group>";
@@ -1938,7 +1944,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F4B7A0C2D10085C00D3FAFB /* Equal-Candies.cpp in Sources */,
+				5F4B7A122D1142F400D3FAFB /* Game-With-Integers.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
