@@ -22,3 +22,5 @@ int main(){
     }
     cout << cnt << "\n";
 }
+
+Actually the projects mentioned in the list of projects are long running projects. I have been working on them, building my systems programming skill-set to further my skills needed to finish them, but your point makes sense!

@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F4BA9D12D329C79009AA823 /* Various-Kagamimochi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F4BA9D02D329C79009AA823 /* Various-Kagamimochi.cpp */; };
-		5F4BA9D32D32A30B009AA823 /* Various-Kagamimochi-2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F4BA9D22D32A30B009AA823 /* Various-Kagamimochi-2.cpp */; };
+		5F4BA9D52D380CAB009AA823 /* Opposite-Attract.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F4BA9D42D380CAB009AA823 /* Opposite-Attract.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -229,6 +228,7 @@
 		5F4BA9CE2D3298F4009AA823 /* Heavy-Snake.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Heavy-Snake.cpp"; sourceTree = "<group>"; };
 		5F4BA9D02D329C79009AA823 /* Various-Kagamimochi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Various-Kagamimochi.cpp"; sourceTree = "<group>"; };
 		5F4BA9D22D32A30B009AA823 /* Various-Kagamimochi-2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Various-Kagamimochi-2.cpp"; sourceTree = "<group>"; };
+		5F4BA9D42D380CAB009AA823 /* Opposite-Attract.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Opposite-Attract.cpp"; sourceTree = "<group>"; };
 		5F64A1882C69CEFF00C7770B /* find-closest-number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "find-closest-number.cpp"; sourceTree = "<group>"; };
 		5F64A18A2C69D9EE00C7770B /* Dynamic-Arrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Dynamic-Arrays.cpp"; sourceTree = "<group>"; };
 		5F64A18C2C6A309100C7770B /* pattern-printing-4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "pattern-printing-4.cpp"; sourceTree = "<group>"; };
@@ -1419,6 +1419,7 @@
 				5FB3FBBA2CAE8ADD002D742B /* Car-Trip.cpp */,
 				5FC8FD4F2D00A6E000907702 /* Chef-and-Socks.cpp */,
 				5F4BA9CA2D2ECB37009AA823 /* Can-You-Bench.cpp */,
+				5F4BA9D42D380CAB009AA823 /* Opposite-Attract.cpp */,
 			);
 			path = CodeChef;
 			sourceTree = "<group>";
@@ -2027,8 +2028,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F4BA9D12D329C79009AA823 /* Various-Kagamimochi.cpp in Sources */,
-				5F4BA9D32D32A30B009AA823 /* Various-Kagamimochi-2.cpp in Sources */,
+				5F4BA9D52D380CAB009AA823 /* Opposite-Attract.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
