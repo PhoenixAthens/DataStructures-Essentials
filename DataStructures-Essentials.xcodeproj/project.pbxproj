@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F4BA9D52D380CAB009AA823 /* Opposite-Attract.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F4BA9D42D380CAB009AA823 /* Opposite-Attract.cpp */; };
+		5FF9A5182D3BD61E00375C3C /* Snake-Queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FF9A5172D3BD61E00375C3C /* Snake-Queue.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -691,6 +691,9 @@
 		5FEBACB72C0D86B500F361A8 /* arrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = arrays.cpp; sourceTree = "<group>"; };
 		5FEBACB92C0D8B3900F361A8 /* arrays-to-functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "arrays-to-functions.cpp"; sourceTree = "<group>"; };
 		5FEBACBB2C0D900200F361A8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5FF9A5132D3BD0BE00375C3C /* 9x9.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 9x9.cpp; sourceTree = "<group>"; };
+		5FF9A5152D3BD28B00375C3C /* tcaF.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tcaF.cpp; sourceTree = "<group>"; };
+		5FF9A5172D3BD61E00375C3C /* Snake-Queue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Snake-Queue.cpp"; sourceTree = "<group>"; };
 		5FFA2C0C2C887665007CF158 /* Remove-Duplicates-From-Sorted-Array-II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Remove-Duplicates-From-Sorted-Array-II.cpp"; sourceTree = "<group>"; };
 		5FFA2C0E2C888AEE007CF158 /* armstrong-number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "armstrong-number.cpp"; sourceTree = "<group>"; };
 		5FFA2C102C889CBF007CF158 /* sum-of-all-divisors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "sum-of-all-divisors.cpp"; sourceTree = "<group>"; };
@@ -957,6 +960,9 @@
 				5F4BA9CE2D3298F4009AA823 /* Heavy-Snake.cpp */,
 				5F4BA9D02D329C79009AA823 /* Various-Kagamimochi.cpp */,
 				5F4BA9D22D32A30B009AA823 /* Various-Kagamimochi-2.cpp */,
+				5FF9A5132D3BD0BE00375C3C /* 9x9.cpp */,
+				5FF9A5152D3BD28B00375C3C /* tcaF.cpp */,
+				5FF9A5172D3BD61E00375C3C /* Snake-Queue.cpp */,
 			);
 			path = AtCoder;
 			sourceTree = "<group>";
@@ -2028,7 +2034,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F4BA9D52D380CAB009AA823 /* Opposite-Attract.cpp in Sources */,
+				5FF9A5182D3BD61E00375C3C /* Snake-Queue.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
