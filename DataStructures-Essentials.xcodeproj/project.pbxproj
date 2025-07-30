@@ -7,14 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F2987542E3642D400EF5A4A /* minimum-number-of-flips.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F2987532E3642D400EF5A4A /* minimum-number-of-flips.cpp */; };
-		5F2987562E36449300EF5A4A /* binary-battles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F2987552E36449300EF5A4A /* binary-battles.cpp */; };
-		5F2987582E36461700EF5A4A /* best-of-two.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F2987572E36461600EF5A4A /* best-of-two.cpp */; };
-		5F29875A2E3724E000EF5A4A /* the-lead-game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F2987592E3724E000EF5A4A /* the-lead-game.cpp */; };
-		5F29875C2E37281500EF5A4A /* degree-of-polynomial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F29875B2E37281500EF5A4A /* degree-of-polynomial.cpp */; };
-		5F29875E2E372B2400EF5A4A /* recent-contest-problems.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F29875D2E372B2400EF5A4A /* recent-contest-problems.cpp */; };
-		5F2987602E372E5300EF5A4A /* primalty-test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F29875F2E372E5300EF5A4A /* primalty-test.cpp */; };
-		5F2987622E372FA200EF5A4A /* cooler-dilemma-2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F2987612E372FA200EF5A4A /* cooler-dilemma-2.cpp */; };
+		5F2987842E3A737400EF5A4A /* area-or-perimeter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F2987832E3A737400EF5A4A /* area-or-perimeter.cpp */; };
+		5F2987862E3A75BA00EF5A4A /* devendra-and-water-sports.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F2987852E3A75BA00EF5A4A /* devendra-and-water-sports.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -179,6 +173,24 @@
 		5F29875D2E372B2400EF5A4A /* recent-contest-problems.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "recent-contest-problems.cpp"; sourceTree = "<group>"; };
 		5F29875F2E372E5300EF5A4A /* primalty-test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "primalty-test.cpp"; sourceTree = "<group>"; };
 		5F2987612E372FA200EF5A4A /* cooler-dilemma-2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "cooler-dilemma-2.cpp"; sourceTree = "<group>"; };
+		5F2987632E37E1DF00EF5A4A /* wordle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = wordle.cpp; sourceTree = "<group>"; };
+		5F2987652E38E71E00EF5A4A /* car-and-bikes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "car-and-bikes.cpp"; sourceTree = "<group>"; };
+		5F2987672E38E8D300EF5A4A /* buy-2-get-1-free.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "buy-2-get-1-free.cpp"; sourceTree = "<group>"; };
+		5F2987692E38EA9600EF5A4A /* equalizing-numbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "equalizing-numbers.cpp"; sourceTree = "<group>"; };
+		5F29876B2E38EFBD00EF5A4A /* the-preparations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "the-preparations.cpp"; sourceTree = "<group>"; };
+		5F29876D2E38F02E00EF5A4A /* Genes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Genes.cpp; sourceTree = "<group>"; };
+		5F29876F2E38F3E400EF5A4A /* best-of-n-sets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "best-of-n-sets.cpp"; sourceTree = "<group>"; };
+		5F2987712E38F5F200EF5A4A /* block-game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "block-game.cpp"; sourceTree = "<group>"; };
+		5F2987732E39394300EF5A4A /* mileage-matters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "mileage-matters.cpp"; sourceTree = "<group>"; };
+		5F2987752E393B3A00EF5A4A /* melt-gold.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "melt-gold.cpp"; sourceTree = "<group>"; };
+		5F2987772E3A5CD000EF5A4A /* circular-track.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "circular-track.cpp"; sourceTree = "<group>"; };
+		5F2987792E3A6AF100EF5A4A /* grade-the-steel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "grade-the-steel.cpp"; sourceTree = "<group>"; };
+		5F29877B2E3A6CBA00EF5A4A /* smallest-number-of-notes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "smallest-number-of-notes.cpp"; sourceTree = "<group>"; };
+		5F29877D2E3A6DE800EF5A4A /* is-it-a-vowel-or-consonant.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "is-it-a-vowel-or-consonant.cpp"; sourceTree = "<group>"; };
+		5F29877F2E3A6E9700EF5A4A /* equal-integers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "equal-integers.cpp"; sourceTree = "<group>"; };
+		5F2987812E3A725B00EF5A4A /* summer-heat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "summer-heat.cpp"; sourceTree = "<group>"; };
+		5F2987832E3A737400EF5A4A /* area-or-perimeter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "area-or-perimeter.cpp"; sourceTree = "<group>"; };
+		5F2987852E3A75BA00EF5A4A /* devendra-and-water-sports.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "devendra-and-water-sports.cpp"; sourceTree = "<group>"; };
 		5F32F4872C366402007D7010 /* SubArrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SubArrays.cpp; sourceTree = "<group>"; };
 		5F32F48A2C3681CA007D7010 /* SubArraySum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SubArraySum.cpp; sourceTree = "<group>"; };
 		5F32F48D2C390C1A007D7010 /* CharacterArrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CharacterArrays.cpp; sourceTree = "<group>"; };
@@ -1948,6 +1960,24 @@
 				5F29875D2E372B2400EF5A4A /* recent-contest-problems.cpp */,
 				5F29875F2E372E5300EF5A4A /* primalty-test.cpp */,
 				5F2987612E372FA200EF5A4A /* cooler-dilemma-2.cpp */,
+				5F2987632E37E1DF00EF5A4A /* wordle.cpp */,
+				5F2987652E38E71E00EF5A4A /* car-and-bikes.cpp */,
+				5F2987672E38E8D300EF5A4A /* buy-2-get-1-free.cpp */,
+				5F2987692E38EA9600EF5A4A /* equalizing-numbers.cpp */,
+				5F29876B2E38EFBD00EF5A4A /* the-preparations.cpp */,
+				5F29876D2E38F02E00EF5A4A /* Genes.cpp */,
+				5F29876F2E38F3E400EF5A4A /* best-of-n-sets.cpp */,
+				5F2987712E38F5F200EF5A4A /* block-game.cpp */,
+				5F2987732E39394300EF5A4A /* mileage-matters.cpp */,
+				5F2987752E393B3A00EF5A4A /* melt-gold.cpp */,
+				5F2987772E3A5CD000EF5A4A /* circular-track.cpp */,
+				5F2987792E3A6AF100EF5A4A /* grade-the-steel.cpp */,
+				5F29877B2E3A6CBA00EF5A4A /* smallest-number-of-notes.cpp */,
+				5F29877D2E3A6DE800EF5A4A /* is-it-a-vowel-or-consonant.cpp */,
+				5F29877F2E3A6E9700EF5A4A /* equal-integers.cpp */,
+				5F2987812E3A725B00EF5A4A /* summer-heat.cpp */,
+				5F2987832E3A737400EF5A4A /* area-or-perimeter.cpp */,
+				5F2987852E3A75BA00EF5A4A /* devendra-and-water-sports.cpp */,
 			);
 			path = Below1000;
 			sourceTree = "<group>";
@@ -2179,14 +2209,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F2987582E36461700EF5A4A /* best-of-two.cpp in Sources */,
-				5F29875E2E372B2400EF5A4A /* recent-contest-problems.cpp in Sources */,
-				5F29875C2E37281500EF5A4A /* degree-of-polynomial.cpp in Sources */,
-				5F29875A2E3724E000EF5A4A /* the-lead-game.cpp in Sources */,
-				5F2987602E372E5300EF5A4A /* primalty-test.cpp in Sources */,
-				5F2987562E36449300EF5A4A /* binary-battles.cpp in Sources */,
-				5F2987622E372FA200EF5A4A /* cooler-dilemma-2.cpp in Sources */,
-				5F2987542E3642D400EF5A4A /* minimum-number-of-flips.cpp in Sources */,
+				5F2987842E3A737400EF5A4A /* area-or-perimeter.cpp in Sources */,
+				5F2987862E3A75BA00EF5A4A /* devendra-and-water-sports.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
